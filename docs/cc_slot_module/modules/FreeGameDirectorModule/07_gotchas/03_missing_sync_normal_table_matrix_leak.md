@@ -7,6 +7,17 @@ tags: ["FreeGameDirectorModule", "free_game_director", "cc_slot_module", "gotcha
 
 # ⚠️ Gotcha: Missing Normal Table Sync Causes Blank Transition Reels
 
+<!-- convention-summary-start -->
+### Gotcha: Missing Normal Table Sync Causes Blank Transition Reels Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Gotcha: Missing Normal Table Sync Causes Blank Transition Reels.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 07_gotchas
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Defect Symptom
 Free Game opens with empty symbol columns while waiting for the first spin payload.
 

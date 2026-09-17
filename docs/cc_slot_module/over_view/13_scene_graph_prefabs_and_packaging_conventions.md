@@ -7,6 +7,17 @@ tags: ["cc_slot_module", "overview", "scene_graph", "prefabs", "packaging_conven
 
 # 🏗️ Scene Graph Hierarchy, Prefabs Structure & Packaging Conventions
 
+<!-- convention-summary-start -->
+### Scene Graph Hierarchy, Prefabs Structure & Packaging Conventions Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Scene Graph Hierarchy, Prefabs Structure & Packaging Conventions.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, over_view
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Production Slot Game Scene Graph (Cocos Creator 2.4)

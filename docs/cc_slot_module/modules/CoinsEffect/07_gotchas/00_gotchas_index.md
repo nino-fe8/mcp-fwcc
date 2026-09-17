@@ -7,6 +7,17 @@ tags: ["CoinsEffect", "coins_effect", "cc_slot_module", "gotchas", "index"]
 
 # ⚠️ CoinsEffect Gotchas & Engine Defects Index
 
+<!-- convention-summary-start -->
+### CoinsEffect Gotchas & Engine Defects Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for CoinsEffect Gotchas & Engine Defects Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 07_gotchas
+- **Scope & Code Paths**: `./01_unreset_particles_on_quick_close.md`
+- **Related Docs**: [`01_unreset_particles_on_quick_close`](./01_unreset_particles_on_quick_close.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Catalog of Pitfalls

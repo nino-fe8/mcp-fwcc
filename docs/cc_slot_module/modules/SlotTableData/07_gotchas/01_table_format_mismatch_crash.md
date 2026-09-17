@@ -7,6 +7,17 @@ tags: ["SlotTableData", "slot_table_data", "cc_slot_module", "gotchas", "table_f
 
 # 🛑 Gotcha: Table Format Array Dimension Mismatch
 
+<!-- convention-summary-start -->
+### Gotcha: Table Format Array Dimension Mismatch Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Gotcha: Table Format Array Dimension Mismatch.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 07_gotchas
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Symptom & Technical Defect

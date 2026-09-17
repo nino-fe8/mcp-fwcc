@@ -7,6 +7,17 @@ tags: ["cc_slot_module", "systems", "cascade", "mega_symbols", "variable_height"
 
 # 🧱 Mega Symbols & Variable-Height Grids in Cascade Engine
 
+<!-- convention-summary-start -->
+### Mega Symbols & Variable-Height Grids in Cascade Engine Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Mega Symbols & Variable-Height Grids in Cascade Engine.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 06_cascade_and_avalanche_system
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Mega Symbol Code String Format

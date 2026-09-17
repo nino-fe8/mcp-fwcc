@@ -7,6 +7,17 @@ tags: ["BaseDataModule", "base_data_module", "cc_slot_module", "gotchas", "memor
 
 # ⚠️ Gotcha: Dangling Reference When Dynamically Destroying Data Modules
 
+<!-- convention-summary-start -->
+### Gotcha: Dangling Reference When Dynamically Destroying Data Modules Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Gotcha: Dangling Reference When Dynamically Destroying Data Modules.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 07_gotchas
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Defect Symptom
 After exiting a dynamically loaded mini-game prefab, next base game spin throws `Cannot set property of destroyed object`.
 

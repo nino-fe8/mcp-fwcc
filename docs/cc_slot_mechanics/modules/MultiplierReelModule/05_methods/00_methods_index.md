@@ -7,6 +7,17 @@ tags: ["MultiplierReelModule", "multiplier_reel_module", "cc_slot_mechanics", "m
 
 # 📖 `MultiplierReelModule` Methods Master Index
 
+<!-- convention-summary-start -->
+### MultiplierReelModule Methods Master Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for MultiplierReelModule Methods Master Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_mechanics, 05_methods
+- **Scope & Code Paths**: `./onLoadExtend.md`, `./registerEvents.md`, `./showMultiplier.md`
+- **Related Docs**: [`onLoadExtend()`](./onLoadExtend.md), [`registerEvents()`](./registerEvents.md), [`showMultiplier()`](./showMultiplier.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Declared Method Signatures & Summary

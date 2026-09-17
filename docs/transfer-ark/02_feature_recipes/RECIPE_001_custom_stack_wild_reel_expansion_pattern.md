@@ -11,6 +11,17 @@ author: "ARK Slot Engineering Team"
 
 # RECIPE-001: Custom Stack Wild Reel Expansion & Symbol Replacement Pattern
 
+<!-- convention-summary-start -->
+### Custom Stack Wild Reel Expansion & Symbol Replacement Pattern Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Custom Stack Wild Reel Expansion & Symbol Replacement Pattern.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: feature, 02_feature_recipes
+- **Scope & Code Paths**: `assets/cc-release-slot/cc1-red-cliff/scripts/Table/SlotReelModule9666.ts`, `assets/cc-release-slot/cc1-red-cliff/scripts/Table/SlotTableModule9666.ts`, `SlotReelModule<GameId>.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. 📌 Problem / Feature Overview

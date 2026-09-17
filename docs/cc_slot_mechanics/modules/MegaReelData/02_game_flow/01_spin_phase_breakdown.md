@@ -7,6 +7,17 @@ tags: ["MegaReelData", "mega_reel_data", "cc_slot_mechanics", "game_flow", "spin
 
 # ⚡ MegaReelData Spin Phase Breakdown
 
+<!-- convention-summary-start -->
+### MegaReelData Spin Phase Breakdown Summary
+
+- **Core Architecture / Purpose**: Defines network protocol, socket packet lifecycle, state persistence, and error handling for MegaReelData Spin Phase Breakdown.
+- **Key Mechanisms & Design**: Handles WebSocket frame dispatch, acknowledgment confirmation, state resume, and resilient synchronization between client DataStore and Backend Gateway.
+- **Domain Capabilities**: cc_slot_mechanics, 02_game_flow
+- **Scope & Code Paths**: `assets/cc-common/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Spin Phase Execution

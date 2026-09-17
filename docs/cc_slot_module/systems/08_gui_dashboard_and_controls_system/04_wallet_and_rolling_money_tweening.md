@@ -7,6 +7,17 @@ tags: ["cc_slot_module", "systems", "gui_dashboard", "wallet", "win_amount", "mo
 
 # 💳 Wallet Currency Isolation & Animated Money Tweening
 
+<!-- convention-summary-start -->
+### Wallet Currency Isolation & Animated Money Tweening Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Wallet Currency Isolation & Animated Money Tweening.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 08_gui_dashboard_and_controls_system
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Dual Wallet Isolation Architecture

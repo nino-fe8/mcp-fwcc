@@ -7,6 +7,17 @@ tags: ["MegawayData", "megaway_data", "cc_slot_mechanics", "methods", "index"]
 
 # 📖 `MegawayData` Methods Master Index
 
+<!-- convention-summary-start -->
+### MegawayData Methods Master Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for MegawayData Methods Master Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_mechanics, 05_methods
+- **Scope & Code Paths**: `./onloadExtend.md`, `./onDataUpdate.md`, `./getTotalWayCol.md`
+- **Related Docs**: [`onloadExtend()`](./onloadExtend.md), [`onDataUpdate()`](./onDataUpdate.md), [`getTotalWayCol()`](./getTotalWayCol.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Declared Method Signatures & Summary

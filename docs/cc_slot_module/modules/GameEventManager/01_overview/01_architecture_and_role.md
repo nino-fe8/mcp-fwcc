@@ -7,6 +7,17 @@ tags: ["GameEventManager", "game_event_manager", "cc_slot_module", "overview", "
 
 # 🏛️ GameEventManager Asynchronous Global Event Bus Architecture
 
+<!-- convention-summary-start -->
+### GameEventManager Asynchronous Global Event Bus Architecture Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for GameEventManager Asynchronous Global Event Bus Architecture.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 01_overview
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/Core/GameEventManager.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Executive Summary & Purpose
 
 `GameEventManager` (`assets/cc-common/cc-slot-module/Core/GameEventManager.ts`) is the **Asynchronous Global Event Bus** of the `cc-common` Slot SDK.

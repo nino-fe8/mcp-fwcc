@@ -7,6 +7,17 @@ tags: ["SlotCustomNodePool", "slot_custom_node_pool", "cc_slot_module", "overvie
 
 # 🏊 SlotCustomNodePool Heterogeneous Multi-Pool Architecture
 
+<!-- convention-summary-start -->
+### SlotCustomNodePool Heterogeneous Multi-Pool Architecture Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for SlotCustomNodePool Heterogeneous Multi-Pool Architecture.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 01_overview
+- **Scope & Code Paths**: `SymbolPrefab.prefab`, `assets/cc-common/cc-slot-module/BaseModule/Table/SlotSymbol/SlotCustomNodePool.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Architectural Purpose & Problem Statement

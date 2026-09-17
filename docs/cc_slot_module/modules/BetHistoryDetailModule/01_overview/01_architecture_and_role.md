@@ -7,6 +7,17 @@ tags: ["BetHistoryDetailModule", "bethistorydetailmodule", "cc_slot_module", "ov
 
 # 🏛️ BetHistoryDetailModule Architecture & Role
 
+<!-- convention-summary-start -->
+### BetHistoryDetailModule Architecture & Role Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for BetHistoryDetailModule Architecture & Role.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 01_overview
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 `BetHistoryDetailModule` is the granular round replay and step inspector component in the `cc-common` Slot Framework SDK. It inherits from `SlotBaseModule` and renders step-by-step game mode transitions (Normal Spin ➔ Free Spins ➔ Bonus Game picks ➔ Multipliers) with dynamic tab scrolling and pooled tab items.
 
 ---

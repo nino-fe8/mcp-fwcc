@@ -7,6 +7,17 @@ tags: ["BaseDirector", "base_director", "cc_core_lib", "methods", "index"]
 
 # 📖 `BaseDirector` Methods Master Index
 
+<!-- convention-summary-start -->
+### BaseDirector Methods Master Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for BaseDirector Methods Master Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_core_lib, 03_methods
+- **Scope & Code Paths**: `./runAction.md`, `./executeNextScript.md`, `./onFinishScript.md`
+- **Related Docs**: [`runAction()`](./runAction.md), [`executeNextScript()`](./executeNextScript.md), [`onFinishScript()`](./onFinishScript.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Declared Method Signatures

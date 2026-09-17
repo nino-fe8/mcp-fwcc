@@ -7,6 +7,17 @@ tags: ["GameDataStore", "game_data_store", "cc_slot_module", "customization", "w
 
 # 🚀 Game Creation Workflow: GameDataStore Setup
 
+<!-- convention-summary-start -->
+### Game Creation Workflow: GameDataStore Setup Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Game Creation Workflow: GameDataStore Setup.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 09_inheritance_and_customization
+- **Scope & Code Paths**: `GameDataStore[GameId].ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 Follow this 4-step checklist:
 
 ---

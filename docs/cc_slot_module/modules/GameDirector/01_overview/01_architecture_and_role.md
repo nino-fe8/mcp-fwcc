@@ -7,6 +7,17 @@ tags: ["GameDirector", "game_director", "cc_slot_module", "overview", "architect
 
 # 🏛️ GameDirector Master Scene Orchestrator & Mode Router Architecture
 
+<!-- convention-summary-start -->
+### GameDirector Master Scene Orchestrator & Mode Router Architecture Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for GameDirector Master Scene Orchestrator & Mode Router Architecture.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 01_overview
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/Core/GameDirector.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Executive Summary & Purpose
 
 `GameDirector` (`assets/cc-common/cc-slot-module/Core/GameDirector.ts`) is the **Root Scene Controller and Mode Dispatcher** mounted at `Canvas/Director`.

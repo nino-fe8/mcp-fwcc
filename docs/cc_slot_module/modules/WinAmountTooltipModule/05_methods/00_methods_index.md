@@ -7,6 +7,17 @@ tags: ["WinAmountTooltipModule", "winamounttooltipmodule", "cc_slot_module", "me
 
 # 📑 WinAmountTooltipModule Methods Index
 
+<!-- convention-summary-start -->
+### WinAmountTooltipModule Methods Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for WinAmountTooltipModule Methods Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 05_methods
+- **Scope & Code Paths**: `onLoadExtend.md`, `onJoinGameSuccess.md`, `showWinAmount.md`
+- **Related Docs**: [`onLoadExtend`](onLoadExtend.md), [`onJoinGameSuccess`](onJoinGameSuccess.md), [`showWinAmount`](showWinAmount.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Master Methods Overview

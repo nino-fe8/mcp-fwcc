@@ -7,6 +7,17 @@ tags: ["SlotSoundPlayerModule", "slot_sound_player", "cc_slot_module", "overview
 
 # 🏛️ SlotSoundPlayerModule Audio Architecture & Crossfade System
 
+<!-- convention-summary-start -->
+### SlotSoundPlayerModule Audio Architecture & Crossfade System Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for SlotSoundPlayerModule Audio Architecture & Crossfade System.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 01_overview
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/Core/SlotSound/SlotSoundPlayerModule.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Executive Summary & Purpose
 
 `SlotSoundPlayerModule` (`assets/cc-common/cc-slot-module/Core/SlotSound/SlotSoundPlayerModule.ts`) is the **Central Audio Controller** of the `cc-common` Slot SDK.

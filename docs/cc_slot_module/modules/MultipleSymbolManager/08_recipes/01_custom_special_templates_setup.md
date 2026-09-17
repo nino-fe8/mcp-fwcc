@@ -7,6 +7,17 @@ tags: ["MultipleSymbolManager", "multiple_symbol_manager", "cc_slot_module", "re
 
 # 💡 Production Recipe: Multiple Symbol Manager Setup in Scene
 
+<!-- convention-summary-start -->
+### Production Recipe: Multiple Symbol Manager Setup in Scene Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Production Recipe: Multiple Symbol Manager Setup in Scene.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 08_recipes
+- **Scope & Code Paths**: `template = SymbolStandard.prefab`, `template = WildSpinePrefab.prefab`, `template = ScatterSpinePrefab.prefab`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Context & Setup

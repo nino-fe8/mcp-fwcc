@@ -7,6 +7,17 @@ tags: ["BuyFeatureButton", "buy_feature_button", "cc_slot_mechanics", "integrati
 
 # 🔌 `BuyFeatureButton` Director & ScriptExecutor Integration
 
+<!-- convention-summary-start -->
+### BuyFeatureButton Director & ScriptExecutor Integration Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for BuyFeatureButton Director & ScriptExecutor Integration.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_mechanics, 03_director_writer_integration
+- **Scope & Code Paths**: `assets/cc-common/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Script Writer Command Integration

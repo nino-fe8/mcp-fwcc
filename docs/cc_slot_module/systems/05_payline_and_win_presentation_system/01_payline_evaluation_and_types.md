@@ -7,6 +7,17 @@ tags: ["cc_slot_module", "systems", "payline", "payline_types", "lines", "allway
 
 # 📐 Payline Evaluation Models & Payout Types
 
+<!-- convention-summary-start -->
+### Payline Evaluation Models & Payout Types Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Payline Evaluation Models & Payout Types.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 05_payline_and_win_presentation_system
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Architectural Overview

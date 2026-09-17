@@ -7,6 +7,17 @@ tags: ["PromotionManager", "promotion_manager", "cc_core_lib", "methods", "index
 
 # 📖 `PromotionManager` Methods Master Index
 
+<!-- convention-summary-start -->
+### PromotionManager Methods Master Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for PromotionManager Methods Master Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_core_lib, 03_methods
+- **Scope & Code Paths**: `./getPromotionData.md`, `./parsePromotionData.md`, `./setPromotionData.md`
+- **Related Docs**: [`getPromotionData()`](./getPromotionData.md), [`parsePromotionData()`](./parsePromotionData.md), [`setPromotionData()`](./setPromotionData.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Declared Method Signatures

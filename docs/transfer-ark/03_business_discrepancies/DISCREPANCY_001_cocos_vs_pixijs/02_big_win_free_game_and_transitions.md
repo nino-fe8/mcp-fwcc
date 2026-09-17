@@ -11,6 +11,17 @@ author: "ARK Studio Slot Engineering & QA Team"
 
 # 2. 🏆 Big Win, Free Game & Mode Transitions
 
+<!-- convention-summary-start -->
+### Business Specification 02: Big Win, Free Game & Mode Transitions Summary
+
+- **Core Architecture / Purpose**: Specifies the standard business behavior, UI presentation, and player interaction differences between Cocos Creator and Reference Game for Business Specification 02: Big Win, Free Game & Mode Transitions.
+- **Key Mechanisms & Design**: Adopts Theo Ref. Reconciles base SDK component locking, event dispatching, and view rehydration to match reference specifications exactly.
+- **Domain Capabilities**: business_mapping, DISCREPANCY_001_cocos_vs_pixijs
+- **Scope & Code Paths**: `assets/cc-release-slot/cc1-red-cliff/scripts/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 2.1 Detailed Discrepancy & Specification Table

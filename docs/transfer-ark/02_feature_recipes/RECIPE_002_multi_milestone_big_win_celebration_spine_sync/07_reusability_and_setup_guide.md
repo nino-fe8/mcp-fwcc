@@ -11,6 +11,17 @@ author: "ARK Slot Engineering Team"
 
 # 7. ♻️ Reusability & Setup Guide for New Games
 
+<!-- convention-summary-start -->
+### Multi-Milestone Big Win - Reusability & Setup Guide Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Multi-Milestone Big Win - Reusability & Setup Guide.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: feature, RECIPE_002_multi_milestone_big_win_celebration_spine_sync
+- **Scope & Code Paths**: `assets/cc-release-slot/[game-name]/data/prefabs/Cutscene/WinEffect.prefab`, `CutsceneControl.prefab`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 7.1 Prefab Hierarchy Setup

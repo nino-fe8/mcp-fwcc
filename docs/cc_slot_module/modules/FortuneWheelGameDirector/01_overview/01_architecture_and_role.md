@@ -7,6 +7,17 @@ tags: ["FortuneWheelGameDirector", "fortune_wheel_director", "cc_slot_module", "
 
 # 🏛️ FortuneWheelGameDirector Wheel Mini-Game Orchestrator Architecture
 
+<!-- convention-summary-start -->
+### FortuneWheelGameDirector Wheel Mini-Game Orchestrator Architecture Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for FortuneWheelGameDirector Wheel Mini-Game Orchestrator Architecture.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 01_overview
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/GameMode/FortuneWheelGame/Scripts/Director/FortuneWheelGameDirector.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Executive Summary & Purpose
 
 `FortuneWheelGameDirector` (`assets/cc-common/cc-slot-module/GameMode/FortuneWheelGame/Scripts/Director/FortuneWheelGameDirector.ts`) is the **Wheel of Fortune Mini-Game Director**.

@@ -7,6 +7,17 @@ tags: ["cc_slot_module", "systems", "game_mode", "custom_mode", "tutorial", "sub
 
 # 🛠️ Custom Game Mode Subsystem Creation & Extension Guide
 
+<!-- convention-summary-start -->
+### Custom Game Mode Subsystem Creation & Extension Guide Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Custom Game Mode Subsystem Creation & Extension Guide.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 01_game_mode_system
+- **Scope & Code Paths**: `CustomGameWriterModule.ts`, `CustomGameDirectorModule.ts`, `assets/game-name/prefabs/CustomGamePrefab.prefab`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Architectural Strategy for Custom Game Modes

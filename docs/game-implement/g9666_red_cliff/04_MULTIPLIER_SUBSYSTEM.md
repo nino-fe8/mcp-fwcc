@@ -8,6 +8,17 @@ tags: ["9666", "SlotSymbolModule9666", "CollectMultiModule9666", "multiplier_wil
 
 # ⚔️ Red Cliff (g9666) Multiplier Subsystem
 
+<!-- convention-summary-start -->
+### Red Cliff (g9666) Multiplier Subsystem Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Red Cliff (g9666) Multiplier Subsystem.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: game_implement, g9666_red_cliff
+- **Scope & Code Paths**: `./04_multiplier_subsystem/`
+- **Related Docs**: [00. Step-by-Step Task & Debugging Checklist](./04_multiplier_subsystem/00_TASK_LIST_MULTIPLIER.md), [01. Multiplier Wild Lifecycle & State Machine](./04_multiplier_subsystem/01_multiplier_wild_lifecycle.md), [02. Multiplier Badge Display & Collection System](./04_multiplier_subsystem/02_badge_display_and_collection.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 📚 Detailed Documentation Sub-chapters

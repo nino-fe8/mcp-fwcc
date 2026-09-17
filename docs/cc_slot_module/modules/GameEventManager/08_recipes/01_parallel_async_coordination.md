@@ -7,6 +7,17 @@ tags: ["GameEventManager", "game_event_manager", "cc_slot_module", "recipes", "a
 
 # 💡 Recipe: Parallel Async Multi-Module Coordination
 
+<!-- convention-summary-start -->
+### Recipe: Parallel Async Multi-Module Coordination Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Recipe: Parallel Async Multi-Module Coordination.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 08_recipes
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Concrete Production Use-Case
 
 When presenting Big Win milestones, multiple modules across the scene graph must animate simultaneously, and the Director must await until all animations finish before proceeding to the next cascade or respin.

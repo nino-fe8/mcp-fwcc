@@ -8,6 +8,17 @@ tags: ["9666", "payline", "allways", "SlotTablePaylineModule9666", "SlotTablePay
 
 # 🎯 Red Cliff (g9666) Payline Subsystem Architecture & 243 AllWays Rules
 
+<!-- convention-summary-start -->
+### Red Cliff (g9666) Payline Subsystem Architecture & 243 AllWays Rules Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Red Cliff (g9666) Payline Subsystem Architecture & 243 AllWays Rules.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: game_implement, 07_payline_and_spine_sync
+- **Scope & Code Paths**: `../../../../assets/cc-release-slot/cc1-red-cliff/scripts/Payline/SlotTablePaylineModule9666.ts`, `../../../../assets/cc-release-slot/cc1-red-cliff/scripts/Payline/SlotTablePaylineData9666.ts`, `../../../../assets/cc-release-slot/cc1-red-cliff/scripts/Payline/SlotPaylineSchedule9666.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Payline Model Overview (243 AllWays)

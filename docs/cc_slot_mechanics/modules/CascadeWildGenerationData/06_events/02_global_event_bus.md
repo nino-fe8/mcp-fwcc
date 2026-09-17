@@ -6,4 +6,15 @@ tags: ["CascadeWildGenerationData", "cascade_wild_generation_data", "cc_slot_mec
 ---
 
 # 🌐 CascadeWildGenerationData Global Event Bus Topics
+
+<!-- convention-summary-start -->
+### CascadeWildGenerationData Global Event Bus Topics Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for CascadeWildGenerationData Global Event Bus Topics.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_mechanics, 06_events
+- **Scope & Code Paths**: `assets/cc-common/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
 Interacts with the global `GameEventManager` bus for cross-mode event broadcasting.

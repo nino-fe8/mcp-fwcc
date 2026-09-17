@@ -7,6 +7,17 @@ tags: ["FreeGameWriterModule", "free_game_writer", "cc_slot_module", "methods", 
 
 # 📋 FreeGameWriterModule Methods Index
 
+<!-- convention-summary-start -->
+### FreeGameWriterModule Methods Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for FreeGameWriterModule Methods Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 05_methods
+- **Scope & Code Paths**: `./makeScriptResumeGameMode.md`, `./makeScriptSyncPlaySessionData.md`, `./makeScriptFreeSpinTrigger.md`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Declared Methods Catalog

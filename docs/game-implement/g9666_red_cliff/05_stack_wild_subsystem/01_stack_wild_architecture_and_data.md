@@ -8,6 +8,17 @@ tags: ["9666", "StackWildModule", "StackWildModuleData", "StackWildModuleConfig"
 
 # 🌲 Red Cliff (g9666) Stack Wild Subsystem Architecture & Data Model
 
+<!-- convention-summary-start -->
+### Red Cliff (g9666) Stack Wild Subsystem Architecture & Data Model Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Red Cliff (g9666) Stack Wild Subsystem Architecture & Data Model.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: game_implement, 05_stack_wild_subsystem
+- **Scope & Code Paths**: `../../../../assets/cc-release-slot/cc1-red-cliff/scripts/Table/StackWildModule.ts`, `../../../../assets/cc-release-slot/cc1-red-cliff/scripts/Table/StackWildModuleData.ts`, `../../../../assets/cc-release-slot/cc1-red-cliff/scripts/Table/StackWildModuleConfig.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Subsystem Overview & Symbol Code `K2`

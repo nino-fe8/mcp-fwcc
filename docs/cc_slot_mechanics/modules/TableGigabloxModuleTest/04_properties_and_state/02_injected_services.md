@@ -7,6 +7,17 @@ tags: ["TableGigabloxModuleTest", "table_gigablox_module_test", "cc_slot_mechani
 
 # 💉 TableGigabloxModuleTest Injected Services
 
+<!-- convention-summary-start -->
+### TableGigabloxModuleTest Injected Services Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for TableGigabloxModuleTest Injected Services.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_mechanics, 04_properties_and_state
+- **Scope & Code Paths**: `assets/cc-common/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Injected Dependencies

@@ -7,6 +7,17 @@ tags: ["cc_slot_module", "systems", "pooling", "node_pool", "canvas_controller",
 
 # ⚙️ Pooling, Compatibility & Utility Services System Architecture Index
 
+<!-- convention-summary-start -->
+### Pooling, Compatibility & Utility Services System Architecture Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Pooling, Compatibility & Utility Services System Architecture Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 11_pooling_compatibility_and_utility_services
+- **Scope & Code Paths**: `./01_zero_allocation_pooling_architecture.md`, `./02_responsive_canvas_adaptation_engine.md`, `./03_cover_background_aspect_ratio_fitting.md`
+- **Related Docs**: [`01_zero_allocation_pooling_architecture.md`](./01_zero_allocation_pooling_architecture.md), [`02_responsive_canvas_adaptation_engine.md`](./02_responsive_canvas_adaptation_engine.md), [`03_cover_background_aspect_ratio_fitting.md`](./03_cover_background_aspect_ratio_fitting.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Subsystem Mission

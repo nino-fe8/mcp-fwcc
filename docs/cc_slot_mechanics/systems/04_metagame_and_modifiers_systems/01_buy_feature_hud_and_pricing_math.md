@@ -7,6 +7,17 @@ tags: ["cc_slot_mechanics", "systems", "buy_feature", "feature_buy", "pricing_ma
 
 # 🛒 Buy Feature HUD & Pricing Math
 
+<!-- convention-summary-start -->
+### Buy Feature HUD & Pricing Math Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Buy Feature HUD & Pricing Math.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_mechanics, 04_metagame_and_modifiers_systems
+- **Scope & Code Paths**: `assets/cc-common/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Pricing Formula

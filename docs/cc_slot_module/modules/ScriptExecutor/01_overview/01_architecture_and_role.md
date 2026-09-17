@@ -7,6 +7,17 @@ tags: ["ScriptExecutor", "script_executor", "cc_slot_module", "overview", "archi
 
 # 🏛️ ScriptExecutor Asynchronous Action Step Engine Architecture
 
+<!-- convention-summary-start -->
+### ScriptExecutor Asynchronous Action Step Engine Architecture Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for ScriptExecutor Asynchronous Action Step Engine Architecture.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 01_overview
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/GameMode/Core/ScriptExecutor.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Executive Summary & Purpose
 
 `ScriptExecutor` (`assets/cc-common/cc-slot-module/GameMode/Core/ScriptExecutor.ts`) is the **Asynchronous Command Queue Processor** in the `cc-common` Slot SDK.

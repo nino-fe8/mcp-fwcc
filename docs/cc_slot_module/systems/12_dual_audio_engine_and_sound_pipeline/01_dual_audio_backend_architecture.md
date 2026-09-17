@@ -7,6 +7,17 @@ tags: ["cc_slot_module", "systems", "audio_backend", "howler", "cocos_sound", "s
 
 # 🎵 Dual Audio Backend Architecture (Howler vs Cocos)
 
+<!-- convention-summary-start -->
+### Dual Audio Backend Architecture (Howler vs Cocos) Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Dual Audio Backend Architecture (Howler vs Cocos).
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 12_dual_audio_engine_and_sound_pipeline
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Dual Backend Selection

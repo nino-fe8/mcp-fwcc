@@ -7,6 +7,17 @@ tags: ["FreeGameDirectorModule", "free_game_director", "cc_slot_module", "method
 
 # 📋 FreeGameDirectorModule Methods Index
 
+<!-- convention-summary-start -->
+### FreeGameDirectorModule Methods Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for FreeGameDirectorModule Methods Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 05_methods
+- **Scope & Code Paths**: `./enter.md`, `./_resumeFreeTable.md`, `./syncSpinTimes.md`
+- **Related Docs**: [`enter(): void`](./enter.md), [`_resumeFreeTable(): Promise<void>`](./_resumeFreeTable.md), [`syncSpinTimes(): void`](./syncSpinTimes.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Declared Methods Catalog

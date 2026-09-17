@@ -7,6 +7,17 @@ tags: ["SlotSoundPlayerModule", "slot_sound_player", "cc_slot_module", "gotchas"
 
 # 🛑 Gotcha: Mobile WebAudio Autoplay Policy Lock
 
+<!-- convention-summary-start -->
+### Gotcha: Mobile WebAudio Autoplay Policy Lock Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Gotcha: Mobile WebAudio Autoplay Policy Lock.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 07_gotchas
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Symptom & Visual Defect
 On iOS Safari or Android Chrome, the game boots with zero audio. BGM and spin button clicks produce no sound until the user taps the screen.
 

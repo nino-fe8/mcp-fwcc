@@ -7,6 +7,17 @@ tags: ["GameEventManager", "game_event_manager", "cc_slot_module", "customizatio
 
 # 📖 Production Case Study: Custom Multiplier Event in Red Cliff (`g9666L`)
 
+<!-- convention-summary-start -->
+### Production Case Study: Custom Multiplier Event in Red Cliff (g9666L) Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Production Case Study: Custom Multiplier Event in Red Cliff (g9666L).
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 09_inheritance_and_customization
+- **Scope & Code Paths**: `FreeGameDirectorModule9666.ts`, `MultiplierModule9666.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Context & Business Logic Requirement
 
 In **Red Cliff (`g9666L`)**, when exiting Free Game mode back to Normal Game, the progressive win multiplier must reset to `x1`.

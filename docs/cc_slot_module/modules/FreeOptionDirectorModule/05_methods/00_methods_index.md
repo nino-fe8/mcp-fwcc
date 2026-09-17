@@ -7,6 +7,17 @@ tags: ["FreeOptionDirectorModule", "free_option_director", "cc_slot_module", "me
 
 # 📋 FreeOptionDirectorModule Methods Index
 
+<!-- convention-summary-start -->
+### FreeOptionDirectorModule Methods Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for FreeOptionDirectorModule Methods Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 05_methods
+- **Scope & Code Paths**: `./init.md`, `./localizeText.md`, `./enter.md`
+- **Related Docs**: [`init(): void`](./init.md), [`localizeText(): void`](./localizeText.md), [`enter(): void`](./enter.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Lifecycle, Setup & Localization

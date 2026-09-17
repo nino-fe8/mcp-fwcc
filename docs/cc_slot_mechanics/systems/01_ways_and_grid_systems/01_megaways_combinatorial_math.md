@@ -7,6 +7,17 @@ tags: ["cc_slot_mechanics", "systems", "megaways", "combinatorics", "ways_to_win
 
 # 🎲 Megaways Combinatorial Math & Dynamic Heights Engine
 
+<!-- convention-summary-start -->
+### Megaways Combinatorial Math & Dynamic Heights Engine Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Megaways Combinatorial Math & Dynamic Heights Engine.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_mechanics, 01_ways_and_grid_systems
+- **Scope & Code Paths**: `assets/cc-common/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Mathematical Formulation

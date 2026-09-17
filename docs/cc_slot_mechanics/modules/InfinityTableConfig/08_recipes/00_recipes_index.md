@@ -7,6 +7,17 @@ tags: ["InfinityTableConfig", "infinity_table_config", "cc_slot_mechanics", "rec
 
 # 💡 InfinityTableConfig Recipes Master Index
 
+<!-- convention-summary-start -->
+### InfinityTableConfig Recipes Master Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for InfinityTableConfig Recipes Master Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_mechanics, 08_recipes
+- **Scope & Code Paths**: `assets/cc-common/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 | Recipe | Description |
 | :--- | :--- |
 | **`01_custom_infinity_table_config_implementation`** | Subclassing InfinityTableConfig for custom theme mechanics |

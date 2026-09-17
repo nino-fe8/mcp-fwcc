@@ -7,6 +7,17 @@ tags: ["cc_slot_mechanics", "systems", "horizontal_reel", "extra_top_reel", "meg
 
 # ↔️ Horizontal Extra Top Reel Megaways Synchronization
 
+<!-- convention-summary-start -->
+### Horizontal Extra Top Reel Megaways Synchronization Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Horizontal Extra Top Reel Megaways Synchronization.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_mechanics, 04_metagame_and_modifiers_systems
+- **Scope & Code Paths**: `assets/cc-common/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Top Reel Coordinate Integration

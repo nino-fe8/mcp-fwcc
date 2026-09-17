@@ -11,6 +11,17 @@ author: "ARK Slot Engineering Team"
 
 # 3. 🦴 Spine Bone Tracking & Mixing (`in`/`loop`/`out`)
 
+<!-- convention-summary-start -->
+### Total Win Celebration - Spine Bone Tracking & Sync Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Total Win Celebration - Spine Bone Tracking & Sync.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: feature, RECIPE_003_total_win_celebration_spine_sync
+- **Scope & Code Paths**: `assets/cc-release-slot/cc1-red-cliff/scripts/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 3.1 Skeleton Mix Configuration

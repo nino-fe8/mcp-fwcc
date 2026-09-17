@@ -7,6 +7,17 @@ tags: ["SlotBaseModule", "slot_base_module", "cc_slot_module", "events", "global
 
 # 🌐 SlotBaseModule Global Event Bus (`GameEventManager`) Deep Specification
 
+<!-- convention-summary-start -->
+### SlotBaseModule Global Event Bus (GameEventManager) Deep Specification Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for SlotBaseModule Global Event Bus (GameEventManager) Deep Specification.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 06_events
+- **Scope & Code Paths**: `GameEventManager.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Architectural Philosophy & Global Bus Role

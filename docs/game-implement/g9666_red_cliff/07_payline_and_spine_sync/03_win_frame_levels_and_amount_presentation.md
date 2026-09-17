@@ -8,6 +8,17 @@ tags: ["9666", "PaylineWinFrameEffect9666", "WinAmountModule9666", "MoneyTween",
 
 # 🏆 Red Cliff (g9666) Tiered Win Frame Levels & Money Presentation
 
+<!-- convention-summary-start -->
+### Red Cliff (g9666) Tiered Win Frame Levels & Money Presentation Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Red Cliff (g9666) Tiered Win Frame Levels & Money Presentation.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: game_implement, 07_payline_and_spine_sync
+- **Scope & Code Paths**: `assets/cc-common/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Tiered Total Win Frame System (`PaylineWinFrameEffect9666`)

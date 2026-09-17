@@ -7,6 +7,17 @@ tags: ["FreeGameWriterModule", "free_game_writer", "cc_slot_module", "customizat
 
 # 🚀 Game Creation Workflow: FreeGameWriter Setup
 
+<!-- convention-summary-start -->
+### Game Creation Workflow: FreeGameWriter Setup Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Game Creation Workflow: FreeGameWriter Setup.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 09_inheritance_and_customization
+- **Scope & Code Paths**: `FreeGameWriter[GameId].ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 Follow this 4-step checklist:
 
 ---

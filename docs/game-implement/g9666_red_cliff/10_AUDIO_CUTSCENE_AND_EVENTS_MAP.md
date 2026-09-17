@@ -8,6 +8,17 @@ tags: ["9666", "SlotSoundPlayerModule9666", "SoundConvertList9666", "SpineMcStat
 
 # 🎵 Red Cliff (g9666) Audio, Cutscene & Master Events Map
 
+<!-- convention-summary-start -->
+### Red Cliff (g9666) Audio, Cutscene & Master Events Map Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Red Cliff (g9666) Audio, Cutscene & Master Events Map.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: game_implement, g9666_red_cliff
+- **Scope & Code Paths**: `assets/cc-common/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Cutscene & MC Spine State Controller (`SpineMcStateController9666`)

@@ -7,6 +7,17 @@ tags: ["GameDataStore", "game_data_store", "cc_slot_module", "properties", "runt
 
 # 💾 GameDataStore Internal State & Comprehensive `playSession` Schema
 
+<!-- convention-summary-start -->
+### GameDataStore Internal State & Comprehensive playSession Schema Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for GameDataStore Internal State & Comprehensive playSession Schema.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 04_properties_and_state
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. GameDataStore Internal Runtime State Variables
 
 | Variable Name | TypeScript Type | Default Value | Mutated By | Purpose & Consumers |

@@ -11,6 +11,17 @@ author: "ARK Slot Engineering Team"
 
 # 🏅 RECIPE-003: Total Win Celebration with 3-Stage Spine Sync (in/loop/out)
 
+<!-- convention-summary-start -->
+### Recipe: Total Win Celebration with 3-Stage Spine (in/loop/out), Bone Sync & Touch Skip Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Recipe: Total Win Celebration with 3-Stage Spine (in/loop/out), Bone Sync & Touch Skip.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: feature, RECIPE_003_total_win_celebration_spine_sync
+- **Scope & Code Paths**: `assets/cc-release-slot/cc1-red-cliff/scripts/`
+- **Related Docs**: [**01. Overview & Feature Requirements**](./01_overview_and_problem.md), [**02. State Machine & Lifecycle Flow**](./02_state_machine_and_lifecycle.md), [**03. Spine Bone Tracking & Sync**](./03_spine_bone_tracking_sync.md)
+<!-- convention-summary-end -->
+
+
 > **Location**: `mcp/mcp-fwcc/docs/transfer-ark/02_feature_recipes/RECIPE_003_total_win_celebration_spine_sync/`  
 > **Status**: Production Verified  
 > **Target Module**: `TotalWinModule9666` extending `TotalWinModule`

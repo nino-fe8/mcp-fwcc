@@ -7,6 +7,17 @@ tags: ["cc_slot_module", "create_module", "setup_module", "new_module", "module_
 
 # 🚀 Master Guide: How to Create and Setup a New Module from Scratch
 
+<!-- convention-summary-start -->
+### Master Guide: How to Create and Setup a New Module from Scratch Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Master Guide: How to Create and Setup a New Module from Scratch.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, over_view
+- **Scope & Code Paths**: `CustomFeatureModule.ts`, `NormalGameWriterModule.ts`, `FreeGameWriterModule.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Module Architectural Classification & Base Classes

@@ -7,6 +7,17 @@ tags: ["HorizontalTableTest", "horizontal_table_test", "cc_slot_mechanics", "gam
 
 # ⚡ HorizontalTableTest Spin Phase Breakdown
 
+<!-- convention-summary-start -->
+### HorizontalTableTest Spin Phase Breakdown Summary
+
+- **Core Architecture / Purpose**: Defines network protocol, socket packet lifecycle, state persistence, and error handling for HorizontalTableTest Spin Phase Breakdown.
+- **Key Mechanisms & Design**: Handles WebSocket frame dispatch, acknowledgment confirmation, state resume, and resilient synchronization between client DataStore and Backend Gateway.
+- **Domain Capabilities**: cc_slot_mechanics, 02_game_flow
+- **Scope & Code Paths**: `assets/cc-common/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Spin Phase Execution

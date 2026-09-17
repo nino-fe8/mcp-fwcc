@@ -7,6 +7,17 @@ tags: ["TableGigabloxConfig", "table_gigablox_config", "cc_slot_mechanics", "got
 
 # ⚠️ `TableGigabloxConfig` Engine Gotchas & Troubleshooting
 
+<!-- convention-summary-start -->
+### TableGigabloxConfig Engine Gotchas & Troubleshooting Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for TableGigabloxConfig Engine Gotchas & Troubleshooting.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_mechanics, 07_gotchas
+- **Scope & Code Paths**: `assets/cc-common/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Gotcha: Mask Clipping & Bounding Box Overflow

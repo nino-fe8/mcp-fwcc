@@ -7,6 +7,17 @@ tags: ["InstantCashModule", "instant_cash_module", "cc_slot_mechanics", "game_fl
 
 # ⚡ InstantCashModule Spin Phase Breakdown
 
+<!-- convention-summary-start -->
+### InstantCashModule Spin Phase Breakdown Summary
+
+- **Core Architecture / Purpose**: Defines network protocol, socket packet lifecycle, state persistence, and error handling for InstantCashModule Spin Phase Breakdown.
+- **Key Mechanisms & Design**: Handles WebSocket frame dispatch, acknowledgment confirmation, state resume, and resilient synchronization between client DataStore and Backend Gateway.
+- **Domain Capabilities**: cc_slot_mechanics, 02_game_flow
+- **Scope & Code Paths**: `assets/cc-common/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Spin Phase Execution

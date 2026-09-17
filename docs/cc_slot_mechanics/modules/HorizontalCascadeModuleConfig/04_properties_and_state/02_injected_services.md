@@ -7,6 +7,17 @@ tags: ["HorizontalCascadeModuleConfig", "horizontal_cascade_module_config", "cc_
 
 # 💉 HorizontalCascadeModuleConfig Injected Services
 
+<!-- convention-summary-start -->
+### HorizontalCascadeModuleConfig Injected Services Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for HorizontalCascadeModuleConfig Injected Services.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_mechanics, 04_properties_and_state
+- **Scope & Code Paths**: `assets/cc-common/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Injected Dependencies

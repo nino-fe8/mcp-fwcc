@@ -7,6 +7,17 @@ tags: ["MultipleSymbolManager", "multiple_symbol_manager", "cc_slot_module", "ov
 
 # 🏛️ MultipleSymbolManager Scene Placement & Multi-Spine Pooling
 
+<!-- convention-summary-start -->
+### MultipleSymbolManager Scene Placement & Multi-Spine Pooling Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for MultipleSymbolManager Scene Placement & Multi-Spine Pooling.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 01_overview
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Scene Graph Placement

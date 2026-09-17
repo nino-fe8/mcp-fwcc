@@ -7,6 +7,17 @@ tags: ["PaylineFactory", "payline_factory", "cc_slot_module", "gotchas", "double
 
 # ⚠️ Gotcha: Double `pool.get()` Redundancy and Orphaned Pooled Nodes
 
+<!-- convention-summary-start -->
+### Gotcha: Double pool.get() Redundancy and Orphaned Pooled Nodes Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Gotcha: Double pool.get() Redundancy and Orphaned Pooled Nodes.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 07_gotchas
+- **Scope & Code Paths**: `PaylineFactory.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Problem Description

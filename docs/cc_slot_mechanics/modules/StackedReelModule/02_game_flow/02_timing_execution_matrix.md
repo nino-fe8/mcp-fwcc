@@ -7,6 +7,17 @@ tags: ["StackedReelModule", "stacked_reel_module", "cc_slot_mechanics", "game_fl
 
 # ⏱️ StackedReelModule Timing & Execution Matrix
 
+<!-- convention-summary-start -->
+### StackedReelModule Timing & Execution Matrix Summary
+
+- **Core Architecture / Purpose**: Defines network protocol, socket packet lifecycle, state persistence, and error handling for StackedReelModule Timing & Execution Matrix.
+- **Key Mechanisms & Design**: Handles WebSocket frame dispatch, acknowledgment confirmation, state resume, and resilient synchronization between client DataStore and Backend Gateway.
+- **Domain Capabilities**: cc_slot_mechanics, 02_game_flow
+- **Scope & Code Paths**: `assets/cc-common/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Execution Timing

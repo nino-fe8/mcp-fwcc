@@ -7,6 +7,17 @@ tags: ["GameEventManager", "game_event_manager", "cc_slot_module", "methods", "a
 
 # 🚀 GameEventManager Methods & API Index
 
+<!-- convention-summary-start -->
+### GameEventManager Methods & API Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for GameEventManager Methods & API Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 05_methods
+- **Scope & Code Paths**: `./on.md`, `./off.md`, `./emit.md`
+- **Related Docs**: [`on(event, listener, context): void`](./on.md), [`off(event, listener, context): void`](./off.md), [`emit(event, ...args): Promise<void>`](./emit.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Master Method Index
 
 | Method Signature | Visibility | Return Type | Brief Purpose |

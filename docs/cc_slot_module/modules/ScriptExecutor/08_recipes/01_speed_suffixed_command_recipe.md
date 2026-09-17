@@ -7,6 +7,17 @@ tags: ["ScriptExecutor", "script_executor", "cc_slot_module", "recipes", "speed_
 
 # 💡 Recipe: Speed-Suffixed Command Method Overrides
 
+<!-- convention-summary-start -->
+### Recipe: Speed-Suffixed Command Method Overrides Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Recipe: Speed-Suffixed Command Method Overrides.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 08_recipes
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Concrete Production Use-Case
 
 Instead of using `if (this.gameSettings.isTurboActive)` branches inside a single method, `ScriptExecutor` allows you to declare speed-specific methods directly on the director using `_[SPEED]` suffixes:

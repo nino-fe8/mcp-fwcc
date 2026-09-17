@@ -7,6 +7,17 @@ tags: ["WinEffectModule", "win_effect_module", "cc_slot_module", "gotchas", "ind
 
 # ⚠️ WinEffectModule Gotchas & Engine Defects Index
 
+<!-- convention-summary-start -->
+### WinEffectModule Gotchas & Engine Defects Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for WinEffectModule Gotchas & Engine Defects Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 07_gotchas
+- **Scope & Code Paths**: `./01_missing_coins_effect_node_crash.md`, `./02_turbo_money_tween_unhandled_completion.md`
+- **Related Docs**: [`01_missing_coins_effect_node_crash`](./01_missing_coins_effect_node_crash.md), [`02_turbo_money_tween_unhandled_completion`](./02_turbo_money_tween_unhandled_completion.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Catalog of Pitfalls

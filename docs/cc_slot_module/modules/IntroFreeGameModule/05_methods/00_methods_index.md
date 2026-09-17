@@ -7,6 +7,17 @@ tags: ["IntroFreeGameModule", "intro_free_game_module", "cc_slot_module", "metho
 
 # 📚 IntroFreeGameModule Methods Catalog Index
 
+<!-- convention-summary-start -->
+### IntroFreeGameModule Methods Catalog Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for IntroFreeGameModule Methods Catalog Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 05_methods
+- **Scope & Code Paths**: `./enter.md`
+- **Related Docs**: [`enter`](./enter.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Declared Methods Index

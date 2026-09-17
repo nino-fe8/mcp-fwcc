@@ -8,6 +8,17 @@ tags: ["9666", "stack_wild", "task_list", "debugging", "verification"]
 
 # 📋 Red Cliff (g9666) Stack Wild Subsystem Step-by-Step Task & Debugging Checklist
 
+<!-- convention-summary-start -->
+### Red Cliff (g9666) Stack Wild Subsystem Step-by-Step Task & Debugging Checklist Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Red Cliff (g9666) Stack Wild Subsystem Step-by-Step Task & Debugging Checklist.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: game_implement, 05_stack_wild_subsystem
+- **Scope & Code Paths**: `../../../../assets/cc-release-slot/cc1-red-cliff/scripts/Table/StackWildModule.ts#L239-L250`, `../../../../assets/cc-release-slot/cc1-red-cliff/scripts/Table/StackWildModule.ts#L286-L298`, `../../../../assets/cc-release-slot/cc1-red-cliff/scripts/Table/StackWildModule.ts#L324-L335`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 🎯 Purpose & Scope

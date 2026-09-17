@@ -7,6 +7,17 @@ tags: ["cc_slot_module", "systems", "cascade", "avalanche", "respin", "gravity",
 
 # 🌊 Cascade & Avalanche Subsystem Architecture Master Guide
 
+<!-- convention-summary-start -->
+### Cascade & Avalanche Subsystem Architecture Master Guide Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Cascade & Avalanche Subsystem Architecture Master Guide.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 06_cascade_and_avalanche_system
+- **Scope & Code Paths**: `./01_cascade_lifecycle_and_respin_flow.md`, `./02_matrix_elimination_and_drop_physics.md`, `./03_mega_symbols_and_variable_height_grids.md`
+- **Related Docs**: [`01_cascade_lifecycle_and_respin_flow`](./01_cascade_lifecycle_and_respin_flow.md), [`02_matrix_elimination_and_drop_physics`](./02_matrix_elimination_and_drop_physics.md), [`03_mega_symbols_and_variable_height_grids`](./03_mega_symbols_and_variable_height_grids.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Subsystem Architectural Mission

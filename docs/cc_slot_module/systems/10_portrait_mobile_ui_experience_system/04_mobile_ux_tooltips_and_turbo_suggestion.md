@@ -7,6 +7,17 @@ tags: ["cc_slot_module", "systems", "win_tooltip", "turbo_suggestion", "mobile_u
 
 # 💡 Mobile UX Tooltips & Turbo Mode Suggestion
 
+<!-- convention-summary-start -->
+### Mobile UX Tooltips & Turbo Mode Suggestion Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Mobile UX Tooltips & Turbo Mode Suggestion.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 10_portrait_mobile_ui_experience_system
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Floating Win Breakdown Tooltip (`WinAmountTooltipModule`)

@@ -7,6 +7,17 @@ tags: ["cc_slot_module", "systems", "gui_dashboard", "ui_manager", "spin_button"
 
 # 🎛️ GUI Dashboard, Controls & Betting System Architecture Index
 
+<!-- convention-summary-start -->
+### GUI Dashboard, Controls & Betting System Architecture Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for GUI Dashboard, Controls & Betting System Architecture Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 08_gui_dashboard_and_controls_system
+- **Scope & Code Paths**: `./01_ui_manager_and_hud_orchestration.md`, `./02_spin_button_state_machine_and_modes.md`, `./03_betting_matrix_and_denominations.md`
+- **Related Docs**: [`01_ui_manager_and_hud_orchestration.md`](./01_ui_manager_and_hud_orchestration.md), [`02_spin_button_state_machine_and_modes.md`](./02_spin_button_state_machine_and_modes.md), [`03_betting_matrix_and_denominations.md`](./03_betting_matrix_and_denominations.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Subsystem Mission

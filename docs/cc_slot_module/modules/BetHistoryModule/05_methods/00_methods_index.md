@@ -7,6 +7,17 @@ tags: ["BetHistoryModule", "bethistorymodule", "cc_slot_module", "methods", "ind
 
 # 📑 BetHistoryModule Methods Index
 
+<!-- convention-summary-start -->
+### BetHistoryModule Methods Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for BetHistoryModule Methods Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 05_methods
+- **Scope & Code Paths**: `onLoadExtend.md`, `init.md`, `start.md`
+- **Related Docs**: [`onLoadExtend`](onLoadExtend.md), [`init`](init.md), [`start`](start.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Master Method Summary Table

@@ -7,6 +7,17 @@ tags: ["SpinButtonManager", "spin_button_manager", "cc_core_lib", "methods", "in
 
 # 📖 `SpinButtonManager` Methods Master Index
 
+<!-- convention-summary-start -->
+### SpinButtonManager Methods Master Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for SpinButtonManager Methods Master Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_core_lib, 03_methods
+- **Scope & Code Paths**: `./setName.md`, `./setMode.md`, `./getSpinButtonData.md`
+- **Related Docs**: [`setName()`](./setName.md), [`setMode()`](./setMode.md), [`getSpinButtonData()`](./getSpinButtonData.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Declared Method Signatures

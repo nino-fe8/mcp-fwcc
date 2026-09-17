@@ -7,6 +7,17 @@ tags: ["SlotTableNearWinModule", "slot_table_near_win_module", "cc_slot_module",
 
 # ⚠️ SlotTableNearWinModule Engine Gotchas Index
 
+<!-- convention-summary-start -->
+### SlotTableNearWinModule Engine Gotchas Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for SlotTableNearWinModule Engine Gotchas Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 07_gotchas
+- **Scope & Code Paths**: `./01_nearwin_sound_stuck_on_ftr.md`, `./02_missing_spine_animation_fallback.md`
+- **Related Docs**: [`01_nearwin_sound_stuck_on_ftr.md`](./01_nearwin_sound_stuck_on_ftr.md), [`02_missing_spine_animation_fallback.md`](./02_missing_spine_animation_fallback.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Known Gotchas Summary

@@ -7,6 +7,17 @@ tags: ["CollectionItemData", "collection_item_data", "cc_slot_mechanics", "metho
 
 # 📖 `CollectionItemData.getCollection()`
 
+<!-- convention-summary-start -->
+### CollectionItemData.getCollection Line-by-Line Method Specification Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for CollectionItemData.getCollection Line-by-Line Method Specification.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_mechanics, 05_methods
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-mechanics/CollectionItem/scripts/CollectionItemData.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Method Signature & Overview

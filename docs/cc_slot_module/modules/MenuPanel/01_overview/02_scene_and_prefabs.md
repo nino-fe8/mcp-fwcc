@@ -7,6 +7,17 @@ tags: ["MenuPanel", "menupanel", "cc_slot_module", "overview", "prefabs"]
 
 # 📦 MenuPanel Scene & Prefabs
 
+<!-- convention-summary-start -->
+### MenuPanel Scene & Prefabs Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for MenuPanel Scene & Prefabs.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 01_overview
+- **Scope & Code Paths**: `MenuPanel.prefab`, `assets/cc-common/cc-slot-module/BasePortrait/MenuPanel/MenuPanel.prefab`, `MenuButton.prefab`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Canonical Anchor

@@ -7,6 +7,17 @@ tags: ["SlotGameSettings", "slot_game_settings", "cc_slot_module", "events", "gl
 
 # 🌐 SlotGameSettings Global Event Bus Integration
 
+<!-- convention-summary-start -->
+### SlotGameSettings Global Event Bus Integration Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for SlotGameSettings Global Event Bus Integration.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 06_events
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Associated Global Event Topics
 
 When `SlotGameSettings` properties are updated by interactive UI elements, companion events are broadcast over the `eventManager` bus:

@@ -11,6 +11,17 @@ author: "ARK Studio Slot Engineering & QA Team"
 
 # 📊 Master Business Specification: Cocos Creator (ARK Studio) vs Pixi.js (Refer Game)
 
+<!-- convention-summary-start -->
+### Master Business Specification & Discrepancy Matrix: Cocos Creator vs Pixi.js Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Master Business Specification & Discrepancy Matrix: Cocos Creator vs Pixi.js.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: business_mapping, docs
+- **Scope & Code Paths**: `./transfer-ark/03_business_discrepancies/DISCREPANCY_001_cocos_vs_pixijs/INDEX.md`
+- **Related Docs**: [**01. Base Game & Action Panel**](./transfer-ark/03_business_discrepancies/DISCREPANCY_001_cocos_vs_pixijs/01_base_game_and_action_panel.md), [**02. Big Win, Free Game & Mode Transitions**](./transfer-ark/03_business_discrepancies/DISCREPANCY_001_cocos_vs_pixijs/02_big_win_free_game_and_transitions.md), [**03. Bet History (LSC) & Jackpot History (LSH)**](./transfer-ark/03_business_discrepancies/DISCREPANCY_001_cocos_vs_pixijs/03_bet_history_lsc_and_jackpot_history_lsh.md)
+<!-- convention-summary-end -->
+
+
 > **Original Source**: `Compare Cocos vs Pixijs.xlsx`  
 > **Objective**: Standardize 100% of UI behaviors, player UX, mode transitions, and game logic rules between ARK Studio's Cocos Creator framework and the Pixi.js Reference Game.
 

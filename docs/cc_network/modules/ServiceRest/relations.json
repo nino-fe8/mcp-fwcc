@@ -1,0 +1,17 @@
+{
+  "moduleId": "ServiceRest",
+  "category": "cc_network",
+  "sourcePath": "assets/cc-common/cc-network/game-network.js",
+  "dependencies": [
+    "logger"
+  ],
+  "consumers": [
+    "globalNetworkV3",
+    "connectNetworkV3",
+    "BetHistoryModule"
+  ],
+  "keyMethods": [
+    "get",
+    "post"
+  ]
+}

@@ -7,6 +7,17 @@ tags: ["VerticalCascadeModule", "vertical_cascade_module", "cc_slot_module", "go
 
 # ⚠️ VerticalCascadeModule Gotchas & Engine Defects Index
 
+<!-- convention-summary-start -->
+### VerticalCascadeModule Gotchas & Engine Defects Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for VerticalCascadeModule Gotchas & Engine Defects Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 07_gotchas
+- **Scope & Code Paths**: `./01_respin_callback_timeout_leak.md`, `./02_multi_height_symbol_position_offset_bug.md`
+- **Related Docs**: [`01_respin_callback_timeout_leak`](./01_respin_callback_timeout_leak.md), [`02_multi_height_symbol_position_offset_bug`](./02_multi_height_symbol_position_offset_bug.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Catalog of Pitfalls

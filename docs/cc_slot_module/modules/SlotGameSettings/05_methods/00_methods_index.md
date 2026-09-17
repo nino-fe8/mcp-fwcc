@@ -7,6 +7,17 @@ tags: ["SlotGameSettings", "slot_game_settings", "cc_slot_module", "methods", "a
 
 # 📋 SlotGameSettings Methods & Accessors Index
 
+<!-- convention-summary-start -->
+### SlotGameSettings Methods & Accessors Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for SlotGameSettings Methods & Accessors Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 05_methods
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 `SlotGameSettings` is a pure TypeScript data registry providing getter and setter accessors:
 
 ---

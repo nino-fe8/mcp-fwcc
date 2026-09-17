@@ -7,6 +7,17 @@ tags: ["cc_slot_module", "systems", "reactive_data", "triplet_pattern", "view_da
 
 # 🏛️ The Companion Triplet Pattern: View Controller, Data Model & Config
 
+<!-- convention-summary-start -->
+### The Companion Triplet Pattern: View Controller, Data Model & Config Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for The Companion Triplet Pattern: View Controller, Data Model & Config.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 03_reactive_data_system
+- **Scope & Code Paths**: `*Module.ts`, `*Data.ts`, `*Config.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Clean Code Philosophy: The 3-Tier Subsystem Separation

@@ -7,6 +7,17 @@ tags: ["MegaReelSceneTest", "mega_reel_scene_test", "cc_slot_mechanics", "recipe
 
 # 💡 Recipe: Practical `MegaReelSceneTest` Integration
 
+<!-- convention-summary-start -->
+### Recipe: Integrating MegaReelSceneTest in Slot Games Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Recipe: Integrating MegaReelSceneTest in Slot Games.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_mechanics, 08_recipes
+- **Scope & Code Paths**: `assets/cc-common/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Reference Game Implementation (e.g. Red Cliff 9666)

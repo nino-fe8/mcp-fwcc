@@ -7,6 +7,17 @@ tags: ["PaylineInfoModule", "payline_info_module", "cc_slot_module", "methods", 
 
 # 📚 PaylineInfoModule Methods Catalog Index
 
+<!-- convention-summary-start -->
+### PaylineInfoModule Methods Catalog Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for PaylineInfoModule Methods Catalog Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 05_methods
+- **Scope & Code Paths**: `./onLoadExtend.md`, `./start.md`, `./localizeText.md`
+- **Related Docs**: [`onLoadExtend`](./onLoadExtend.md), [`start`](./start.md), [`localizeText`](./localizeText.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Declared Methods Index (All 13 Methods)

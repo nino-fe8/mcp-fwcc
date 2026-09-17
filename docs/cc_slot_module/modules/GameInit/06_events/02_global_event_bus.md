@@ -7,6 +7,17 @@ tags: ["GameInit", "gameinit", "cc_slot_module", "events", "global_events", "eve
 
 # 🌐 GameInit Global Event Bus Interactions
 
+<!-- convention-summary-start -->
+### GameInit Global Event Bus Interactions Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for GameInit Global Event Bus Interactions.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 06_events
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Global Event Bus Setup
 
 `GameInit` creates the master `GameEventManager` singleton during `onLoad()`:

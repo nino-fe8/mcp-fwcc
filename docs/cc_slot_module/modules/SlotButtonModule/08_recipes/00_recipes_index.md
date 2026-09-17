@@ -7,6 +7,17 @@ tags: ["SlotButtonModule", "slot_button_module", "cc_slot_module", "recipes", "i
 
 # 💡 SlotButtonModule Practical Recipes Index
 
+<!-- convention-summary-start -->
+### SlotButtonModule Practical Recipes Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for SlotButtonModule Practical Recipes Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 08_recipes
+- **Scope & Code Paths**: `./01_custom_turbo_spin_button_specialization.md`, `./02_spine_state_machine_customization.md`, `./03_sprite_frame_switcher_customization.md`
+- **Related Docs**: [`01_custom_turbo_spin_button_specialization`](./01_custom_turbo_spin_button_specialization.md), [`02_spine_state_machine_customization`](./02_spine_state_machine_customization.md), [`03_sprite_frame_switcher_customization`](./03_sprite_frame_switcher_customization.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Recipes Catalog

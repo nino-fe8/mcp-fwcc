@@ -7,6 +7,17 @@ tags: ["BonusGameItemModule", "bonus_game_item", "cc_slot_module", "gotchas", "i
 
 # ⚠️ BonusGameItemModule Gotchas Index
 
+<!-- convention-summary-start -->
+### BonusGameItemModule Gotchas Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for BonusGameItemModule Gotchas Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 07_gotchas
+- **Scope & Code Paths**: `./01_missing_sprite_frame_mapping_crash.md`
+- **Related Docs**: [`01_missing_sprite_frame_mapping_crash`](./01_missing_sprite_frame_mapping_crash.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Master Gotchas Index
 
 | Gotcha Slug | Defect Description | Root Cause | Impact Level |

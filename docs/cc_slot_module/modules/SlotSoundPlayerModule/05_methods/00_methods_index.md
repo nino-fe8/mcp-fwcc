@@ -7,6 +7,17 @@ tags: ["SlotSoundPlayerModule", "slot_sound_player", "cc_slot_module", "methods"
 
 # 🚀 SlotSoundPlayerModule Methods Index
 
+<!-- convention-summary-start -->
+### SlotSoundPlayerModule Methods Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for SlotSoundPlayerModule Methods Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 05_methods
+- **Scope & Code Paths**: `./playMainBGM.md`, `./switchMusicBGM.md`, `./forcePlayMusicBGM.md`
+- **Related Docs**: [`playMainBGM(currentGameMode?): void`](./playMainBGM.md), [`switchMusicBGM(nextMode, sfxTransition, fadeTime, delaySwitch): void`](./switchMusicBGM.md), [`forcePlayMusicBGM(gameMode?): void`](./forcePlayMusicBGM.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Master Method Index
 
 | Method Signature | Visibility | Purpose |

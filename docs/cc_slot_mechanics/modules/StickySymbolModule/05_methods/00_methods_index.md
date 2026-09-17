@@ -7,6 +7,17 @@ tags: ["StickySymbolModule", "sticky_symbol_module", "cc_slot_mechanics", "metho
 
 # 📖 `StickySymbolModule` Methods Master Index
 
+<!-- convention-summary-start -->
+### StickySymbolModule Methods Master Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for StickySymbolModule Methods Master Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_mechanics, 05_methods
+- **Scope & Code Paths**: `./onLoadExtend.md`, `./registerGameEvents.md`, `./setupStickySymbols.md`
+- **Related Docs**: [`onLoadExtend()`](./onLoadExtend.md), [`registerGameEvents()`](./registerGameEvents.md), [`setupStickySymbols()`](./setupStickySymbols.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Declared Method Signatures & Summary

@@ -8,6 +8,17 @@ tags: ["9666", "MultiplierModule9666", "MultiplierData9666", "GlobalMultiplier",
 
 # 📊 Red Cliff (g9666) Global Multiplier UI & Synchronization
 
+<!-- convention-summary-start -->
+### Red Cliff (g9666) Global Multiplier UI & Synchronization Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Red Cliff (g9666) Global Multiplier UI & Synchronization.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: game_implement, 04_multiplier_subsystem
+- **Scope & Code Paths**: `MultiplierModule9666.ts`, `MultiplierData9666.ts`, `GameDataStore9666.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Module Structure & Components

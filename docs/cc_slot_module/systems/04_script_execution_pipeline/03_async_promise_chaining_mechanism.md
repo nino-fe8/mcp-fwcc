@@ -7,6 +7,17 @@ tags: ["cc_slot_module", "systems", "script_pipeline", "async", "promises", "pro
 
 # 🔗 Asynchronous Promise Chaining Mechanism
 
+<!-- convention-summary-start -->
+### Asynchronous Promise Chaining Mechanism Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Asynchronous Promise Chaining Mechanism.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 04_script_execution_pipeline
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Non-Blocking Sequential Execution Flow

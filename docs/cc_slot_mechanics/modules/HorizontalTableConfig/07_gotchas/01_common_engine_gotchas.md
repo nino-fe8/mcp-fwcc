@@ -7,6 +7,17 @@ tags: ["HorizontalTableConfig", "horizontal_table_config", "cc_slot_mechanics", 
 
 # ⚠️ `HorizontalTableConfig` Engine Gotchas & Troubleshooting
 
+<!-- convention-summary-start -->
+### HorizontalTableConfig Engine Gotchas & Troubleshooting Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for HorizontalTableConfig Engine Gotchas & Troubleshooting.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_mechanics, 07_gotchas
+- **Scope & Code Paths**: `assets/cc-common/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Gotcha: Mask Clipping & Bounding Box Overflow

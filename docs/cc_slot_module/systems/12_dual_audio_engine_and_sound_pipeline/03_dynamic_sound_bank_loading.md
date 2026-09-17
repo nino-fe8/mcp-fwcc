@@ -7,6 +7,17 @@ tags: ["cc_slot_module", "systems", "dynamic_audio", "sound_bank", "memory_manag
 
 # 📦 Dynamic Sound Bank Loading & Memory Management
 
+<!-- convention-summary-start -->
+### Dynamic Sound Bank Loading & Memory Management Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Dynamic Sound Bank Loading & Memory Management.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 12_dual_audio_engine_and_sound_pipeline
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. On-Demand Audio Loading

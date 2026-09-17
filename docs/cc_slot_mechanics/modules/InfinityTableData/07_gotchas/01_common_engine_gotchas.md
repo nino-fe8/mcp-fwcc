@@ -7,6 +7,17 @@ tags: ["InfinityTableData", "infinity_table_data", "cc_slot_mechanics", "gotchas
 
 # ⚠️ `InfinityTableData` Engine Gotchas & Troubleshooting
 
+<!-- convention-summary-start -->
+### InfinityTableData Engine Gotchas & Troubleshooting Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for InfinityTableData Engine Gotchas & Troubleshooting.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_mechanics, 07_gotchas
+- **Scope & Code Paths**: `assets/cc-common/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Gotcha: Mask Clipping & Bounding Box Overflow

@@ -7,6 +7,17 @@ tags: ["BaseDataModule", "base_data_module", "cc_slot_module", "overview", "arch
 
 # 🏛️ BaseDataModule Reactive State Binding & Data Distribution Bedrock
 
+<!-- convention-summary-start -->
+### BaseDataModule Reactive State Binding & Data Distribution Bedrock Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for BaseDataModule Reactive State Binding & Data Distribution Bedrock.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 01_overview
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/Core/BaseDataModule.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Executive Summary & Purpose
 
 `BaseDataModule` (`assets/cc-common/cc-slot-module/Core/BaseDataModule.ts`) is the **Foundational Data Layer Base Class** in the `cc-common` Slot SDK.

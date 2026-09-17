@@ -7,6 +7,17 @@ tags: ["NormalGameWriterModule", "normal_game_writer", "cc_slot_module", "custom
 
 # 🚀 Game Creation Workflow: Writing Custom Base Game Script Queues
 
+<!-- convention-summary-start -->
+### Game Creation Workflow: Writing Custom Base Game Script Queues Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Game Creation Workflow: Writing Custom Base Game Script Queues.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 09_inheritance_and_customization
+- **Scope & Code Paths**: `scripts/GameMode/NormalGameWriterModule[GameId].ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 Follow this 4-step checklist when modifying base game spin queues:
 
 ---

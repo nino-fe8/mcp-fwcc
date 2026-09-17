@@ -7,6 +7,17 @@ tags: ["BonusGameTableModule", "bonus_game_table", "cc_slot_module", "overview",
 
 # 🏛️ BonusGameTableModule Interactive Pick Grid Orchestrator Architecture
 
+<!-- convention-summary-start -->
+### BonusGameTableModule Interactive Pick Grid Orchestrator Architecture Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for BonusGameTableModule Interactive Pick Grid Orchestrator Architecture.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 01_overview
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/GameMode/BonusGame/BonusGameTableModule.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Executive Summary & Purpose
 
 `BonusGameTableModule` (`assets/cc-common/cc-slot-module/GameMode/BonusGame/BonusGameTableModule.ts`) is the **Interactive Grid & Item Matrix Manager** for Pick Mini-Games.

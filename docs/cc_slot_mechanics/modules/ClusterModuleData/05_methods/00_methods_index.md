@@ -7,6 +7,17 @@ tags: ["ClusterModuleData", "cluster_module_data", "cc_slot_mechanics", "methods
 
 # 📖 `ClusterModuleData` Methods Master Index
 
+<!-- convention-summary-start -->
+### ClusterModuleData Methods Master Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for ClusterModuleData Methods Master Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_mechanics, 05_methods
+- **Scope & Code Paths**: `./onloadExtend.md`, `./getFormatMatrix.md`, `./getMatrix.md`
+- **Related Docs**: [`onloadExtend()`](./onloadExtend.md), [`getFormatMatrix()`](./getFormatMatrix.md), [`getMatrix()`](./getMatrix.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Declared Method Signatures & Summary

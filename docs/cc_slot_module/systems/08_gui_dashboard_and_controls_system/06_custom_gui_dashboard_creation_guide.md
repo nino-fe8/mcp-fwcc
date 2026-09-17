@@ -7,6 +7,17 @@ tags: ["cc_slot_module", "systems", "gui_dashboard", "custom_gui", "hud_setup", 
 
 # 🛠️ Custom GUI Dashboard Assembly & Wiring Guide
 
+<!-- convention-summary-start -->
+### Custom GUI Dashboard Assembly & Wiring Guide Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Custom GUI Dashboard Assembly & Wiring Guide.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 08_gui_dashboard_and_controls_system
+- **Scope & Code Paths**: `BottomUIPrefab.prefab`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Scene Graph Layout Hierarchy

@@ -7,6 +7,17 @@ tags: ["FreeGameDirectorModule", "free_game_director", "cc_slot_module", "recipe
 
 # 🍳 Recipe: Retriggering Free Spins with Floating Badge Animation
 
+<!-- convention-summary-start -->
+### Recipe: Retriggering Free Spins with Floating Badge Animation Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Recipe: Retriggering Free Spins with Floating Badge Animation.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 08_recipes
+- **Scope & Code Paths**: `FreeGameDirector[GameId].ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Problem Statement
 When 3 Scatters land during Free Spins, show a floating `+5 SPINS` badge animation before incrementing the counter.
 

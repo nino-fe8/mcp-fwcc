@@ -7,6 +7,17 @@ tags: ["SlotCustomNodePool", "slot_custom_node_pool", "cc_slot_module", "methods
 
 # 📋 SlotCustomNodePool Methods Index
 
+<!-- convention-summary-start -->
+### SlotCustomNodePool Methods Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for SlotCustomNodePool Methods Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 05_methods
+- **Scope & Code Paths**: `./initSymbolPool.md`, `./setupNormalSymbolPool.md`, `./setupSpecialSymbolPool.md`
+- **Related Docs**: [`initSymbolPool(): void`](./initSymbolPool.md), [`setupNormalSymbolPool(): void`](./setupNormalSymbolPool.md), [`setupSpecialSymbolPool(): void`](./setupSpecialSymbolPool.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Declared Methods Summary Table

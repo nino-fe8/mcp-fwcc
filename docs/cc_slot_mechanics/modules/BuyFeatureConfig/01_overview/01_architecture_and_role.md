@@ -7,6 +7,17 @@ tags: ["BuyFeatureConfig", "buy_feature_config", "cc_slot_mechanics", "overview"
 
 # 🏛️ `BuyFeatureConfig` Architectural Role & Mechanics Overview
 
+<!-- convention-summary-start -->
+### BuyFeatureConfig Architectural Role & Mechanics Overview Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for BuyFeatureConfig Architectural Role & Mechanics Overview.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_mechanics, 01_overview
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-mechanics/BuyFeature/scripts/BuyFeatureConfig.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 - **Mechanics Package**: `assets/cc-common/cc-slot-mechanics/BuyFeature`
 - **Source File**: `assets/cc-common/cc-slot-mechanics/BuyFeature/scripts/BuyFeatureConfig.ts`
 - **Class Hierarchy**: `BuyFeatureConfig` ➔ `Component`

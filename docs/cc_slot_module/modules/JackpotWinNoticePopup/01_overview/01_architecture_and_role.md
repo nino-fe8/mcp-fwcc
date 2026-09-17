@@ -7,6 +7,17 @@ tags: ["JackpotWinNoticePopup", "jackpotwinnoticepopup", "cc_slot_module", "over
 
 # 🏛️ JackpotWinNoticePopup Architecture & Role
 
+<!-- convention-summary-start -->
+### JackpotWinNoticePopup Architecture & Role Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for JackpotWinNoticePopup Architecture & Role.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 01_overview
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 `JackpotWinNoticePopup` is the global real-time jackpot broadcast banner in the `cc-common` Slot Framework SDK. Mounted directly in the scene graph, it listens reactively to `JackpotData.notifyJackpotInfo`, queues other room players who hit progressive jackpots, and presents animated fade/slide toast notifications sequentially.
 
 ---

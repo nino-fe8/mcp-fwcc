@@ -7,6 +7,17 @@ tags: ["BonusGameDirectorModule", "bonus_game_director", "cc_slot_module", "gotc
 
 # ⚠️ Gotcha: Rapid Clicks During Network Transit Corrupts State
 
+<!-- convention-summary-start -->
+### Gotcha: Rapid Clicks During Network Transit Corrupts State Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Gotcha: Rapid Clicks During Network Transit Corrupts State.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 07_gotchas
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Defect Symptom
 If a player taps multiple chests rapidly within 100ms on high-latency connections, multiple `SEND_BONUS_GAME_REQUEST` network packets fire, causing backend desynchronization errors.
 

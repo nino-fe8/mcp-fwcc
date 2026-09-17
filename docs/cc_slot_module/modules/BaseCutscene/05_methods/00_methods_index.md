@@ -7,6 +7,17 @@ tags: ["BaseCutscene", "base_cutscene", "cc_slot_module", "methods", "index"]
 
 # 📚 BaseCutscene Methods Catalog Index
 
+<!-- convention-summary-start -->
+### BaseCutscene Methods Catalog Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for BaseCutscene Methods Catalog Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 05_methods
+- **Scope & Code Paths**: `./init.md`, `./play.md`, `./show.md`
+- **Related Docs**: [`init`](./init.md), [`play`](./play.md), [`show`](./show.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Declared Methods Index

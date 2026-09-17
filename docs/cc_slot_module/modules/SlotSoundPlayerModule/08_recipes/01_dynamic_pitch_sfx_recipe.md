@@ -7,6 +7,17 @@ tags: ["SlotSoundPlayerModule", "slot_sound_player", "cc_slot_module", "recipes"
 
 # 💡 Recipe: Dynamic Pitch Acceleration During Coin Count-Up
 
+<!-- convention-summary-start -->
+### Recipe: Dynamic Pitch Acceleration During Coin Count-Up Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Recipe: Dynamic Pitch Acceleration During Coin Count-Up.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 08_recipes
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Concrete Production Use-Case
 
 When presenting large win count-ups (Level 3 Big Win / Level 4 Super Win), the coin ticker sound accelerates in pitch as the numbers climb toward the target payout:

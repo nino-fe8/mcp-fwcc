@@ -7,6 +7,17 @@ tags: ["RemovedSymbolConfig", "removed_symbol_config", "cc_slot_mechanics", "got
 
 # ⚠️ RemovedSymbolConfig Gotcha: Tween Cancellation during Fast Stop
 
+<!-- convention-summary-start -->
+### RemovedSymbolConfig Gotcha: Tween Cancellation during Fast Stop Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for RemovedSymbolConfig Gotcha: Tween Cancellation during Fast Stop.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_mechanics, 07_gotchas
+- **Scope & Code Paths**: `assets/cc-common/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Symptom & Fix

@@ -7,6 +7,17 @@ tags: ["TransformSymbolModule", "transform_symbol_module", "cc_slot_mechanics", 
 
 # 📖 `TransformSymbolModule.registerGameEvents()`
 
+<!-- convention-summary-start -->
+### TransformSymbolModule.registerGameEvents Line-by-Line Method Specification Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for TransformSymbolModule.registerGameEvents Line-by-Line Method Specification.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_mechanics, 05_methods
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-mechanics/TransformSymbol/scripts/TransformSymbolModule.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Method Signature & Overview

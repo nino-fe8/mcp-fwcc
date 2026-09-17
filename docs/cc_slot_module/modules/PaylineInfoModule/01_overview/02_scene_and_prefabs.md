@@ -7,6 +7,17 @@ tags: ["PaylineInfoModule", "payline_info_module", "cc_slot_module", "overview",
 
 # 🏛️ PaylineInfoModule Scene Node Hierarchy & Prefab Specifications
 
+<!-- convention-summary-start -->
+### PaylineInfoModule Scene Node Hierarchy & Prefab Specifications Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for PaylineInfoModule Scene Node Hierarchy & Prefab Specifications.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 01_overview
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/GUI/PaylineInfo/NormalPaylineInfo.prefab`, `assets/cc-common/cc-slot-module/GUI/PaylineInfo/FreePaylineInfo.prefab`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Live Inspected Scene Hierarchy Structure

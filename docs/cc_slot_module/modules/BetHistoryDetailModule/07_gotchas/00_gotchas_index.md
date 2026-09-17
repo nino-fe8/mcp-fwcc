@@ -7,6 +7,17 @@ tags: ["BetHistoryDetailModule", "bethistorydetailmodule", "cc_slot_module", "go
 
 # ⚠️ BetHistoryDetailModule Gotchas Index
 
+<!-- convention-summary-start -->
+### BetHistoryDetailModule Gotchas Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for BetHistoryDetailModule Gotchas Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 07_gotchas
+- **Scope & Code Paths**: `01_node_pool_leak_on_repeated_reopen.md`, `02_scrollview_offset_negative_bounce.md`
+- **Related Docs**: [`01_node_pool_leak_on_repeated_reopen`](01_node_pool_leak_on_repeated_reopen.md), [`02_scrollview_offset_negative_bounce`](02_scrollview_offset_negative_bounce.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Engine Gotchas Summary

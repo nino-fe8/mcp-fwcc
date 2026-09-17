@@ -7,6 +7,17 @@ tags: ["MathUtils", "math_utils", "cc_core_lib", "overview", "eno", "share-lib",
 
 # 🏛️ `MathUtils` Architectural Role & Runtime Integration
 
+<!-- convention-summary-start -->
+### MathUtils Architectural Role & Runtime Integration Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for MathUtils Architectural Role & Runtime Integration.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_core_lib, 01_overview
+- **Scope & Code Paths**: `assets/cc-common/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 - **Package Source**: `assets/cc-common/cc-core-lib/share-lib`
 - **Global Namespace Anchor**: `eno.MathUtils` / `globalThis.eno.MathUtils`
 - **Inheritance Hierarchy**: `MathUtils` ➔ `Object`

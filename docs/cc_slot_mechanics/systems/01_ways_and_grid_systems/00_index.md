@@ -7,6 +7,17 @@ tags: ["cc_slot_mechanics", "systems", "megaways", "cluster", "infinity_reels", 
 
 # 🌐 Ways & Grid Systems Architecture Index
 
+<!-- convention-summary-start -->
+### Ways & Grid Systems Architecture Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Ways & Grid Systems Architecture Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_mechanics, 01_ways_and_grid_systems
+- **Scope & Code Paths**: `./01_megaways_combinatorial_math.md`, `./02_cluster_pay_bfs_grouping.md`, `./03_infinity_reel_expansion_engine.md`
+- **Related Docs**: [`01_megaways_combinatorial_math.md`](./01_megaways_combinatorial_math.md), [`02_cluster_pay_bfs_grouping.md`](./02_cluster_pay_bfs_grouping.md), [`03_infinity_reel_expansion_engine.md`](./03_infinity_reel_expansion_engine.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Subsystem Mission

@@ -7,6 +7,17 @@ tags: ["JackpotWinModule", "jackpot_win_module", "cc_slot_module", "recipes", "i
 
 # 💡 JackpotWinModule Practical Recipes Index
 
+<!-- convention-summary-start -->
+### JackpotWinModule Practical Recipes Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for JackpotWinModule Practical Recipes Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 08_recipes
+- **Scope & Code Paths**: `./01_custom_four_tier_jackpot_presentation.md`
+- **Related Docs**: [`01_custom_four_tier_jackpot_presentation`](./01_custom_four_tier_jackpot_presentation.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Recipes Catalog

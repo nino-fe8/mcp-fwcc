@@ -8,6 +8,17 @@ tags: ["9666", "events", "synchronization", "event_bus", "near_win", "fast_stop"
 
 # 🔄 Red Cliff (g9666) Cascade Synchronization & Event Bus Pipeline
 
+<!-- convention-summary-start -->
+### Red Cliff (g9666) Cascade Synchronization & Event Bus Pipeline Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Red Cliff (g9666) Cascade Synchronization & Event Bus Pipeline.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: game_implement, 03_composite_cascade
+- **Scope & Code Paths**: `assets/cc-common/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Event Pipeline Map

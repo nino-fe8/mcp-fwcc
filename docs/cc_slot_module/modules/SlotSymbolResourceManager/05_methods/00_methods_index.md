@@ -7,6 +7,17 @@ tags: ["SlotSymbolResourceManager", "slot_symbol_resource_manager", "cc_slot_mod
 
 # 📋 SlotSymbolResourceManager Methods Index
 
+<!-- convention-summary-start -->
+### SlotSymbolResourceManager Methods Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for SlotSymbolResourceManager Methods Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 05_methods
+- **Scope & Code Paths**: `./onLoad.md`, `./initAssets.md`, `./getSymbolFrame.md`
+- **Related Docs**: [`onLoad(): void`](./onLoad.md), [`initAssets(): void`](./initAssets.md), [`getSymbolFrame(symbolCode): cc.SpriteFrame`](./getSymbolFrame.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Declared Methods Summary Table

@@ -1,0 +1,1495 @@
+{
+  "date": "2026-09-04",
+  "totalRequests": 68,
+  "totalToolCalls": 62,
+  "totalSuccess": 68,
+  "totalErrors": 0,
+  "successRatePercent": 100,
+  "totalDurationMs": 1641,
+  "avgDurationMs": 24.1,
+  "byTool": {
+    "fwcc_search_docs": {
+      "calls": 35,
+      "success": 35,
+      "errors": 0,
+      "totalDurationMs": 1432,
+      "avgDurationMs": 40.9,
+      "minDurationMs": 1,
+      "maxDurationMs": 257,
+      "lastCalledAt": "2026-09-04T10:25:10.821Z"
+    },
+    "fwcc_get_doc": {
+      "calls": 12,
+      "success": 12,
+      "errors": 0,
+      "totalDurationMs": 124,
+      "avgDurationMs": 10.3,
+      "minDurationMs": 1,
+      "maxDurationMs": 32,
+      "lastCalledAt": "2026-09-04T10:22:03.875Z"
+    },
+    "fwcc_get_gotchas": {
+      "calls": 3,
+      "success": 3,
+      "errors": 0,
+      "totalDurationMs": 2,
+      "avgDurationMs": 0.7,
+      "minDurationMs": 0,
+      "maxDurationMs": 1,
+      "lastCalledAt": "2026-09-04T08:29:46.475Z"
+    },
+    "fwcc_search_topic": {
+      "calls": 1,
+      "success": 1,
+      "errors": 0,
+      "totalDurationMs": 61,
+      "avgDurationMs": 61,
+      "minDurationMs": 61,
+      "maxDurationMs": 61,
+      "lastCalledAt": "2026-09-04T06:54:15.394Z"
+    },
+    "fwcc_list_transfer_knowledge": {
+      "calls": 1,
+      "success": 1,
+      "errors": 0,
+      "totalDurationMs": 17,
+      "avgDurationMs": 17,
+      "minDurationMs": 17,
+      "maxDurationMs": 17,
+      "lastCalledAt": "2026-09-04T08:36:41.868Z"
+    },
+    "fwcc_read_chunk": {
+      "calls": 10,
+      "success": 10,
+      "errors": 0,
+      "totalDurationMs": 5,
+      "avgDurationMs": 0.5,
+      "minDurationMs": 0,
+      "maxDurationMs": 2,
+      "lastCalledAt": "2026-09-04T09:38:21.942Z"
+    }
+  },
+  "byCaller": {
+    "192.168.20.84": {
+      "calls": 68,
+      "success": 68,
+      "errors": 0,
+      "clientName": "192.168.20.84",
+      "firstSeenAt": "2026-09-04T01:42:57.198Z",
+      "lastSeenAt": "2026-09-04T10:25:10.821Z"
+    }
+  },
+  "byHour": {
+    "11": 6,
+    "13": 6,
+    "14": 2,
+    "15": 18,
+    "16": 22,
+    "17": 7,
+    "08": 2,
+    "09": 5
+  },
+  "recentActivities": [
+    {
+      "id": "act_1788517510821_d5god",
+      "timestamp": "2026-09-04T10:25:10.821Z",
+      "date": "2026-09-04",
+      "time": "17:25:10",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_search_docs",
+      "argsSummary": "query: \"freegame near win SlotTableNea...\"",
+      "args": {
+        "query": "freegame near win SlotTableNearWinModule"
+      },
+      "durationMs": 49,
+      "success": true
+    },
+    {
+      "id": "act_1788517323875_15ihe",
+      "timestamp": "2026-09-04T10:22:03.875Z",
+      "date": "2026-09-04",
+      "time": "17:22:03",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_get_doc",
+      "argsSummary": "relPath: \"game-implement/g9666_red_cliff...\"",
+      "args": {
+        "relPath": "game-implement/g9666_red_cliff/modules/SlotTableNearWinModule9666/01_overview/01_architecture_and_role.md"
+      },
+      "durationMs": 31,
+      "success": true
+    },
+    {
+      "id": "act_1788517287878_u9ld3",
+      "timestamp": "2026-09-04T10:21:27.878Z",
+      "date": "2026-09-04",
+      "time": "17:21:27",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_search_docs",
+      "argsSummary": "query: \"SlotTableNearWinModule free ga...\"",
+      "args": {
+        "query": "SlotTableNearWinModule free game near win"
+      },
+      "durationMs": 111,
+      "success": true
+    },
+    {
+      "id": "act_1788516642299_ai6c4",
+      "timestamp": "2026-09-04T10:10:42.299Z",
+      "date": "2026-09-04",
+      "time": "17:10:42",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_get_doc",
+      "argsSummary": "relPath: \"cc_core_lib/modules/MoneyForma...\"",
+      "args": {
+        "relPath": "cc_core_lib/modules/MoneyFormatter/03_methods/formatMoney.md"
+      },
+      "durationMs": 2,
+      "success": true
+    },
+    {
+      "id": "act_1788516635152_eixmh",
+      "timestamp": "2026-09-04T10:10:35.152Z",
+      "date": "2026-09-04",
+      "time": "17:10:35",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_search_docs",
+      "argsSummary": "query: \"cent roll up win amount format...\"",
+      "args": {
+        "query": "cent roll up win amount formatMoney"
+      },
+      "durationMs": 13,
+      "success": true
+    },
+    {
+      "id": "act_1788516504117_tm9a0",
+      "timestamp": "2026-09-04T10:08:24.117Z",
+      "date": "2026-09-04",
+      "time": "17:08:24",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_search_docs",
+      "argsSummary": "query: \"cent roll up money format win ...\"",
+      "args": {
+        "query": "cent roll up money format win amount"
+      },
+      "durationMs": 13,
+      "success": true
+    },
+    {
+      "id": "act_1788516452130_sp4xz",
+      "timestamp": "2026-09-04T10:07:32.130Z",
+      "date": "2026-09-04",
+      "time": "17:07:32",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_search_docs",
+      "argsSummary": "ServerName: \"mcp-fwcc-knowledge\", ToolName: \"fwcc_search_docs\", query: \"MoneyTween runNumber implement...\", toolAction: ...",
+      "args": {
+        "ServerName": "mcp-fwcc-knowledge",
+        "ToolName": "fwcc_search_docs",
+        "query": "MoneyTween runNumber implementation",
+        "toolAction": "Searching docs",
+        "toolSummary": "Search knowledge base for MoneyTween.runNumber implementation"
+      },
+      "durationMs": 19,
+      "success": true
+    },
+    {
+      "id": "act_1788514719215_57g1k",
+      "timestamp": "2026-09-04T09:38:39.215Z",
+      "date": "2026-09-04",
+      "time": "16:38:39",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_search_docs",
+      "argsSummary": "query: \"\"switch to displaying in $\"\"",
+      "args": {
+        "query": "\"switch to displaying in $\""
+      },
+      "durationMs": 69,
+      "success": true
+    },
+    {
+      "id": "act_1788514701942_z1o24",
+      "timestamp": "2026-09-04T09:38:21.942Z",
+      "date": "2026-09-04",
+      "time": "16:38:21",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_read_chunk",
+      "argsSummary": "chunkIndex: 1, relPath: \"cc_core_lib/modules/MoneyTween...\"",
+      "args": {
+        "chunkIndex": 1,
+        "relPath": "cc_core_lib/modules/MoneyTween/03_methods/runBigWinNumber.md"
+      },
+      "durationMs": 0,
+      "success": true
+    },
+    {
+      "id": "act_1788514680659_7wt78",
+      "timestamp": "2026-09-04T09:38:00.659Z",
+      "date": "2026-09-04",
+      "time": "16:38:00",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_read_chunk",
+      "argsSummary": "chunkIndex: 0, relPath: \"cc_core_lib/modules/MoneyTween...\"",
+      "args": {
+        "chunkIndex": 0,
+        "relPath": "cc_core_lib/modules/MoneyTween/03_methods/runBigWinNumber.md"
+      },
+      "durationMs": 1,
+      "success": true
+    },
+    {
+      "id": "act_1788514657164_9gubm",
+      "timestamp": "2026-09-04T09:37:37.164Z",
+      "date": "2026-09-04",
+      "time": "16:37:37",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_search_docs",
+      "argsSummary": "query: \"runBigWinNumber roll up cents\"",
+      "args": {
+        "query": "runBigWinNumber roll up cents"
+      },
+      "durationMs": 35,
+      "success": true
+    },
+    {
+      "id": "act_1788514259657_y12ns",
+      "timestamp": "2026-09-04T09:30:59.657Z",
+      "date": "2026-09-04",
+      "time": "16:30:59",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_read_chunk",
+      "argsSummary": "chunkIndex: 2, relPath: \"cc_core_lib/modules/MoneyForma...\"",
+      "args": {
+        "chunkIndex": 2,
+        "relPath": "cc_core_lib/modules/MoneyFormatter/03_methods/formatMoney.md"
+      },
+      "durationMs": 1,
+      "success": true
+    },
+    {
+      "id": "act_1788514201984_qcs5r",
+      "timestamp": "2026-09-04T09:30:01.984Z",
+      "date": "2026-09-04",
+      "time": "16:30:01",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_read_chunk",
+      "argsSummary": "chunkIndex: 0, relPath: \"transfer-ark/03_business_discr...\"",
+      "args": {
+        "chunkIndex": 0,
+        "relPath": "transfer-ark/03_business_discrepancies/DISCREPANCY_001_cocos_vs_pixijs/05_matrix_paylines_and_payouts.md"
+      },
+      "durationMs": 0,
+      "success": true
+    },
+    {
+      "id": "act_1788514180336_2hyon",
+      "timestamp": "2026-09-04T09:29:40.336Z",
+      "date": "2026-09-04",
+      "time": "16:29:40",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_search_docs",
+      "argsSummary": "query: \"\"50 cents\"\"",
+      "args": {
+        "query": "\"50 cents\""
+      },
+      "durationMs": 1,
+      "success": true
+    },
+    {
+      "id": "act_1788514134030_8tizq",
+      "timestamp": "2026-09-04T09:28:54.030Z",
+      "date": "2026-09-04",
+      "time": "16:28:54",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_search_docs",
+      "argsSummary": "query: \"\"Money box\" OR \"roll-up\" OR \"r...\"",
+      "args": {
+        "query": "\"Money box\" OR \"roll-up\" OR \"roll up\" OR \"Win amount\""
+      },
+      "durationMs": 18,
+      "success": true
+    },
+    {
+      "id": "act_1788514120712_xervz",
+      "timestamp": "2026-09-04T09:28:40.712Z",
+      "date": "2026-09-04",
+      "time": "16:28:40",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_read_chunk",
+      "argsSummary": "chunkIndex: 0, relPath: \"transfer-ark/03_business_discr...\"",
+      "args": {
+        "chunkIndex": 0,
+        "relPath": "transfer-ark/03_business_discrepancies/items/ITEM_030_currency_symbol_and_denom_display.md"
+      },
+      "durationMs": 0,
+      "success": true
+    },
+    {
+      "id": "act_1788514091649_62oro",
+      "timestamp": "2026-09-04T09:28:11.649Z",
+      "date": "2026-09-04",
+      "time": "16:28:11",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_search_docs",
+      "argsSummary": "query: \"\"0 cent\" \"<50 cents\"\"",
+      "args": {
+        "query": "\"0 cent\" \"<50 cents\""
+      },
+      "durationMs": 9,
+      "success": true
+    },
+    {
+      "id": "act_1788514038766_jomj4",
+      "timestamp": "2026-09-04T09:27:18.766Z",
+      "date": "2026-09-04",
+      "time": "16:27:18",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_search_docs",
+      "argsSummary": "query: \"MoneyFormatter cents\"",
+      "args": {
+        "query": "MoneyFormatter cents"
+      },
+      "durationMs": 3,
+      "success": true
+    },
+    {
+      "id": "act_1788514026446_qio14",
+      "timestamp": "2026-09-04T09:27:06.446Z",
+      "date": "2026-09-04",
+      "time": "16:27:06",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_read_chunk",
+      "argsSummary": "chunkIndex: 0, relPath: \"cc_core_lib/modules/MoneyForma...\"",
+      "args": {
+        "chunkIndex": 0,
+        "relPath": "cc_core_lib/modules/MoneyFormatter/03_methods/formatMoney.md"
+      },
+      "durationMs": 0,
+      "success": true
+    },
+    {
+      "id": "act_1788513953330_qfzph",
+      "timestamp": "2026-09-04T09:25:53.330Z",
+      "date": "2026-09-04",
+      "time": "16:25:53",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_search_docs",
+      "argsSummary": "query: \"cents formatMoney roll up\"",
+      "args": {
+        "query": "cents formatMoney roll up"
+      },
+      "durationMs": 7,
+      "success": true
+    },
+    {
+      "id": "act_1788513882430_cuyg5",
+      "timestamp": "2026-09-04T09:24:42.430Z",
+      "date": "2026-09-04",
+      "time": "16:24:42",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_search_docs",
+      "argsSummary": "query: \"WinEffectModule roll up cents\"",
+      "args": {
+        "query": "WinEffectModule roll up cents"
+      },
+      "durationMs": 35,
+      "success": true
+    },
+    {
+      "id": "act_1788512837707_b83q8",
+      "timestamp": "2026-09-04T09:07:17.707Z",
+      "date": "2026-09-04",
+      "time": "16:07:17",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_read_chunk",
+      "argsSummary": "chunkIndex: 3, relPath: \"game-implement/g9666_red_cliff...\"",
+      "args": {
+        "chunkIndex": 3,
+        "relPath": "game-implement/g9666_red_cliff/05_stack_wild_subsystem/04_edge_cases_and_gotchas.md"
+      },
+      "durationMs": 0,
+      "success": true
+    },
+    {
+      "id": "act_1788512821496_6jcyl",
+      "timestamp": "2026-09-04T09:07:01.496Z",
+      "date": "2026-09-04",
+      "time": "16:07:01",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_read_chunk",
+      "argsSummary": "chunkIndex: 2, relPath: \"game-implement/g9666_red_cliff...\"",
+      "args": {
+        "chunkIndex": 2,
+        "relPath": "game-implement/g9666_red_cliff/05_stack_wild_subsystem/04_edge_cases_and_gotchas.md"
+      },
+      "durationMs": 1,
+      "success": true
+    },
+    {
+      "id": "act_1788512769351_v6mpy",
+      "timestamp": "2026-09-04T09:06:09.351Z",
+      "date": "2026-09-04",
+      "time": "16:06:09",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_read_chunk",
+      "argsSummary": "chunkIndex: 1, relPath: \"game-implement/g9666_red_cliff...\"",
+      "args": {
+        "chunkIndex": 1,
+        "relPath": "game-implement/g9666_red_cliff/05_stack_wild_subsystem/04_edge_cases_and_gotchas.md"
+      },
+      "durationMs": 0,
+      "success": true
+    },
+    {
+      "id": "act_1788512735526_87esl",
+      "timestamp": "2026-09-04T09:05:35.526Z",
+      "date": "2026-09-04",
+      "time": "16:05:35",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_read_chunk",
+      "argsSummary": "chunkIndex: 0, relPath: \"game-implement/g9666_red_cliff...\"",
+      "args": {
+        "chunkIndex": 0,
+        "relPath": "game-implement/g9666_red_cliff/05_stack_wild_subsystem/04_edge_cases_and_gotchas.md"
+      },
+      "durationMs": 2,
+      "success": true
+    },
+    {
+      "id": "act_1788512683067_23t33",
+      "timestamp": "2026-09-04T09:04:43.067Z",
+      "date": "2026-09-04",
+      "time": "16:04:43",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_search_docs",
+      "argsSummary": "query: \"\"05_stack_wild_subsystem/04_ed...\"",
+      "args": {
+        "query": "\"05_stack_wild_subsystem/04_edge_cases_and_gotchas.md\""
+      },
+      "durationMs": 28,
+      "success": true
+    },
+    {
+      "id": "act_1788512669103_wxbxs",
+      "timestamp": "2026-09-04T09:04:29.103Z",
+      "date": "2026-09-04",
+      "time": "16:04:29",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_search_docs",
+      "argsSummary": "query: \"game-implement/g9666_red_cliff...\"",
+      "args": {
+        "query": "game-implement/g9666_red_cliff/modules/StackWild"
+      },
+      "durationMs": 58,
+      "success": true
+    },
+    {
+      "id": "act_1788512643840_k2m0r",
+      "timestamp": "2026-09-04T09:04:03.840Z",
+      "date": "2026-09-04",
+      "time": "16:04:03",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_search_docs",
+      "argsSummary": "query: \"respinGameMatrix matrix0 backe...\"",
+      "args": {
+        "query": "respinGameMatrix matrix0 backend"
+      },
+      "durationMs": 22,
+      "success": true
+    },
+    {
+      "id": "act_1788512432895_opi2s",
+      "timestamp": "2026-09-04T09:00:32.895Z",
+      "date": "2026-09-04",
+      "time": "16:00:32",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_get_doc",
+      "argsSummary": "docPath: \"game-implement/g9666_red_cliff...\"",
+      "args": {
+        "docPath": "game-implement/g9666_red_cliff/modules/CombineEffectModule9666/01_overview/01_architecture_and_role.md"
+      },
+      "durationMs": 1,
+      "success": true
+    },
+    {
+      "id": "act_1788512391227_mvid4",
+      "timestamp": "2026-09-04T08:59:51.227Z",
+      "date": "2026-09-04",
+      "time": "15:59:51",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_search_docs",
+      "argsSummary": "query: \"combine 9666\"",
+      "args": {
+        "query": "combine 9666"
+      },
+      "durationMs": 3,
+      "success": true
+    },
+    {
+      "id": "act_1788512223133_w6e06",
+      "timestamp": "2026-09-04T08:57:03.133Z",
+      "date": "2026-09-04",
+      "time": "15:57:03",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_search_docs",
+      "argsSummary": "query: \"9666 respin stackwild\"",
+      "args": {
+        "query": "9666 respin stackwild"
+      },
+      "durationMs": 6,
+      "success": true
+    },
+    {
+      "id": "act_1788512202044_nthad",
+      "timestamp": "2026-09-04T08:56:42.044Z",
+      "date": "2026-09-04",
+      "time": "15:56:42",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_search_docs",
+      "argsSummary": "query: \"stackedCodeReel\"",
+      "args": {
+        "query": "stackedCodeReel"
+      },
+      "durationMs": 68,
+      "success": true
+    },
+    {
+      "id": "act_1788512143370_tdqzc",
+      "timestamp": "2026-09-04T08:55:43.370Z",
+      "date": "2026-09-04",
+      "time": "15:55:43",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_search_docs",
+      "argsSummary": "query: \"matrixLightningData formatMatr...\"",
+      "args": {
+        "query": "matrixLightningData formatMatrix"
+      },
+      "durationMs": 54,
+      "success": true
+    },
+    {
+      "id": "act_1788512093253_m8itx",
+      "timestamp": "2026-09-04T08:54:53.253Z",
+      "date": "2026-09-04",
+      "time": "15:54:53",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_search_docs",
+      "argsSummary": "query: \"CombineEffect gotchas\"",
+      "args": {
+        "query": "CombineEffect gotchas"
+      },
+      "durationMs": 47,
+      "success": true
+    },
+    {
+      "id": "act_1788512052118_ako0a",
+      "timestamp": "2026-09-04T08:54:12.118Z",
+      "date": "2026-09-04",
+      "time": "15:54:12",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_search_docs",
+      "argsSummary": "query: \"combine stackwild\"",
+      "args": {
+        "query": "combine stackwild"
+      },
+      "durationMs": 119,
+      "success": true
+    },
+    {
+      "id": "act_1788511050121_4smlt",
+      "timestamp": "2026-09-04T08:37:30.121Z",
+      "date": "2026-09-04",
+      "time": "15:37:30",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_search_docs",
+      "argsSummary": "query: \"TABLE_FAST_STOP g9666\"",
+      "args": {
+        "query": "TABLE_FAST_STOP g9666"
+      },
+      "durationMs": 36,
+      "success": true
+    },
+    {
+      "id": "act_1788511001868_7bmf5",
+      "timestamp": "2026-09-04T08:36:41.868Z",
+      "date": "2026-09-04",
+      "time": "15:36:41",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_list_transfer_knowledge",
+      "argsSummary": "",
+      "args": {},
+      "durationMs": 17,
+      "success": true
+    },
+    {
+      "id": "act_1788510722854_axxug",
+      "timestamp": "2026-09-04T08:32:02.854Z",
+      "date": "2026-09-04",
+      "time": "15:32:02",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_search_docs",
+      "argsSummary": "query: \"replaceWithStackWildSymbols\"",
+      "args": {
+        "query": "replaceWithStackWildSymbols"
+      },
+      "durationMs": 37,
+      "success": true
+    },
+    {
+      "id": "act_1788510586475_id69u",
+      "timestamp": "2026-09-04T08:29:46.475Z",
+      "date": "2026-09-04",
+      "time": "15:29:46",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_get_gotchas",
+      "argsSummary": "gameId: \"9666\"",
+      "args": {
+        "gameId": "9666"
+      },
+      "durationMs": 0,
+      "success": true
+    },
+    {
+      "id": "act_1788510565183_ucjz2",
+      "timestamp": "2026-09-04T08:29:25.182Z",
+      "date": "2026-09-04",
+      "time": "15:29:25",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_search_docs",
+      "argsSummary": "query: \"formatMatrix DEFAULT_MEGA_FORM...\"",
+      "args": {
+        "query": "formatMatrix DEFAULT_MEGA_FORMAT_MATRIX"
+      },
+      "durationMs": 6,
+      "success": true
+    },
+    {
+      "id": "act_1788510489245_pw8kk",
+      "timestamp": "2026-09-04T08:28:09.245Z",
+      "date": "2026-09-04",
+      "time": "15:28:09",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_search_docs",
+      "argsSummary": "query: \"SlotReelMegaModule\"",
+      "args": {
+        "query": "SlotReelMegaModule"
+      },
+      "durationMs": 64,
+      "success": true
+    },
+    {
+      "id": "act_1788510422764_5vznn",
+      "timestamp": "2026-09-04T08:27:02.764Z",
+      "date": "2026-09-04",
+      "time": "15:27:02",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_get_doc",
+      "argsSummary": "relPath: \"game-implement/g9666_red_cliff...\"",
+      "args": {
+        "relPath": "game-implement/g9666_red_cliff/03_composite_cascade/05_edge_cases_and_gotchas.md"
+      },
+      "durationMs": 10,
+      "success": true
+    },
+    {
+      "id": "act_1788510401084_wkdcq",
+      "timestamp": "2026-09-04T08:26:41.084Z",
+      "date": "2026-09-04",
+      "time": "15:26:41",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_search_docs",
+      "argsSummary": "query: \"mega fast stop\"",
+      "args": {
+        "query": "mega fast stop"
+      },
+      "durationMs": 21,
+      "success": true
+    },
+    {
+      "id": "act_1788510121790_5gr76",
+      "timestamp": "2026-09-04T08:22:01.790Z",
+      "date": "2026-09-04",
+      "time": "15:22:01",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_get_doc",
+      "argsSummary": "relPath: \"transfer-ark/02_feature_recipe...\"",
+      "args": {
+        "relPath": "transfer-ark/02_feature_recipes/RECIPE_001_custom_stack_wild_reel_expansion_pattern.md"
+      },
+      "durationMs": 11,
+      "success": true
+    },
+    {
+      "id": "act_1788510008069_y0gyv",
+      "timestamp": "2026-09-04T08:20:08.069Z",
+      "date": "2026-09-04",
+      "time": "15:20:08",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_search_docs",
+      "argsSummary": "query: \"mega symbol stack wild\"",
+      "args": {
+        "query": "mega symbol stack wild"
+      },
+      "durationMs": 14,
+      "success": true
+    },
+    {
+      "id": "act_1788509982645_7u40b",
+      "timestamp": "2026-09-04T08:19:42.645Z",
+      "date": "2026-09-04",
+      "time": "15:19:42",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_get_doc",
+      "argsSummary": "relPath: \"game-implement/g9666_red_cliff...\"",
+      "args": {
+        "relPath": "game-implement/g9666_red_cliff/05_stack_wild_subsystem/04_edge_cases_and_gotchas.md"
+      },
+      "durationMs": 12,
+      "success": true
+    },
+    {
+      "id": "act_1788509968742_yaz07",
+      "timestamp": "2026-09-04T08:19:28.742Z",
+      "date": "2026-09-04",
+      "time": "15:19:28",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_search_docs",
+      "argsSummary": "query: \"stack wild mega symbol fast st...\"",
+      "args": {
+        "query": "stack wild mega symbol fast stop ftr"
+      },
+      "durationMs": 257,
+      "success": true
+    },
+    {
+      "id": "act_1788505597356_1mhk3",
+      "timestamp": "2026-09-04T07:06:37.356Z",
+      "date": "2026-09-04",
+      "time": "14:06:37",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_get_doc",
+      "argsSummary": "rel_path: \"cc_slot_module/modules/WalletM...\"",
+      "args": {
+        "rel_path": "cc_slot_module/modules/WalletModule/01_overview/01_architecture_and_role.md"
+      },
+      "durationMs": 9,
+      "success": true
+    },
+    {
+      "id": "act_1788505584855_uofu9",
+      "timestamp": "2026-09-04T07:06:24.855Z",
+      "date": "2026-09-04",
+      "time": "14:06:24",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_search_docs",
+      "argsSummary": "query: \"\"failed\" \"wallet\"\"",
+      "args": {
+        "query": "\"failed\" \"wallet\""
+      },
+      "durationMs": 2,
+      "success": true
+    },
+    {
+      "id": "act_1788505048827_5944f",
+      "timestamp": "2026-09-04T06:57:28.827Z",
+      "date": "2026-09-04",
+      "time": "13:57:28",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_get_doc",
+      "argsSummary": "rel_path: \"cc_core_lib/modules/WalletMana...\"",
+      "args": {
+        "rel_path": "cc_core_lib/modules/WalletManager/03_methods/00_methods_index.md"
+      },
+      "durationMs": 1,
+      "success": true
+    },
+    {
+      "id": "act_1788505040903_osquj",
+      "timestamp": "2026-09-04T06:57:20.903Z",
+      "date": "2026-09-04",
+      "time": "13:57:20",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_get_doc",
+      "argsSummary": "rel_path: \"cc_core_lib/modules/WalletMana...\"",
+      "args": {
+        "rel_path": "cc_core_lib/modules/WalletManager/03_methods/updateWallet.md"
+      },
+      "durationMs": 10,
+      "success": true
+    },
+    {
+      "id": "act_1788505005920_kbwtj",
+      "timestamp": "2026-09-04T06:56:45.920Z",
+      "date": "2026-09-04",
+      "time": "13:56:45",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_get_doc",
+      "argsSummary": "rel_path: \"cc_core_lib/modules/WalletMana...\"",
+      "args": {
+        "rel_path": "cc_core_lib/modules/WalletManager/05_recipes/01_practical_usage_example.md"
+      },
+      "durationMs": 2,
+      "success": true
+    },
+    {
+      "id": "act_1788505000110_v6gxh",
+      "timestamp": "2026-09-04T06:56:40.110Z",
+      "date": "2026-09-04",
+      "time": "13:56:40",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_get_doc",
+      "argsSummary": "rel_path: \"cc_core_lib/modules/WalletMana...\"",
+      "args": {
+        "rel_path": "cc_core_lib/modules/WalletManager/04_gotchas/01_common_engine_gotchas.md"
+      },
+      "durationMs": 3,
+      "success": true
+    },
+    {
+      "id": "act_1788504855394_64ak9",
+      "timestamp": "2026-09-04T06:54:15.394Z",
+      "date": "2026-09-04",
+      "time": "13:54:15",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_search_topic",
+      "argsSummary": "topic: \"WalletManager\"",
+      "args": {
+        "topic": "WalletManager"
+      },
+      "durationMs": 61,
+      "success": true
+    },
+    {
+      "id": "act_1788504847371_d097z",
+      "timestamp": "2026-09-04T06:54:07.371Z",
+      "date": "2026-09-04",
+      "time": "13:54:07",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_search_docs",
+      "argsSummary": "query: \"Wallet_Failed\"",
+      "args": {
+        "query": "Wallet_Failed"
+      },
+      "durationMs": 1,
+      "success": true
+    },
+    {
+      "id": "act_1788497804827_93kmp",
+      "timestamp": "2026-09-04T04:56:44.827Z",
+      "date": "2026-09-04",
+      "time": "11:56:44",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_get_gotchas",
+      "argsSummary": "moduleId: \"WalletManager\"",
+      "args": {
+        "moduleId": "WalletManager"
+      },
+      "durationMs": 1,
+      "success": true
+    },
+    {
+      "id": "act_1788497771970_oztwa",
+      "timestamp": "2026-09-04T04:56:11.970Z",
+      "date": "2026-09-04",
+      "time": "11:56:11",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_get_gotchas",
+      "argsSummary": "",
+      "args": {},
+      "durationMs": 1,
+      "success": true
+    },
+    {
+      "id": "act_1788497717203_llhj8",
+      "timestamp": "2026-09-04T04:55:17.203Z",
+      "date": "2026-09-04",
+      "time": "11:55:17",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_search_docs",
+      "argsSummary": "query: \"\"Win Failed\"\"",
+      "args": {
+        "query": "\"Win Failed\""
+      },
+      "durationMs": 17,
+      "success": true
+    },
+    {
+      "id": "act_1788497709927_s1cms",
+      "timestamp": "2026-09-04T04:55:09.927Z",
+      "date": "2026-09-04",
+      "time": "11:55:09",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_search_docs",
+      "argsSummary": "query: \"Win Failed wallet\"",
+      "args": {
+        "query": "Win Failed wallet"
+      },
+      "durationMs": 53,
+      "success": true
+    },
+    {
+      "id": "act_1788497662173_vzasp",
+      "timestamp": "2026-09-04T04:54:22.173Z",
+      "date": "2026-09-04",
+      "time": "11:54:22",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "rpc_method",
+      "name": "tools/list",
+      "argsSummary": "",
+      "durationMs": 0,
+      "success": true
+    },
+    {
+      "id": "act_1788497662163_5emkj",
+      "timestamp": "2026-09-04T04:54:22.162Z",
+      "date": "2026-09-04",
+      "time": "11:54:22",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "rpc_method",
+      "name": "initialize",
+      "argsSummary": "clientInfo: {..}, protocolVersion: \"2025-11-25\", capabilities: {..}",
+      "args": {
+        "clientInfo": {
+          "name": "antigravity-client",
+          "version": "v1.0.0"
+        },
+        "protocolVersion": "2025-11-25",
+        "capabilities": {
+          "elicitation": {
+            "form": {},
+            "url": {}
+          },
+          "roots": {
+            "listChanged": true
+          }
+        }
+      },
+      "durationMs": 0,
+      "success": true
+    },
+    {
+      "id": "act_1788489296878_sep9p",
+      "timestamp": "2026-09-04T02:34:56.878Z",
+      "date": "2026-09-04",
+      "time": "09:34:56",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_search_docs",
+      "argsSummary": "query: \"CollectScatterModule playColle...\"",
+      "args": {
+        "query": "CollectScatterModule playCollectSpin onSpinArrived"
+      },
+      "durationMs": 71,
+      "success": true
+    },
+    {
+      "id": "act_1788489168360_v3tft",
+      "timestamp": "2026-09-04T02:32:48.360Z",
+      "date": "2026-09-04",
+      "time": "09:32:48",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_get_doc",
+      "argsSummary": "relPath: \"game-implement/g9666_red_cliff...\"",
+      "args": {
+        "relPath": "game-implement/g9666_red_cliff/06_scatter_and_free_game/02_free_game_rules_and_extra_spins.md"
+      },
+      "durationMs": 32,
+      "success": true
+    },
+    {
+      "id": "act_1788489123263_4aq7l",
+      "timestamp": "2026-09-04T02:32:03.263Z",
+      "date": "2026-09-04",
+      "time": "09:32:03",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_search_docs",
+      "argsSummary": "query: \"spin count increase Scatter fl...\"",
+      "args": {
+        "query": "spin count increase Scatter flies Spin button Freegame"
+      },
+      "durationMs": 66,
+      "success": true
+    },
+    {
+      "id": "act_1788488309181_hu7on",
+      "timestamp": "2026-09-04T02:18:29.181Z",
+      "date": "2026-09-04",
+      "time": "09:18:29",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "rpc_method",
+      "name": "tools/list",
+      "argsSummary": "",
+      "durationMs": 0,
+      "success": true
+    },
+    {
+      "id": "act_1788488309179_g2gwv",
+      "timestamp": "2026-09-04T02:18:29.179Z",
+      "date": "2026-09-04",
+      "time": "09:18:29",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "rpc_method",
+      "name": "initialize",
+      "argsSummary": "clientInfo: {..}, protocolVersion: \"2025-11-25\", capabilities: {..}",
+      "args": {
+        "clientInfo": {
+          "name": "antigravity-client",
+          "version": "v1.0.0"
+        },
+        "protocolVersion": "2025-11-25",
+        "capabilities": {
+          "elicitation": {
+            "form": {},
+            "url": {}
+          },
+          "roots": {
+            "listChanged": true
+          }
+        }
+      },
+      "durationMs": 0,
+      "success": true
+    },
+    {
+      "id": "act_1788486177201_ifnt3",
+      "timestamp": "2026-09-04T01:42:57.201Z",
+      "date": "2026-09-04",
+      "time": "08:42:57",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "rpc_method",
+      "name": "tools/list",
+      "argsSummary": "",
+      "durationMs": 0,
+      "success": true
+    },
+    {
+      "id": "act_1788486177198_f8icw",
+      "timestamp": "2026-09-04T01:42:57.198Z",
+      "date": "2026-09-04",
+      "time": "08:42:57",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "rpc_method",
+      "name": "initialize",
+      "argsSummary": "clientInfo: {..}, protocolVersion: \"2025-11-25\", capabilities: {..}",
+      "args": {
+        "clientInfo": {
+          "name": "antigravity-client",
+          "version": "v1.0.0"
+        },
+        "protocolVersion": "2025-11-25",
+        "capabilities": {
+          "elicitation": {
+            "form": {},
+            "url": {}
+          },
+          "roots": {
+            "listChanged": true
+          }
+        }
+      },
+      "durationMs": 0,
+      "success": true
+    }
+  ],
+  "lastUpdated": "2026-09-04T10:25:10.822Z"
+}

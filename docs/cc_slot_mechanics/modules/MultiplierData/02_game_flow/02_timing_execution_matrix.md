@@ -7,6 +7,17 @@ tags: ["MultiplierData", "multiplier_data", "cc_slot_mechanics", "game_flow", "t
 
 # ⏱️ MultiplierData Timing & Execution Matrix
 
+<!-- convention-summary-start -->
+### MultiplierData Timing & Execution Matrix Summary
+
+- **Core Architecture / Purpose**: Defines network protocol, socket packet lifecycle, state persistence, and error handling for MultiplierData Timing & Execution Matrix.
+- **Key Mechanisms & Design**: Handles WebSocket frame dispatch, acknowledgment confirmation, state resume, and resilient synchronization between client DataStore and Backend Gateway.
+- **Domain Capabilities**: cc_slot_mechanics, 02_game_flow
+- **Scope & Code Paths**: `assets/cc-common/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Execution Timing

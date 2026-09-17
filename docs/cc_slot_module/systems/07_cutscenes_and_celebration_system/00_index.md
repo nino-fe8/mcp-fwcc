@@ -7,6 +7,17 @@ tags: ["cc_slot_module", "systems", "cutscenes", "celebration", "win_effect", "j
 
 # 🎆 Cutscenes & Celebratory Overlays Subsystem Architecture Master Guide
 
+<!-- convention-summary-start -->
+### Cutscenes & Celebratory Overlays Subsystem Architecture Master Guide Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Cutscenes & Celebratory Overlays Subsystem Architecture Master Guide.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 07_cutscenes_and_celebration_system
+- **Scope & Code Paths**: `./01_cutscene_queue_and_orchestration.md`, `./02_win_effect_tiers_and_coin_roll_mechanics.md`, `./03_mode_transition_and_total_win_dialogues.md`
+- **Related Docs**: [`01_cutscene_queue_and_orchestration`](./01_cutscene_queue_and_orchestration.md), [`02_win_effect_tiers_and_coin_roll_mechanics`](./02_win_effect_tiers_and_coin_roll_mechanics.md), [`03_mode_transition_and_total_win_dialogues`](./03_mode_transition_and_total_win_dialogues.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Subsystem Architectural Mission

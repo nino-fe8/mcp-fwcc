@@ -7,6 +7,17 @@ tags: ["BonusGameWriterModule", "bonus_game_writer", "cc_slot_module", "recipe",
 
 # 🍳 Recipe: Custom Multiplier Step in Pick Bonus Pipeline
 
+<!-- convention-summary-start -->
+### Recipe: Custom Multiplier Step in Pick Bonus Pipeline Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Recipe: Custom Multiplier Step in Pick Bonus Pipeline.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 08_recipes
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Problem Statement
 You need to insert a custom `_playMultiplierBurst` step immediately following each chest opening before allowing the player to pick again.
 

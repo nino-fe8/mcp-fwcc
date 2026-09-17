@@ -7,6 +7,17 @@ tags: ["BetModule", "bet_module", "cc_slot_module", "methods", "index"]
 
 # 📚 BetModule Methods Catalog Index
 
+<!-- convention-summary-start -->
+### BetModule Methods Catalog Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for BetModule Methods Catalog Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 05_methods
+- **Scope & Code Paths**: `./start.md`, `./setupObserver.md`, `./onUpdateBetDenom.md`
+- **Related Docs**: [`start`](./start.md), [`setupObserver`](./setupObserver.md), [`onUpdateBetDenom`](./onUpdateBetDenom.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Declared Methods Index (All 15 Methods)

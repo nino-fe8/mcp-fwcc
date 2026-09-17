@@ -7,6 +7,17 @@ tags: ["BetSelectionPanel", "betselectionpanel", "cc_slot_module", "methods", "i
 
 # 📑 BetSelectionPanel Methods Index
 
+<!-- convention-summary-start -->
+### BetSelectionPanel Methods Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for BetSelectionPanel Methods Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 05_methods
+- **Scope & Code Paths**: `onLoadExtend.md`, `setupObserver.md`, `init.md`
+- **Related Docs**: [`onLoadExtend`](onLoadExtend.md), [`setupObserver`](setupObserver.md), [`init`](init.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Master Methods Overview

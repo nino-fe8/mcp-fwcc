@@ -11,6 +11,17 @@ author: "ARK Slot Engineering Team"
 
 # 4. ⚡ Turbo & Fast-To-Result Fallback
 
+<!-- convention-summary-start -->
+### Multi-Milestone Big Win - Turbo & Fast-To-Result Fallback Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Multi-Milestone Big Win - Turbo & Fast-To-Result Fallback.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: feature, RECIPE_002_multi_milestone_big_win_celebration_spine_sync
+- **Scope & Code Paths**: `assets/cc-release-slot/cc1-red-cliff/scripts/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 4.1 SDK Fast Big Win Standard

@@ -8,6 +8,17 @@ tags: ["9666", "StackWildModule", "spine", "column_effect", "expansion"]
 
 # 🎆 Red Cliff (g9666) Stack Wild Column Expansion & Spine Effects
 
+<!-- convention-summary-start -->
+### Red Cliff (g9666) Stack Wild Column Expansion & Spine Effects Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Red Cliff (g9666) Stack Wild Column Expansion & Spine Effects.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: game_implement, 05_stack_wild_subsystem
+- **Scope & Code Paths**: `assets/cc-common/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Column Effect Spine Template Lifecycle

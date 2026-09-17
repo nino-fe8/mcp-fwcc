@@ -7,6 +7,17 @@ tags: ["PaylineSymbolModule", "payline_symbol_module", "cc_slot_module", "method
 
 # 📋 PaylineSymbolModule Methods Index
 
+<!-- convention-summary-start -->
+### PaylineSymbolModule Methods Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for PaylineSymbolModule Methods Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 05_methods
+- **Scope & Code Paths**: `./registerPaylineEvents.md`, `./showIdleSymbols.md`, `./setupPayLines.md`
+- **Related Docs**: [`registerPaylineEvents(): void`](./registerPaylineEvents.md), [`showIdleSymbols(symbols): void`](./showIdleSymbols.md), [`setupPayLines(data): void`](./setupPayLines.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Declared Methods Summary Table

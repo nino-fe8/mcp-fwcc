@@ -7,6 +7,17 @@ tags: ["GameDataStore", "game_data_store", "cc_slot_module", "game_flow", "timin
 
 # ⏱️ GameDataStore Execution Performance & Timings Matrix
 
+<!-- convention-summary-start -->
+### GameDataStore Execution Performance & Timings Matrix Summary
+
+- **Core Architecture / Purpose**: Defines network protocol, socket packet lifecycle, state persistence, and error handling for GameDataStore Execution Performance & Timings Matrix.
+- **Key Mechanisms & Design**: Handles WebSocket frame dispatch, acknowledgment confirmation, state resume, and resilient synchronization between client DataStore and Backend Gateway.
+- **Domain Capabilities**: cc_slot_module, 02_game_flow
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Timing Benchmarks
 
 | Method Name | Operation Performed | Benchmark | Synchronicity |

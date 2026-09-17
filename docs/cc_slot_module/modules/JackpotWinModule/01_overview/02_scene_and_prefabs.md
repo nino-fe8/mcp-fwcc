@@ -7,6 +7,17 @@ tags: ["JackpotWinModule", "jackpot_win_module", "cc_slot_module", "overview", "
 
 # 🏛️ JackpotWinModule Scene Node Hierarchy & Prefab Specifications
 
+<!-- convention-summary-start -->
+### JackpotWinModule Scene Node Hierarchy & Prefab Specifications Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for JackpotWinModule Scene Node Hierarchy & Prefab Specifications.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 01_overview
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/CutScene/JackpotWin/JackpotWin.prefab`, `assets/cc-release-slot/redcliff-mcp/data/prefabs/Cutscene/JackpotWin.prefab`, `assets/cc-common/cc-slot-module/CutScene/CoinsEffect/CoinsEffect.prefab`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Live Inspected Scene Hierarchy Structure

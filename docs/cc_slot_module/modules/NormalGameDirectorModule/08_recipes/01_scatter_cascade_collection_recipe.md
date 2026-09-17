@@ -7,6 +7,17 @@ tags: ["NormalGameDirectorModule", "normal_game_director", "cc_slot_module", "re
 
 # 🍳 Recipe: Concurrent Scatter Collection During Cascade Drops
 
+<!-- convention-summary-start -->
+### Recipe: Concurrent Scatter Collection During Cascade Drops Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Recipe: Concurrent Scatter Collection During Cascade Drops.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 08_recipes
+- **Scope & Code Paths**: `NormalGameDirectorModule[GameId].ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Problem Statement
 You need to fly scatter particles to a meter at the exact millisecond winning symbols explode during cascade respins.
 

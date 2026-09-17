@@ -7,6 +7,17 @@ tags: ["CoreDataStore", "core_data_store", "cc_core_lib", "methods", "index"]
 
 # 📖 `CoreDataStore` Methods Master Index
 
+<!-- convention-summary-start -->
+### CoreDataStore Methods Master Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for CoreDataStore Methods Master Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_core_lib, 03_methods
+- **Scope & Code Paths**: `./parseDataPS.md`, `./parseResumeTree.md`, `./isRespinGame.md`
+- **Related Docs**: [`parseDataPS()`](./parseDataPS.md), [`parseResumeTree()`](./parseResumeTree.md), [`isRespinGame()`](./isRespinGame.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Declared Method Signatures

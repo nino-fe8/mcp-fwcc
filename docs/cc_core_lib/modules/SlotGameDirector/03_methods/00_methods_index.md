@@ -7,6 +7,17 @@ tags: ["SlotGameDirector", "slot_game_director", "cc_core_lib", "methods", "inde
 
 # 📖 `SlotGameDirector` Methods Master Index
 
+<!-- convention-summary-start -->
+### SlotGameDirector Methods Master Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for SlotGameDirector Methods Master Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_core_lib, 03_methods
+- **Scope & Code Paths**: `./_disableButtons.md`, `./_showResult.md`, `./_runSpinTrigger.md`
+- **Related Docs**: [`_disableButtons()`](./_disableButtons.md), [`_showResult()`](./_showResult.md), [`_runSpinTrigger()`](./_runSpinTrigger.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Declared Method Signatures

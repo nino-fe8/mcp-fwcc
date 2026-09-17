@@ -15,6 +15,7 @@ export interface DocChunk {
   methods: string;
   codeSymbols: string;
   section: string;
+  summary: string;
   content: string;
   chunkIndex?: number;
 }
@@ -29,16 +30,18 @@ export interface TopicInfo {
   methods: string[];
   classes: string[];
   description: string;
+  summary: string;
 }
 
 export interface SearchResultItem {
   score: number;
   topic: string;
+  summary: string;
   section: string;
   relPath: string;
   category: string;
   tags: string[];
-  snippet: string;
+  snippet?: string;
 }
 
 /**
@@ -200,8 +203,19 @@ export class DocsSearchEngine implements IEngine {
         const methodMatches = Array.from(content.matchAll(/(?:public|protected|private)?\s*(\w+)\s*\([^)]*\)\s*:/g)).map(m => m[1]);
         const allMethods = Array.from(new Set(methodMatches));
 
-        const firstParagraphMatch = content.replace(/^#\s+.+\n+/, "").match(/^[^\n#]+/);
-        const description = firstParagraphMatch ? firstParagraphMatch[0].slice(0, 160).trim() : `Documentation for ${title}`;
+        // Extract convention summary block (<!-- convention-summary-start --> ... <!-- convention-summary-end -->)
+        let conventionSummary = "";
+        const conventionMatch = rawContent.match(/<!--\s*convention-summary-start\s*-->([\s\S]*?)<!--\s*convention-summary-end\s*-->/);
+        if (conventionMatch) {
+          conventionSummary = conventionMatch[1].trim();
+        } else if (data.summary || data.description) {
+          conventionSummary = String(data.summary || data.description).trim();
+        } else {
+          const firstParagraphMatch = content.replace(/^#\s+.+\n+/, "").match(/^[^\n#]+/);
+          conventionSummary = firstParagraphMatch ? firstParagraphMatch[0].trim() : `Documentation for ${title}`;
+        }
+
+        const description = conventionSummary.length > 160 ? conventionSummary.slice(0, 160) + "..." : conventionSummary;
 
         this.topicsList.push({
           id: topicId,
@@ -213,6 +227,7 @@ export class DocsSearchEngine implements IEngine {
           methods: allMethods,
           classes: classMatches,
           description,
+          summary: conventionSummary,
         });
 
         // Split into chunks by H2 sections
@@ -239,6 +254,7 @@ export class DocsSearchEngine implements IEngine {
             methods: allMethods.join(" "),
             codeSymbols: combinedCodeSymbols,
             section: sectionTitle,
+            summary: conventionSummary,
             content: sec.trim(),
             chunkIndex: sectionIdx,
           };
@@ -309,6 +325,7 @@ export class DocsSearchEngine implements IEngine {
         deduplicatedResults.push({
           score: finalScore,
           topic: r.topic,
+          summary: r.summary || extractSmartSnippet(r.content, query, 320),
           section: r.section,
           relPath: normalizedRelPath,
           category: r.category,

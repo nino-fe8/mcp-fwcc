@@ -7,6 +7,17 @@ tags: ["GameInit", "gameinit", "cc_slot_module", "overview", "architecture", "bo
 
 # 🏛️ GameInit Bootstrap Architecture & Container Role
 
+<!-- convention-summary-start -->
+### GameInit Bootstrap Architecture & Container Role Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for GameInit Bootstrap Architecture & Container Role.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 01_overview
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/Core/GameInit.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Executive Summary & Purpose
 
 `GameInit` (`assets/cc-common/cc-slot-module/Core/GameInit.ts`) is the master **Bootstrap Entry Point** and **IoC Service Provider** for any slot game built on the `cc-common` Slot SDK.

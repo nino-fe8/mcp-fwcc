@@ -8,6 +8,17 @@ tags: ["9666", "payline", "task_list", "debugging", "verification"]
 
 # 📋 Red Cliff (g9666) Payline & Spine Bone Tracking Subsystem Task & Debugging Checklist
 
+<!-- convention-summary-start -->
+### Red Cliff (g9666) Payline & Spine Bone Tracking Subsystem Task & Debugging Checklist Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Red Cliff (g9666) Payline & Spine Bone Tracking Subsystem Task & Debugging Checklist.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: game_implement, 07_payline_and_spine_sync
+- **Scope & Code Paths**: `../../../../assets/cc-release-slot/cc1-red-cliff/scripts/Gui/PaylineInfoModule9666.ts#L368-L381`, `../../../../assets/cc-release-slot/cc1-red-cliff/scripts/Gui/PaylineInfoModule9666.ts#L227-L235`, `../../../../assets/cc-release-slot/cc1-red-cliff/scripts/Gui/PaylineInfoModule9666.ts#L519-L524`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 🎯 Purpose & Scope

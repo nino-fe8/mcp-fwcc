@@ -7,6 +7,17 @@ tags: ["BetHistoryDetailManagerBase", "bet_history_detail_manager_base", "cc_cor
 
 # 📖 `BetHistoryDetailManagerBase` Methods Master Index
 
+<!-- convention-summary-start -->
+### BetHistoryDetailManagerBase Methods Master Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for BetHistoryDetailManagerBase Methods Master Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_core_lib, 03_methods
+- **Scope & Code Paths**: `./registerEvents.md`, `./initBetDetail.md`, `./requestNextData.md`
+- **Related Docs**: [`registerEvents()`](./registerEvents.md), [`initBetDetail()`](./initBetDetail.md), [`requestNextData()`](./requestNextData.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Declared Method Signatures

@@ -7,6 +7,17 @@ tags: ["PaylineWinFrameModule", "payline_win_frame_module", "cc_slot_module", "o
 
 # 🔄 PaylineWinFrameModule Lifecycle Flowchart
 
+<!-- convention-summary-start -->
+### PaylineWinFrameModule Lifecycle Flowchart Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for PaylineWinFrameModule Lifecycle Flowchart.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 01_overview
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Frame Spawning & Recycling Sequence

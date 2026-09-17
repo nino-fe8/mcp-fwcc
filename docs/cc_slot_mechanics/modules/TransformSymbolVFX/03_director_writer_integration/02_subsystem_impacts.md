@@ -7,6 +7,17 @@ tags: ["TransformSymbolVFX", "transform_symbol_vfx", "cc_slot_mechanics", "pipel
 
 # 🌐 TransformSymbolVFX Subsystem Impacts
 
+<!-- convention-summary-start -->
+### TransformSymbolVFX Subsystem Impacts Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for TransformSymbolVFX Subsystem Impacts.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_mechanics, 03_director_writer_integration
+- **Scope & Code Paths**: `assets/cc-common/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Cross-Subsystem Impacts

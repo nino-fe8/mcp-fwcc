@@ -7,6 +7,17 @@ tags: ["FortuneWheelGameDirector", "fortune_wheel_director", "cc_slot_module", "
 
 # 📋 FortuneWheelGameDirector Methods Index
 
+<!-- convention-summary-start -->
+### FortuneWheelGameDirector Methods Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for FortuneWheelGameDirector Methods Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 05_methods
+- **Scope & Code Paths**: `./onExtendedLoad.md`, `./onSpinWheel.md`, `./_showWheelResult.md`
+- **Related Docs**: [`onExtendedLoad(): void`](./onExtendedLoad.md), [`onSpinWheel(): void`](./onSpinWheel.md), [`_showWheelResult(bonusValue: number): Promise<void>`](./_showWheelResult.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Declared Methods Summary Table

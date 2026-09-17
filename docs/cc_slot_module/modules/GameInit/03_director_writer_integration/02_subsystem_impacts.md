@@ -7,6 +7,17 @@ tags: ["GameInit", "gameinit", "cc_slot_module", "director_writer", "subsystems"
 
 # 🌐 GameInit Subsystem Impacts & Downstream Dependencies
 
+<!-- convention-summary-start -->
+### GameInit Subsystem Impacts & Downstream Dependencies Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for GameInit Subsystem Impacts & Downstream Dependencies.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 03_director_writer_integration
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Matrix of Subsystem Impacts
 
 `GameInit` establishes and supplies dependencies to 5 major subsystems:

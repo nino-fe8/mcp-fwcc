@@ -7,6 +7,17 @@ tags: ["GameDirector", "game_director", "cc_slot_module", "recipe", "custom_mode
 
 # 🍳 Recipe: Adding a 4th Custom Mini-Game Mode to GameDirector
 
+<!-- convention-summary-start -->
+### Recipe: Adding a 4th Custom Mini-Game Mode to GameDirector Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Recipe: Adding a 4th Custom Mini-Game Mode to GameDirector.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 08_recipes
+- **Scope & Code Paths**: `SlotEnum.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Problem Statement
 You need to introduce an independent Wheel Feature Game Mode (`GAME_MODE_ENUM.WHEEL_GAME = 8`) that temporarily replaces the Normal Game and restores it upon completion.
 

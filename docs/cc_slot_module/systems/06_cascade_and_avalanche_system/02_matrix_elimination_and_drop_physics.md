@@ -7,6 +7,17 @@ tags: ["cc_slot_module", "systems", "cascade", "drop_physics", "matrix_math", "t
 
 # 📐 Matrix Elimination Mathematics & Drop Physics
 
+<!-- convention-summary-start -->
+### Matrix Elimination Mathematics & Drop Physics Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Matrix Elimination Mathematics & Drop Physics.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 06_cascade_and_avalanche_system
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Column Shift Mathematics (`getOldSymbols`)

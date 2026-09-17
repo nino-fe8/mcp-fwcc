@@ -7,6 +7,17 @@ tags: ["SlotTableNearWinModule", "slot_table_near_win_module", "cc_slot_module",
 
 # 📋 SlotTableNearWinModule Methods Index
 
+<!-- convention-summary-start -->
+### SlotTableNearWinModule Methods Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for SlotTableNearWinModule Methods Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 05_methods
+- **Scope & Code Paths**: `./onLoadExtend.md`, `./start.md`, `./initNearWinValue.md`
+- **Related Docs**: [`onLoadExtend(): void`](./onLoadExtend.md), [`start(): void`](./start.md), [`initNearWinValue(): void`](./initNearWinValue.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Declared Methods Summary Table

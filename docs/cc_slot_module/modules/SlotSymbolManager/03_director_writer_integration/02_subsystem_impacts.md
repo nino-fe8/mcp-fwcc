@@ -7,6 +7,17 @@ tags: ["SlotSymbolManager", "slot_symbol_manager", "cc_slot_module", "director_w
 
 # 🌐 SlotSymbolManager Subsystem Impact Matrix
 
+<!-- convention-summary-start -->
+### SlotSymbolManager Subsystem Impact Matrix Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for SlotSymbolManager Subsystem Impact Matrix.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 03_director_writer_integration
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Subsystems Cross-Reference
 
 | Action | `SlotReelModule` | `SlotTablePaylineModule` | `SlotSymbolModule` | `cc.NodePool` |

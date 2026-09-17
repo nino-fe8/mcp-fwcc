@@ -7,6 +7,17 @@ tags: ["SlotReelModule", "slot_reel_module", "cc_slot_module", "gotchas", "engin
 
 # ⚠️ SlotReelModule Gotchas & Engine Pitfalls Index
 
+<!-- convention-summary-start -->
+### SlotReelModule Gotchas & Engine Pitfalls Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for SlotReelModule Gotchas & Engine Pitfalls Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 07_gotchas
+- **Scope & Code Paths**: `./01_reel_bounce_tween_interrupt_hang.md`, `./02_buffer_top_popin_visual_glitch.md`
+- **Related Docs**: [`01_reel_bounce_tween_interrupt_hang.md`](./01_reel_bounce_tween_interrupt_hang.md), [`02_buffer_top_popin_visual_glitch.md`](./02_buffer_top_popin_visual_glitch.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Known Gotchas & Engine Pitfalls Summary Table

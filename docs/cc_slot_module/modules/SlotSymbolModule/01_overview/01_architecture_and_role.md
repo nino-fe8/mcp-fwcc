@@ -7,6 +7,17 @@ tags: ["SlotSymbolModule", "slot_symbol_module", "cc_slot_module", "overview", "
 
 # 🎰 SlotSymbolModule Visual Entity Architecture & Display Tri-State
 
+<!-- convention-summary-start -->
+### SlotSymbolModule Visual Entity Architecture & Display Tri-State Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for SlotSymbolModule Visual Entity Architecture & Display Tri-State.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 01_overview
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/BaseModule/Table/SlotSymbol/SlotSymbolModule.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Architectural Purpose & Entity Boundary

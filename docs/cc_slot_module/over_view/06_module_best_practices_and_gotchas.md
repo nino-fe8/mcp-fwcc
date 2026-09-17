@@ -7,6 +7,17 @@ tags: ["cc_slot_module", "SlotBaseModule", "best_practices", "gotchas", "antipat
 
 # ⚠️ Module Best Practices, Design Patterns & Engine Gotchas
 
+<!-- convention-summary-start -->
+### Module Best Practices, Design Patterns & Engine Gotchas Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Module Best Practices, Design Patterns & Engine Gotchas.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, over_view
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Top 5 Architectural Gotchas & Antipatterns
 
 ### 🛑 Gotcha #1: Overriding `onLoad()` without `super.onLoad()`

@@ -7,6 +7,17 @@ tags: ["GameDirector", "game_director", "cc_slot_module", "methods", "index"]
 
 # 📋 GameDirector Methods Index
 
+<!-- convention-summary-start -->
+### GameDirector Methods Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for GameDirector Methods Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 05_methods
+- **Scope & Code Paths**: `./onSwitchGameMode.md`, `./onExitGameMode.md`, `./resumeNormalGameMode.md`
+- **Related Docs**: [`onSwitchGameMode(mode: number): void`](./onSwitchGameMode.md), [`onExitGameMode(): Promise<void>`](./onExitGameMode.md), [`resumeNormalGameMode(): void`](./resumeNormalGameMode.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Declared Methods Summary Table

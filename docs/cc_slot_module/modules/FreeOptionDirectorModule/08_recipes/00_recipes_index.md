@@ -7,6 +7,17 @@ tags: ["FreeOptionDirectorModule", "free_option_director", "cc_slot_module", "re
 
 # 🍳 FreeOptionDirectorModule Recipes Index
 
+<!-- convention-summary-start -->
+### FreeOptionDirectorModule Recipes Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for FreeOptionDirectorModule Recipes Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 08_recipes
+- **Scope & Code Paths**: `./01_custom_choice_card_selection_recipe.md`, `./02_mystery_choice_roulette_recipe.md`
+- **Related Docs**: [`01_custom_choice_card_selection_recipe`](./01_custom_choice_card_selection_recipe.md), [`02_mystery_choice_roulette_recipe`](./02_mystery_choice_roulette_recipe.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Master Recipes Index
 
 | Recipe Identifier | Task / Goal | Primary Components |

@@ -7,6 +7,17 @@ tags: ["BonusGameTableModule", "bonus_game_table", "cc_slot_module", "recipe", "
 
 # 🍳 Recipe: Circular Radial Chest Grid Layout
 
+<!-- convention-summary-start -->
+### Recipe: Circular Radial Chest Grid Layout Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Recipe: Circular Radial Chest Grid Layout.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 08_recipes
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Problem Statement
 You need to arrange 8 clickable items in a circular wheel formation around a center mascot instead of a standard rectangular grid.
 

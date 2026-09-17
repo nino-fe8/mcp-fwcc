@@ -1,0 +1,21 @@
+{
+  "moduleId": "CommandManager",
+  "category": "cc_network",
+  "sourcePath": "assets/cc-common/cc-network/game-network.js",
+  "dependencies": [
+    "MessageManager",
+    "EventManager",
+    "uuid"
+  ],
+  "consumers": [
+    "SlotBaseModule",
+    "GameDirector",
+    "BetManager"
+  ],
+  "keyMethods": [
+    "executeCommand",
+    "onAck",
+    "resendMessage",
+    "clearRemainingCommand"
+  ]
+}

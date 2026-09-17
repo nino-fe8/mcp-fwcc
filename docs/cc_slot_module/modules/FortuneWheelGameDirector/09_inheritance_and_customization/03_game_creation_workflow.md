@@ -7,6 +7,17 @@ tags: ["FortuneWheelGameDirector", "fortune_wheel_director", "cc_slot_module", "
 
 # 🚀 Game Creation Workflow: Configuring Wheel Mini-Games
 
+<!-- convention-summary-start -->
+### Game Creation Workflow: Configuring Wheel Mini-Games Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Game Creation Workflow: Configuring Wheel Mini-Games.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 09_inheritance_and_customization
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 Follow this 4-step checklist when setting up Fortune Wheel mini-games:
 
 ---

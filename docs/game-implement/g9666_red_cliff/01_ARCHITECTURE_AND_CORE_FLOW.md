@@ -8,6 +8,17 @@ tags: ["9666", "g9666", "red_cliff", "architecture", "lifecycle", "state_machine
 
 # 🔄 Red Cliff (g9666) Lifecycle Architecture & Master Flow
 
+<!-- convention-summary-start -->
+### Red Cliff (g9666) Lifecycle Architecture & Master Flow Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Red Cliff (g9666) Lifecycle Architecture & Master Flow.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: game_implement, g9666_red_cliff
+- **Scope & Code Paths**: `assets/cc-common/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Master Finite State Machine (FSM)

@@ -7,6 +7,17 @@ tags: ["BaseGameDirector", "base_game_director", "cc_slot_module", "gotchas", "m
 
 # 🛑 Gotcha: Missing `makeScript` Generator in Companion Writer
 
+<!-- convention-summary-start -->
+### Gotcha: Missing makeScript Generator in Companion Writer Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Gotcha: Missing makeScript Generator in Companion Writer.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 07_gotchas
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Symptom & Defect
 Calling `await this.runAction("BonusMiniGame", data)` fails immediately with console error:
 ```text

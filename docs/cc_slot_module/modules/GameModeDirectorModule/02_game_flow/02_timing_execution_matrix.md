@@ -7,6 +7,17 @@ tags: ["GameModeDirectorModule", "game_mode_director", "cc_slot_module", "game_f
 
 # ⏱️ GameModeDirectorModule Timing & Speed Execution Matrix
 
+<!-- convention-summary-start -->
+### GameModeDirectorModule Timing & Speed Execution Matrix Summary
+
+- **Core Architecture / Purpose**: Defines network protocol, socket packet lifecycle, state persistence, and error handling for GameModeDirectorModule Timing & Speed Execution Matrix.
+- **Key Mechanisms & Design**: Handles WebSocket frame dispatch, acknowledgment confirmation, state resume, and resilient synchronization between client DataStore and Backend Gateway.
+- **Domain Capabilities**: cc_slot_module, 02_game_flow
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Speed Execution Matrix Across Game Speeds
 
 | Pipeline Step / Hook | Normal Speed (`gameSpeed = 0`) | Turbo Speed (`gameSpeed = 1`) | FTR / Instantly (`gameSpeed = 2`) |

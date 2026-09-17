@@ -7,6 +7,17 @@ tags: ["PortraitBetModule", "portraitbetmodule", "cc_slot_module", "gotchas", "i
 
 # ⚠️ PortraitBetModule Gotchas Index
 
+<!-- convention-summary-start -->
+### PortraitBetModule Gotchas Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for PortraitBetModule Gotchas Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 07_gotchas
+- **Scope & Code Paths**: `01_inverted_active_logic_gotcha.md`
+- **Related Docs**: [`01_inverted_active_logic_gotcha`](01_inverted_active_logic_gotcha.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Gotchas Table

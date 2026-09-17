@@ -7,6 +7,17 @@ tags: ["SpinTimesModule", "spin_times_module", "cc_slot_module", "gotchas", "ind
 
 # ⚠️ SpinTimesModule Gotchas Index
 
+<!-- convention-summary-start -->
+### SpinTimesModule Gotchas Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for SpinTimesModule Gotchas Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 07_gotchas
+- **Scope & Code Paths**: `./01_infinity_spin_count_formatting.md`, `./02_stale_spin_times_label_visibility.md`
+- **Related Docs**: [`01_infinity_spin_count_formatting`](./01_infinity_spin_count_formatting.md), [`02_stale_spin_times_label_visibility`](./02_stale_spin_times_label_visibility.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Catalog of Pitfalls

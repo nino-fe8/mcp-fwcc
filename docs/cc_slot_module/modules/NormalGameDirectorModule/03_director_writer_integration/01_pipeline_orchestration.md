@@ -7,6 +7,17 @@ tags: ["NormalGameDirectorModule", "normal_game_director", "cc_slot_module", "di
 
 # 🎼 NormalGameDirectorModule Subsystem Orchestration & Integration
 
+<!-- convention-summary-start -->
+### NormalGameDirectorModule Subsystem Orchestration & Integration Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for NormalGameDirectorModule Subsystem Orchestration & Integration.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 03_director_writer_integration
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Interaction with Companion Writer & Visual Subsystems
 
 `NormalGameDirectorModule` operates through tight coupling with `NormalGameWriterModule`:

@@ -7,6 +7,17 @@ tags: ["SlotSymbolManager", "slot_symbol_manager", "cc_slot_module", "methods", 
 
 # 📋 SlotSymbolManager Methods Index
 
+<!-- convention-summary-start -->
+### SlotSymbolManager Methods Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for SlotSymbolManager Methods Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 05_methods
+- **Scope & Code Paths**: `./onLoadExtend.md`, `./initSymbolPool.md`, `./setGameConfig.md`
+- **Related Docs**: [`onLoadExtend(): void`](./onLoadExtend.md), [`initSymbolPool(): void`](./initSymbolPool.md), [`setGameConfig(gameConfig: GameConfig): void`](./setGameConfig.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Declared Methods Catalog

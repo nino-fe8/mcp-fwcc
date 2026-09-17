@@ -7,6 +7,17 @@ tags: ["GameConfig", "gameconfig", "cc_slot_module", "customization", "workflow"
 
 # 🚀 Game Creation Workflow for Custom GameConfig
 
+<!-- convention-summary-start -->
+### Game Creation Workflow for Custom GameConfig Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Game Creation Workflow for Custom GameConfig.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 09_inheritance_and_customization
+- **Scope & Code Paths**: `scripts/Core/GameConfig[GameId].ts`, `GameConfig9666.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 Follow this 5-step checklist when setting up `GameConfig` for a new game title:
 
 ---

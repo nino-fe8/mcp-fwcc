@@ -7,6 +7,17 @@ tags: ["TurboButton", "turbo_button", "cc_slot_module", "methods", "index"]
 
 # 📚 TurboButton Methods Catalog Index
 
+<!-- convention-summary-start -->
+### TurboButton Methods Catalog Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for TurboButton Methods Catalog Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 05_methods
+- **Scope & Code Paths**: `./onLoadExtend.md`, `./loadCacheTurbo.md`, `./listenEvents.md`
+- **Related Docs**: [`onLoadExtend`](./onLoadExtend.md), [`loadCacheTurbo`](./loadCacheTurbo.md), [`listenEvents`](./listenEvents.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Declared Methods Index (All 14 Methods)

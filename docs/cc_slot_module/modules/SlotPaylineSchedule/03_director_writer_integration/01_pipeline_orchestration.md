@@ -7,6 +7,17 @@ tags: ["SlotPaylineSchedule", "slot_payline_schedule", "cc_slot_module", "direct
 
 # 🔗 SlotPaylineSchedule 3-Tier Pipeline Orchestration
 
+<!-- convention-summary-start -->
+### SlotPaylineSchedule 3-Tier Pipeline Orchestration Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for SlotPaylineSchedule 3-Tier Pipeline Orchestration.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 03_director_writer_integration
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. 3-Tier Pipeline Integration

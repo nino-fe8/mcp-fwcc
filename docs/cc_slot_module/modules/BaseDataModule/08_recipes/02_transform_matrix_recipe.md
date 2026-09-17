@@ -7,6 +7,17 @@ tags: ["BaseDataModule", "base_data_module", "cc_slot_module", "recipe", "transf
 
 # 🍳 Recipe: Intercepting and Transforming Raw Server Matrix Data
 
+<!-- convention-summary-start -->
+### Recipe: Intercepting and Transforming Raw Server Matrix Data Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Recipe: Intercepting and Transforming Raw Server Matrix Data.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 08_recipes
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Problem Statement
 Server sends 1D matrix array `['A','K','Q','J','10',...]` of length 15. The UI table requires a column-major 2D matrix `[['A','K','Q'], ['J','10','9'], ...]`.
 

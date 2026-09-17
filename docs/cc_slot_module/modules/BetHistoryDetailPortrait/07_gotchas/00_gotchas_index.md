@@ -7,6 +7,17 @@ tags: ["BetHistoryDetailPortrait", "bethistorydetailportrait", "cc_slot_module",
 
 # ⚠️ BetHistoryDetailPortrait Gotchas Index
 
+<!-- convention-summary-start -->
+### BetHistoryDetailPortrait Gotchas Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for BetHistoryDetailPortrait Gotchas Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 07_gotchas
+- **Scope & Code Paths**: `01_respin_button_visibility_override_gotcha.md`
+- **Related Docs**: [`01_respin_button_visibility_override_gotcha`](01_respin_button_visibility_override_gotcha.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Gotchas Table

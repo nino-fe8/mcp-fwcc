@@ -7,6 +7,17 @@ tags: ["CascadeModuleConfig", "cascade_module_config", "cc_slot_module", "recipe
 
 # 💡 Recipe: Configuring Irregular and Cluster Grid Geometries
 
+<!-- convention-summary-start -->
+### Recipe: Configuring Irregular and Cluster Grid Geometries Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Recipe: Configuring Irregular and Cluster Grid Geometries.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 08_recipes
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Objective

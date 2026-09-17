@@ -7,6 +7,17 @@ tags: ["CutsceneController", "cutscene_controller", "cc_slot_module", "overview"
 
 # 🏛️ CutsceneController Scene Node Hierarchy & Prefab Specifications
 
+<!-- convention-summary-start -->
+### CutsceneController Scene Node Hierarchy & Prefab Specifications Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for CutsceneController Scene Node Hierarchy & Prefab Specifications.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 01_overview
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/CutScene/WinEffect/WinEffect.prefab`, `assets/cc-release-slot/redcliff-mcp/data/prefabs/Cutscene/WinEffect.prefab`, `assets/cc-common/cc-slot-module/CutScene/JackpotWin/JackpotWin.prefab`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Live Inspected Scene Hierarchy Structure

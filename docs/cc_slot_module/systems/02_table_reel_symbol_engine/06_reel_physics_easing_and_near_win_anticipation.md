@@ -7,6 +7,17 @@ tags: ["cc_slot_module", "systems", "table_engine", "reel_physics", "easing", "a
 
 # 🎢 Reel Rolling Physics, Easing Curves & Near-Win Anticipation Engine
 
+<!-- convention-summary-start -->
+### Reel Rolling Physics, Easing Curves & Near-Win Anticipation Engine Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Reel Rolling Physics, Easing Curves & Near-Win Anticipation Engine.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 02_table_reel_symbol_engine
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Reel Motion Physics & Lifecycle States

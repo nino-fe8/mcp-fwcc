@@ -7,6 +7,17 @@ tags: ["AutoScaleBackgroundModule", "auto_scale_background_module", "cc_slot_mod
 
 # 🔄 AutoScaleBackgroundModule Lifecycle Flowchart
 
+<!-- convention-summary-start -->
+### AutoScaleBackgroundModule Lifecycle Flowchart Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for AutoScaleBackgroundModule Lifecycle Flowchart.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 01_overview
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Sequence

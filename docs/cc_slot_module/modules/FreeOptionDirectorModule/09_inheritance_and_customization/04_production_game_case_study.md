@@ -7,6 +7,17 @@ tags: ["FreeOptionDirectorModule", "free_option_director", "cc_slot_module", "cu
 
 # 📖 Production Case Study: Red Cliff 9666 Free Spins Volatility Selection
 
+<!-- convention-summary-start -->
+### Production Case Study: Red Cliff 9666 Free Spins Volatility Selection Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Production Case Study: Red Cliff 9666 Free Spins Volatility Selection.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 09_inheritance_and_customization
+- **Scope & Code Paths**: `assets/cc-release-slot/cc1-red-cliff/scripts/GameMode/FreeOptionDirectorModule9666.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Production Context & Implementation
 
 In `Red Cliff (9666)` (`assets/cc-release-slot/cc1-red-cliff/scripts/GameMode/FreeOptionDirectorModule9666.ts`), hitting 3 Scatters presents 4 option cards:

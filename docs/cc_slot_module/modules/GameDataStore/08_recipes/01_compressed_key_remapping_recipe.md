@@ -7,6 +7,17 @@ tags: ["GameDataStore", "game_data_store", "cc_slot_module", "recipe", "mapNewKe
 
 # 🍳 Recipe: Remapping Backend Shorthand Keys to Standard Properties
 
+<!-- convention-summary-start -->
+### Recipe: Remapping Backend Shorthand Keys to Standard Properties Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Recipe: Remapping Backend Shorthand Keys to Standard Properties.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 08_recipes
+- **Scope & Code Paths**: `GameDataStore[GameId].ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Problem Statement
 Backend sends compressed WebSocket payloads (`pMul`, `pMulF`, `mulF`, `cna`) to conserve bandwidth. The client UI expects standard camelCase properties.
 

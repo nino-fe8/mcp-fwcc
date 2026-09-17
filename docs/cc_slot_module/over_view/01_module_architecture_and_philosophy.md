@@ -7,6 +7,17 @@ tags: ["cc_slot_module", "SlotBaseModule", "architecture", "overview", "philosop
 
 # 🏛️ Module Architecture & Core Philosophy in `cc-common` Slot SDK
 
+<!-- convention-summary-start -->
+### Module Architecture & Philosophy in cc-common Slot SDK Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Module Architecture & Philosophy in cc-common Slot SDK.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, over_view
+- **Scope & Code Paths**: `SlotTableModule.ts`, `SlotTableData.ts`, `TableModuleConfig.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Executive Summary & Architectural Definition
 
 In the **Cocos Common (`cc-common`) Slot Framework SDK (Cocos Creator 2.4.x)**, a **Module** is the fundamental, self-contained unit of gameplay logic, visual rendering, data management, or user interface presentation.

@@ -7,6 +7,17 @@ tags: ["cc_slot_module", "overview", "game_mode", "architecture", "director", "w
 
 # 🎮 Game Mode Architecture, Subsystem Composition & Inter-Module Communication
 
+<!-- convention-summary-start -->
+### Game Mode Architecture, Subsystem Composition & Inter-Module Communication Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Game Mode Architecture, Subsystem Composition & Inter-Module Communication.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, over_view
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Definition & Purpose of Game Modes

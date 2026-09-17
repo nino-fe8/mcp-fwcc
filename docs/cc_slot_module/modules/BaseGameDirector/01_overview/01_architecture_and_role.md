@@ -7,6 +7,17 @@ tags: ["BaseGameDirector", "base_game_director", "cc_slot_module", "overview", "
 
 # 🏛️ BaseGameDirector State Machine Orchestrator Architecture
 
+<!-- convention-summary-start -->
+### BaseGameDirector State Machine Orchestrator Architecture Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for BaseGameDirector State Machine Orchestrator Architecture.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 01_overview
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/GameMode/Core/BaseGameDirector.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Executive Summary & Purpose
 
 `BaseGameDirector` (`assets/cc-common/cc-slot-module/GameMode/Core/BaseGameDirector.ts`) is the **Abstract State Machine Orchestrator** in the `cc-common` Slot SDK.

@@ -7,6 +7,17 @@ tags: ["SlotTableSoundEffectModule", "slot_table_sound_effect_module", "cc_slot_
 
 # 🌀 SlotTableSoundEffectModule Spin Phase Audio Breakdown
 
+<!-- convention-summary-start -->
+### SlotTableSoundEffectModule Spin Phase Audio Breakdown Summary
+
+- **Core Architecture / Purpose**: Defines network protocol, socket packet lifecycle, state persistence, and error handling for SlotTableSoundEffectModule Spin Phase Audio Breakdown.
+- **Key Mechanisms & Design**: Handles WebSocket frame dispatch, acknowledgment confirmation, state resume, and resilient synchronization between client DataStore and Backend Gateway.
+- **Domain Capabilities**: cc_slot_module, 02_game_flow
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Phase Breakdown Across Spin Loop

@@ -8,6 +8,17 @@ tags: ["9666", "architecture", "data_flow", "composite_cascade", "matrix_split",
 
 # 🌊 Red Cliff (g9666) Composite Dual Cascade Architecture & Data Flow
 
+<!-- convention-summary-start -->
+### Red Cliff (g9666) Composite Dual Cascade Architecture & Data Flow Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Red Cliff (g9666) Composite Dual Cascade Architecture & Data Flow.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: game_implement, 03_composite_cascade
+- **Scope & Code Paths**: `9666TableUtil.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Subsystem Architecture & Component Hierarchy

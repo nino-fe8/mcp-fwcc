@@ -7,6 +7,17 @@ tags: ["MultipleSymbolManager", "multiple_symbol_manager", "cc_slot_module", "ga
 
 # 🌀 MultipleSymbolManager Spin Phase Multi-Pool Breakdown
 
+<!-- convention-summary-start -->
+### MultipleSymbolManager Spin Phase Multi-Pool Breakdown Summary
+
+- **Core Architecture / Purpose**: Defines network protocol, socket packet lifecycle, state persistence, and error handling for MultipleSymbolManager Spin Phase Multi-Pool Breakdown.
+- **Key Mechanisms & Design**: Handles WebSocket frame dispatch, acknowledgment confirmation, state resume, and resilient synchronization between client DataStore and Backend Gateway.
+- **Domain Capabilities**: cc_slot_module, 02_game_flow
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Spin Lifecycle & Multi-Template Dispatch Flow

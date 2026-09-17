@@ -7,6 +7,17 @@ tags: ["SlotTableModule", "slot_table", "cc_slot_module", "gotchas", "symbol_poo
 
 # ⚠️ Gotcha: Symbol Pooling Race Condition on Sudden Resync
 
+<!-- convention-summary-start -->
+### Gotcha: Symbol Pooling Race Condition on Sudden Resync Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Gotcha: Symbol Pooling Race Condition on Sudden Resync.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 07_gotchas
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Defect Symptom
 When a player rapidly switches modes or reconnects while win line Spine animations are looping, symbols disappear or clone unexpectedly across columns.
 

@@ -7,6 +7,17 @@ tags: ["cc_slot_module", "SlotBaseModule", "ioc", "dependency_injection", "injec
 
 # 💉 Dependency Injection & Inversion of Control (IoC) in `SlotBaseModule`
 
+<!-- convention-summary-start -->
+### Dependency Injection & IoC Container in Slot Modules Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Dependency Injection & IoC Container in Slot Modules.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, over_view
+- **Scope & Code Paths**: `GameInit.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Overview of the IoC Mechanism
 
 In `cc-common`, components do not manually locate services through global singletons (`window.GameManager` or `SoundController.getInstance()`). Such anti-patterns cause severe memory leaks when reloading scenes and prevent running multiple slot game instances side-by-side.

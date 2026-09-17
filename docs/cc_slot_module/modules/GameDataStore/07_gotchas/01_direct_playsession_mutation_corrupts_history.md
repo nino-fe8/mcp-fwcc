@@ -7,6 +7,17 @@ tags: ["GameDataStore", "game_data_store", "cc_slot_module", "gotchas", "playSes
 
 # 🛑 Gotcha: Direct Mutation of `playSession` Reference Corrupts State
 
+<!-- convention-summary-start -->
+### Gotcha: Direct Mutation of playSession Reference Corrupts History Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Gotcha: Direct Mutation of playSession Reference Corrupts History.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 07_gotchas
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Symptom & Defect
 A child component (such as `SlotTableModule` or a custom win animation script) modifies a nested array on `this.dataStore.playSession.matrix` (for example, replacing Wild symbols in-place). Later, when `updateDataModules()` re-evaluates or when entering Free Game replay, the previous round state is corrupted.
 

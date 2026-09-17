@@ -8,6 +8,17 @@ tags: ["9666", "JackpotCollectionModule9666", "JackpotCollectionItem9666", "jack
 
 # 💎 Red Cliff (g9666) Jackpot Collection & Smart Resume Subsystem
 
+<!-- convention-summary-start -->
+### Red Cliff (g9666) Jackpot Collection & Smart Resume Subsystem Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Red Cliff (g9666) Jackpot Collection & Smart Resume Subsystem.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: game_implement, g9666_red_cliff
+- **Scope & Code Paths**: `./06_jackpot_collection/`
+- **Related Docs**: [01. 4-Tier Architecture & Thresholds](./06_jackpot_collection/01_tier_architecture_and_thresholds.md), [02. Token Meter UI & Particle Fly-In](./06_jackpot_collection/02_token_meter_ui_and_fly_in.md), [03. Smart Resume Deduction Algorithm](./06_jackpot_collection/03_smart_resume_deduction_math.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 📚 Detailed Documentation Sub-chapters

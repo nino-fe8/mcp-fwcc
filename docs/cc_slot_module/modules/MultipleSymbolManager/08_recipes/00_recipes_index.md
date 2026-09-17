@@ -7,6 +7,17 @@ tags: ["MultipleSymbolManager", "multiple_symbol_manager", "cc_slot_module", "re
 
 # 💡 MultipleSymbolManager Production Recipes Index
 
+<!-- convention-summary-start -->
+### MultipleSymbolManager Production Recipes Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for MultipleSymbolManager Production Recipes Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 08_recipes
+- **Scope & Code Paths**: `./01_custom_special_templates_setup.md`
+- **Related Docs**: [`01_custom_special_templates_setup.md`](./01_custom_special_templates_setup.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Available Recipes Summary

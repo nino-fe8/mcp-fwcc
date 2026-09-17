@@ -7,6 +7,17 @@ tags: ["GameStateManager", "game_state_manager", "cc_core_lib", "methods", "inde
 
 # 📖 `GameStateManager` Methods Master Index
 
+<!-- convention-summary-start -->
+### GameStateManager Methods Master Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for GameStateManager Methods Master Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_core_lib, 03_methods
+- **Scope & Code Paths**: `./init.md`, `./onCannotConnect.md`, `./onCannotAuthen.md`
+- **Related Docs**: [`init()`](./init.md), [`onCannotConnect()`](./onCannotConnect.md), [`onCannotAuthen()`](./onCannotAuthen.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Declared Method Signatures

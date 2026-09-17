@@ -7,6 +7,17 @@ tags: ["SlotCustomNodePool", "slot_custom_node_pool", "cc_slot_module", "recipes
 
 # 💡 Production Recipe: Multi-Spine Template Node Pooling
 
+<!-- convention-summary-start -->
+### Production Recipe: Multi-Spine Template Node Pooling Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Production Recipe: Multi-Spine Template Node Pooling.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 08_recipes
+- **Scope & Code Paths**: `SymbolNormal.prefab`, `SymbolWildDragon.prefab`, `template = SymbolNormal.prefab`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Context & Use Case

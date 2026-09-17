@@ -7,6 +7,17 @@ tags: ["SlotSymbolModule", "slot_symbol_module", "cc_slot_module", "gotchas", "i
 
 # ⚠️ SlotSymbolModule Gotchas & Pitfalls Index
 
+<!-- convention-summary-start -->
+### SlotSymbolModule Gotchas & Pitfalls Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for SlotSymbolModule Gotchas & Pitfalls Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 07_gotchas
+- **Scope & Code Paths**: `./01_spine_skeleton_leak_on_pool_recycle.md`, `./02_multi_cell_symbol_offset_desync.md`, `./03_special_symbol_key_skeleton_retention.md`
+- **Related Docs**: [`01_spine_skeleton_leak_on_pool_recycle.md`](./01_spine_skeleton_leak_on_pool_recycle.md), [`02_multi_cell_symbol_offset_desync.md`](./02_multi_cell_symbol_offset_desync.md), [`03_special_symbol_key_skeleton_retention.md`](./03_special_symbol_key_skeleton_retention.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Known Gotchas Summary Table

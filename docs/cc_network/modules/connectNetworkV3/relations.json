@@ -1,0 +1,21 @@
+{
+  "moduleId": "connectNetworkV3",
+  "category": "cc_network",
+  "sourcePath": "assets/cc-common/cc-network/v3/connectNetworkV3.js",
+  "dependencies": [
+    "globalNetwork",
+    "gameCommonUtils",
+    "loadConfigAsync",
+    "game-network"
+  ],
+  "consumers": [
+    "LoadingScreenModule",
+    "SceneDirector",
+    "SlotBaseModule"
+  ],
+  "keyMethods": [
+    "getToken",
+    "getRefreshToken",
+    "loginScene"
+  ]
+}

@@ -7,6 +7,17 @@ tags: ["CutsceneController", "cutscene_controller", "cc_slot_module", "methods",
 
 # 📚 CutsceneController Methods Catalog Index
 
+<!-- convention-summary-start -->
+### CutsceneController Methods Catalog Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for CutsceneController Methods Catalog Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 05_methods
+- **Scope & Code Paths**: `./onLoadExtend.md`, `./playCutScene.md`, `./closeCutScene.md`
+- **Related Docs**: [`onLoadExtend`](./onLoadExtend.md), [`playCutScene`](./playCutScene.md), [`closeCutScene`](./closeCutScene.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Declared Methods Index

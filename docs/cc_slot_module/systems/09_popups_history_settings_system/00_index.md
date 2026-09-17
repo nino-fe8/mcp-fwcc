@@ -7,6 +7,17 @@ tags: ["cc_slot_module", "systems", "popups", "bet_history", "settings", "info_p
 
 # 📜 Popups, History, Settings & Dialogs System Architecture Index
 
+<!-- convention-summary-start -->
+### Popups, History, Settings & Dialogs System Architecture Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Popups, History, Settings & Dialogs System Architecture Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 09_popups_history_settings_system
+- **Scope & Code Paths**: `./01_modal_queue_and_popup_controller.md`, `./02_bet_and_jackpot_history_subsystem.md`, `./03_settings_and_paytable_info_panels.md`
+- **Related Docs**: [`01_modal_queue_and_popup_controller.md`](./01_modal_queue_and_popup_controller.md), [`02_bet_and_jackpot_history_subsystem.md`](./02_bet_and_jackpot_history_subsystem.md), [`03_settings_and_paytable_info_panels.md`](./03_settings_and_paytable_info_panels.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Subsystem Mission

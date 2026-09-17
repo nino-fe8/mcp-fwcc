@@ -7,6 +7,17 @@ tags: ["TurboButton", "turbo_button", "cc_slot_module", "gotchas", "index"]
 
 # ⚠️ TurboButton Gotchas Index
 
+<!-- convention-summary-start -->
+### TurboButton Gotchas Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for TurboButton Gotchas Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 07_gotchas
+- **Scope & Code Paths**: `./01_persisted_turbo_state_mismatch.md`, `./02_turbo_toggle_during_active_roll.md`
+- **Related Docs**: [`01_persisted_turbo_state_mismatch`](./01_persisted_turbo_state_mismatch.md), [`02_turbo_toggle_during_active_roll`](./02_turbo_toggle_during_active_roll.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Catalog of Pitfalls

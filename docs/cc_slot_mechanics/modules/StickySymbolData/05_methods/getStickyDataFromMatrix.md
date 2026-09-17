@@ -7,6 +7,17 @@ tags: ["StickySymbolData", "sticky_symbol_data", "cc_slot_mechanics", "methods",
 
 # 📖 `StickySymbolData.getStickyDataFromMatrix()`
 
+<!-- convention-summary-start -->
+### StickySymbolData.getStickyDataFromMatrix Line-by-Line Method Specification Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for StickySymbolData.getStickyDataFromMatrix Line-by-Line Method Specification.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_mechanics, 05_methods
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-mechanics/StickySymbol/scripts/StickySymbolData.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Method Signature & Overview

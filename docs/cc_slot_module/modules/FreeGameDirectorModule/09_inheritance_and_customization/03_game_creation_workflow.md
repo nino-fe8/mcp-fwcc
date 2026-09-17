@@ -7,6 +7,17 @@ tags: ["FreeGameDirectorModule", "free_game_director", "cc_slot_module", "custom
 
 # 🚀 Game Creation Workflow: FreeGameDirector Setup
 
+<!-- convention-summary-start -->
+### Game Creation Workflow: FreeGameDirector Setup Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Game Creation Workflow: FreeGameDirector Setup.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 09_inheritance_and_customization
+- **Scope & Code Paths**: `FreeGameDirector[GameId].ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 Follow this 4-step checklist:
 
 ---

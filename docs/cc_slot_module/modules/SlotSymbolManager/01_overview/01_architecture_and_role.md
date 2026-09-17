@@ -7,6 +7,17 @@ tags: ["SlotSymbolManager", "slot_symbol_manager", "cc_slot_module", "overview",
 
 # 🏛️ SlotSymbolManager Node Pooling & Symbol Lifecycle Architecture
 
+<!-- convention-summary-start -->
+### SlotSymbolManager Node Pooling & Symbol Lifecycle Architecture Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for SlotSymbolManager Node Pooling & Symbol Lifecycle Architecture.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 01_overview
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/BaseModule/Table/SlotSymbol/SlotSymbolManager.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Executive Summary & Purpose
 
 `SlotSymbolManager` (`assets/cc-common/cc-slot-module/BaseModule/Table/SlotSymbol/SlotSymbolManager.ts`) is the **Central Symbol Node Pooling, Index Allocation & Z-Order Sorting Engine** in the `cc-common` Slot SDK.

@@ -7,6 +7,17 @@ tags: ["BuyFeatureModule", "buy_feature_module", "cc_slot_mechanics", "methods",
 
 # 📖 `BuyFeatureModule` Methods Master Index
 
+<!-- convention-summary-start -->
+### BuyFeatureModule Methods Master Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for BuyFeatureModule Methods Master Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_mechanics, 05_methods
+- **Scope & Code Paths**: `./onLoadExtend.md`, `./start.md`, `./setupObserver.md`
+- **Related Docs**: [`onLoadExtend()`](./onLoadExtend.md), [`start()`](./start.md), [`setupObserver()`](./setupObserver.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Declared Method Signatures & Summary

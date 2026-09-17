@@ -10,77 +10,48 @@
 
 | Section | Subsystem / Chapter | Target Folder | Sub-Documents | Status |
 | :---: | :--- | :--- | :---: | :---: |
+| **00** | **Master Specification & Features** | Root Folder | 2 Files (`00_EXECUTIVE...`, `00_ALL_GAME_FEATURES...`) | ✅ Completed |
 | **01** | **Game Overview & Math** | `01_game_overview/` | 3 Files | ✅ Completed |
 | **02** | **Scene & Prefabs** | `02_scene_and_prefabs/` | 3 Files | ✅ Completed |
 | **03** | **Composite Dual Cascade** | `03_composite_cascade/` | 5 Files | ✅ Completed |
-| **04** | **Multiplier & Stack Wilds** | `04_multiplier_and_stack_wild/` | 5 Files | ✅ Completed |
-| **05** | **Jackpot Collection** | `05_jackpot_collection/` | 4 Files | ✅ Completed |
-| **06** | **Payline & Spine Sync** | `06_payline_and_spine_sync/` | 4 Files | ✅ Completed |
-| **07** | **Directors & Writers** | `07_directors_and_writers/` | 4 Files | ✅ Completed |
-| **08** | **Trial Mode & UI** | `08_trial_and_ui/` | 3 Files | ✅ Completed |
-| **09** | **Audio & Cutscenes** | `09_audio_and_cutscenes/` | 3 Files | ✅ Completed |
-| **10** | **Recipes & Debugging** | `10_recipes_and_debugging/` | 2 Files | ✅ Completed |
+| **04** | **Multiplier Wilds (Zhou Yu)** | `04_multiplier_subsystem/` | 5 Files | ✅ Completed |
+| **05** | **Expanding Stack Wilds (Zhuge Liang)** | `05_stack_wild_subsystem/` | 4 Files | ✅ Completed |
+| **05b**| **Transform Symbol Subsystem** | `05_transform_symbol_subsystem/` | 3 Files | ✅ Completed |
+| **06** | **Scatter Flags & Free Game** | `06_scatter_and_free_game/` | 3 Files | ✅ Completed |
+| **06b**| **Jackpot Collection Subsystem** | `06_jackpot_collection/` | 4 Files (Deepened) | ✅ Completed |
+| **07** | **Anticipation & Near Win Refill** | `07_anticipation_and_near_win/` | 3 Files | ✅ Completed |
+| **07b**| **Payline & Spine Sync** | `07_payline_and_spine_sync/` | 5 Files | ✅ Completed |
+| **08** | **Directors & Writers** | `08_directors_and_writers/` | 4 Files | ✅ Completed |
+| **09** | **Trial Mode & UI Framework** | `09_trial_mode_and_ui_framework/` | 5 Files | ✅ Completed |
+| **10** | **Audio & Cutscenes** | `10_audio_and_cutscenes/` | 3 Files | ✅ Completed |
+| **10b**| **Recipes & Debugging** | `10_recipes_and_debugging/` | 2 Files | ✅ Completed |
 | **11** | **Per-Class Modules** | `modules/` (113 Classes) | 113 Folders | ✅ Completed |
 
 ---
 
-## 📝 Granular Task Breakdown
+## 📝 Granular Task Breakdown for In-Game Features
 
-### 🔹 Section 01: Game Overview & Math (`01_game_overview/`)
-- [x] **Task 1.1**: `01_math_specification.md` - Combinatorial 117,649 Megaways math formula $\prod_{c=1}^6 \text{Height}[c]$, variable row sizing (2 to 7), RTP, and volatility profile.
-- [x] **Task 1.2**: `02_symbol_registry_and_paytable.md` - Complete symbol table (`K1-8` Multiplier Wild, `S1` Guan Yu, `S2` Liu Bei, `S3` Zhang Fei, `S4` Zhao Yun, `R1-R5` Royals, `SC` Warship Scatter) with exact base payouts.
-- [x] **Task 1.3**: `03_fsm_and_round_lifecycle.md` - Master Finite State Machine (`READY` $\rightarrow$ `SPINNING` $\rightarrow$ `WIN_EVAL` $\rightarrow$ `CASCADE_LOOP` $\rightarrow$ `FREE_GAME` $\rightarrow$ `SETTLED`).
+### 🔹 Section 00: Master Features Deep Dive
+- [x] **Task 0.1**: `00_EXECUTIVE_SUMMARY_AND_SPEC.md` - Synchronized real engine symbols (`2..D`, `A`, `K`, `K1-x`, `K2`), AllWays 10,000 ways, and grid specifications.
+- [x] **Task 0.2**: `00_ALL_GAME_FEATURES_DEEP_DIVE.md` - Master comprehensive architecture guide detailing all 10 core gameplay features, sequence maps, and interaction flows.
 
-### 🔹 Section 02: Scene & Prefab Hierarchies (`02_scene_and_prefabs/`)
-- [x] **Task 2.1**: `01_scene_node_trees.md` - Full node hierarchies for `g9666L.fire` (Landscape), `g9666.fire`, and `g9666H.fire` (Portrait).
-- [x] **Task 2.2**: `02_prefab_breakdown.md` - Structural node analysis of all 12 prefabs (`MainGamePrefab`, `FreeGamePrefab`, `HorizontalTable`, `JackpotCollection`, `PaylineInfo`, etc.).
-- [x] **Task 2.3**: `03_layering_and_z_index.md` - Z-Index layering rules: Background $\rightarrow$ Main Table $\rightarrow$ Top Sub-Reel $\rightarrow$ Payline Highlight $\rightarrow$ VFX Layer $\rightarrow$ HUD $\rightarrow$ Popups.
+### 🔹 Section 05b: Transform Symbol Subsystem (`05_transform_symbol_subsystem/`)
+- [x] **Task 5b.1**: `01_transform_architecture_and_pool.md` - Overlay node pooling architecture, `SymbolOwnerType.TRANSFORM_SYMBOL`, grid coordinate resolution.
+- [x] **Task 5b.2**: `02_trigger_and_animation_flow.md` - Grass Boat morphing animation sequence, payline integration, cleanup on `TABLE_STOP_SPIN`.
+- [x] **Task 5b.3**: `03_edge_cases_and_gotchas.md` - Fast-stop safety, multi-resolution resize drifting, pool starvation prevention.
 
-### 🔹 Section 03: Composite Dual Cascade (`03_composite_cascade/`)
-- [x] **Task 3.1**: `01_architecture_and_data_flow.md` - `CompositeCascade9666` dual cascade coordination model.
-- [x] **Task 3.2**: `02_vertical_cascade_mechanics.md` - Gravity drops on Reels 1..6 (`VerticalCascadeModule9666`), acceleration, bounce physics.
-- [x] **Task 3.3**: `03_horizontal_cascade_mechanics.md` - Right-to-left slide refills on Reels 2..5 (`HorizontalCascadeModule9666`), translation kinematics.
-- [x] **Task 3.4**: `04_synchronization_and_events.md` - Parallel `Promise.all([p1, p2])` execution and `UPDATE_JACKPOT_COLLECTION` $\rightarrow$ `UPDATE_MEGAWAY` $\rightarrow$ `STACK_WILD_LANDED` sequence.
-- [x] **Task 3.5**: `05_edge_cases_and_gotchas.md` - Cascade drop desync during fast-stop, matrix diff misalignment, pool exhaustion.
+### 🔹 Section 06: Scatter Flag Collection & Free Game (`06_scatter_and_free_game/`)
+- [x] **Task 6.1**: `01_scatter_flag_collection.md` - `CollectScatterModule.ts` 4-flag HUD meter, particle trajectories, parallel dispatch with `TABLE_START_RESPIN`.
+- [x] **Task 6.2**: `02_free_game_rules_and_extra_spins.md` - Free Game trigger tiers (7, 8, 9 spins), cascade-progressive multipliers ($\times 2 \rightarrow +2 \le \times 20$), $+1$ extra spin per scatter (`ADD_FREE_SPIN_TIMES`).
+- [x] **Task 6.3**: `03_cutscenes_and_transitions.md` - Intro naval cutscene, Total Win presentation, and smart spin count deduction on join.
 
-### 🔹 Section 04: Multiplier & Stack Wilds (`04_multiplier_and_stack_wild/`)
-- [x] **Task 4.1**: `01_multiplier_wild_lifecycle.md` - `K1-2`, `K1-8` parsing, badge rendering, and winning combination participation.
-- [x] **Task 4.2**: `02_badge_display_and_collection.md` - `hideMultiplierLabel()`, collection animation dispatch to consolidated multiplier banner.
-- [x] **Task 4.3**: `03_unexploded_wild_reversion.md` - State reversion on next spin start: resetting `hasCollectedMultiplier = false` and re-showing badge for unexploded wilds.
-- [x] **Task 4.4**: `04_stacked_wild_expansion.md` - Full-height Guan Yu Stack Wild expansion (`StackWildModule9666`, `StackWildModuleData`).
-- [x] **Task 4.5**: `05_edge_cases_and_gotchas.md` - Multiplier badge disappearing on resize, frame clipping, fast-stop timing.
+### 🔹 Section 06b: 4-Tier Troop Token Jackpot (`06_jackpot_collection/`)
+- [x] **Task 6b.1**: `01_tier_architecture_and_thresholds.md` - Hero tokens (Zhao Yun 6, Zhang Fei 9, Liu Bei 12, Guan Yu 15), `collectSymbols` schema.
+- [x] **Task 6b.2**: `02_token_meter_ui_and_fly_in.md` - `JackpotCollectionItem9666.ts`, particle flash, progress bars, SFX `COLLECT_SYMBOL` and `COLLECT_COMPLETE`.
+- [x] **Task 6b.3**: `03_smart_resume_deduction_math.md` - Exhaustive mathematical derivation of $C_{\text{before}} = \max(0, C_{\text{server}} - W_{\text{current\_spin}})$ via `traceWay` and `parsedPaylines`.
+- [x] **Task 6b.4**: `04_edge_cases_and_gotchas.md` - Multi-hero Wild double-counting prevention, mega symbol prefix stripping (`cleanSym`), memory leak prevention.
 
-### 🔹 Section 05: Jackpot Collection (`05_jackpot_collection/`)
-- [x] **Task 5.1**: `01_tier_architecture_and_thresholds.md` - 4-Tier token meter schema (Mini: 6, Minor: 9, Major: 12, Grand: 15 tokens).
-- [x] **Task 5.2**: `02_token_meter_ui_and_fly_in.md` - Fly-in particle animations from winning symbols to HUD meters (`JackpotCollectionItem9666`).
-- [x] **Task 5.3**: `03_smart_resume_deduction_math.md` - Smart resume deduction algorithm on `onJoinGameSuccess`: $C_{\text{before}} = \max(0, C_{\text{total}} - W_{\text{current}})$.
-- [x] **Task 5.4**: `04_edge_cases_and_gotchas.md` - Token desync on rapid reconnect, mid-cascade disconnection, meter particle pooling.
-
-### 🔹 Section 06: Payline & Spine Bone Tracking (`06_payline_and_spine_sync/`)
-- [x] **Task 5.1**: `01_realtime_bone_tracking_update.md` - Real-time Spine bone tracking in `update(dt)` (`syncNodeToBone` on `'hsn'` and `'money'`).
-- [x] **Task 5.2**: `02_hsn_multiplier_combine_spine.md` - Spine event listener integration (`add_money`, `add_ktt`) in `hsnCombineSpine`.
-- [x] **Task 5.3**: `03_money_tween_and_speed_scaling.md` - Win amount bounce tweens, `MoneyTween` count-up, speed decorators ($1\times, 2\times, 3\times$).
-- [x] **Task 5.4**: `04_edge_cases_and_gotchas.md` - Bone coordinate drift during canvas resize, orphan tweens on fast skip.
-
-### 🔹 Section 07: Directors & Writers (`07_directors_and_writers/`)
-- [x] **Task 7.1**: `01_normal_game_writer_pipeline.md` - `makeScriptNormalSpinTrigger` command sequence in `NormalGameWriterModule9666`.
-- [x] **Task 7.2**: `02_free_game_writer_pipeline.md` - Free spin command sequence in `FreeGameWriterModule9666`.
-- [x] **Task 7.3**: `03_state_store_and_session_sync.md` - `GameDataStore9666` session data caching and matrix state management.
-- [x] **Task 7.4**: `04_edge_cases_and_gotchas.md` - Command promise freeze, state desync on network retry.
-
-### 🔹 Section 08: Trial Mode & UI Framework (`08_trial_and_ui/`)
-- [x] **Task 8.1**: `01_trial_mode_loop_controller.md` - `TrialModeLoopController9666` mock loop, 50,000,000 credit simulation.
-- [x] **Task 8.2**: `02_bet_selector_and_wallet_sync.md` - Bet selection, wallet locking during spin.
-- [x] **Task 8.3**: `03_fast_stop_and_skip_handling.md` - `TABLE_FAST_STOP` event dispatching and safe animation cancellation.
-
-### 🔹 Section 09: Audio, Cutscenes & Master Event Bus (`09_audio_and_cutscenes/`)
-- [x] **Task 9.1**: `01_sound_registry_and_bgm.md` - BGM tracks and SFX clips indexed by sound ID.
-- [x] **Task 9.2**: `02_cutscene_state_machines.md` - Free Game Intro/Outro, BigWin, and MegaWin cutscene state flows.
-- [x] **Task 9.3**: `03_master_event_bus_table.md` - Complete master event dictionary (Emitter, Listener, Payload, Purpose).
-
-### 🔹 Section 10: Recipes & Debugging (`10_recipes_and_debugging/`)
-- [x] **Task 10.1**: `01_mock_data_and_cheats.md` - Mock matrix injection recipes (`TutorialMockData9666`) and cheat codes.
-- [x] **Task 10.2**: `02_troubleshooting_cookbook.md` - Debugging common issues in Red Cliff 9666 development.
-
-### 🔹 Section 11: 113 Per-Class Module Folders (`modules/`)
-- [x] **Task 11.1 - 11.113**: Complete `01_overview`, `02_variables`, `03_methods` with full line-by-line analysis for each class.
+### 🔹 Section 07: Anticipation & Near Win Refill (`07_anticipation_and_near_win/`)
+- [x] **Task 7.1**: `01_near_win_refill_mechanics.md` - Cascade-time anticipation, live matrix scatter counting, 4-scatter threshold evaluation.
+- [x] **Task 7.2**: `02_audio_ducking_and_suspense_sfx.md` - BGM ducking to 30% (`bgmDuckVolumeRatio = 0.3`), `NEARWIN_REFILL` loop, and `NEARWIN_MISS` sfx.
+- [x] **Task 7.3**: `03_sure_win_presentation.md` - `SureWinModule9666.ts` board darkening (`opacity: 150`), Spine cutscene playback.

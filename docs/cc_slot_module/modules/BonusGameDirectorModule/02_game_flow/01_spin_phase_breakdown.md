@@ -7,6 +7,17 @@ tags: ["BonusGameDirectorModule", "bonus_game_director", "cc_slot_module", "game
 
 # 🌀 BonusGameDirectorModule Interactive Pick Phase Breakdown
 
+<!-- convention-summary-start -->
+### BonusGameDirectorModule Interactive Pick Phase Breakdown Summary
+
+- **Core Architecture / Purpose**: Defines network protocol, socket packet lifecycle, state persistence, and error handling for BonusGameDirectorModule Interactive Pick Phase Breakdown.
+- **Key Mechanisms & Design**: Handles WebSocket frame dispatch, acknowledgment confirmation, state resume, and resilient synchronization between client DataStore and Backend Gateway.
+- **Domain Capabilities**: cc_slot_module, 02_game_flow
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Pick-and-Click Flow Lifecycle
 
 `BonusGameDirectorModule` coordinates player picks through a 4-phase interactive loop:

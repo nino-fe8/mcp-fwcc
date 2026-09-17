@@ -7,6 +7,17 @@ tags: ["BaseGameDirector", "base_game_director", "cc_slot_module", "gotchas", "p
 
 # 🛑 Gotcha: Unhandled Step Exception Freezes Director Pipeline
 
+<!-- convention-summary-start -->
+### Gotcha: Unhandled Step Exception Freezes Director Pipeline Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Gotcha: Unhandled Step Exception Freezes Director Pipeline.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 07_gotchas
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Symptom & Defect
 A spine animation callback throws a null reference error inside a custom step. The promise returned by `runAction()` never resolves, leaving `SlotButtonNormal` in `SPINNING` state indefinitely.
 

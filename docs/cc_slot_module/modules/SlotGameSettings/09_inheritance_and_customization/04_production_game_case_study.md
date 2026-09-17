@@ -7,6 +7,17 @@ tags: ["SlotGameSettings", "slot_game_settings", "cc_slot_module", "customizatio
 
 # 📖 Production Case Study: Speed Control in Red Cliff (`g9666L`)
 
+<!-- convention-summary-start -->
+### Production Case Study: Speed Control in Red Cliff (g9666L) Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Production Case Study: Speed Control in Red Cliff (g9666L).
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 09_inheritance_and_customization
+- **Scope & Code Paths**: `StackWildModule.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Context & Game Requirements
 
 In **Red Cliff (`g9666L`)**, multiple custom feature modules (such as `StackWildModule`, `SlotTableNearWinRefillModule`, `PaylineInfoModule9666`, `CollectMultiModule9666`) run complex Spine animations and particle effects.

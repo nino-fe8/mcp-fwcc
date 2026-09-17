@@ -7,6 +7,17 @@ tags: ["CustomCanvasSizeWrapper", "custom_canvas_size_wrapper", "cc_core_lib", "
 
 # 💡 Recipe: Practical `CustomCanvasSizeWrapper` Integration
 
+<!-- convention-summary-start -->
+### Recipe: Practical CustomCanvasSizeWrapper Integration in Slot Games Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Recipe: Practical CustomCanvasSizeWrapper Integration in Slot Games.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_core_lib, 05_recipes
+- **Scope & Code Paths**: `assets/cc-common/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Standard Initialization & Usage

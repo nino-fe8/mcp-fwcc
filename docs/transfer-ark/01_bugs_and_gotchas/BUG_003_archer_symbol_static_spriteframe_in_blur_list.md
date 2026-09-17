@@ -11,6 +11,17 @@ author: "ARK Slot Engineering Team"
 
 # BUG-003: Symbol Archer (Code 3) Displaying Sharp/Static During Reel Spin
 
+<!-- convention-summary-start -->
+### Fix Symbol Archer (Code 3) Displaying Sharp/Static During Reel Spin Summary
+
+- **Core Architecture / Purpose**: Documents root cause, architectural pitfalls, reproduction steps, and official code fix for Fix Symbol Archer (Code 3) Displaying Sharp/Static During Reel Spin.
+- **Key Mechanisms & Design**: Guards edge cases, prevents race conditions/null crashes, and enforces state machine integrity during game transitions.
+- **Domain Capabilities**: bugfix, 01_bugs_and_gotchas
+- **Scope & Code Paths**: `SymbolPrefab9666.prefab`, `SlotSymbolModule.ts`, `SlotSymbolResourceManager.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. 📌 Problem / Feature Overview

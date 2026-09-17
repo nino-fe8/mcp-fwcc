@@ -7,6 +7,17 @@ tags: ["cc_slot_module", "systems", "payline", "game_creation", "expanding_reels
 
 # 🛠️ Custom Payline Rules & Game Creation Workflow
 
+<!-- convention-summary-start -->
+### Custom Payline Rules & Game Creation Workflow Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Custom Payline Rules & Game Creation Workflow.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 05_payline_and_win_presentation_system
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Developer Setup Checklist for New Slot Games

@@ -8,6 +8,17 @@ tags: ["9666", "HorizontalTableModule9666", "HorizontalReelModule9666", "stack_w
 
 # ➡️ Red Cliff (g9666) Horizontal Top Reel Cascade Mechanics
 
+<!-- convention-summary-start -->
+### Red Cliff (g9666) Horizontal Top Reel Cascade Mechanics Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Red Cliff (g9666) Horizontal Top Reel Cascade Mechanics.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: game_implement, 03_composite_cascade
+- **Scope & Code Paths**: `../../../../assets/cc-release-slot/cc1-red-cliff/scripts/Table/HorizontalTableModule9666.ts`, `HorizontalTableModule9666.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Top Horizontal Reel Overview

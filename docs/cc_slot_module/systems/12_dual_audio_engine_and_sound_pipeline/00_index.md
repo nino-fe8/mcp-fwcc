@@ -7,6 +7,17 @@ tags: ["cc_slot_module", "systems", "audio_engine", "sound_player", "howler", "c
 
 # 🔊 Dual Audio Engine & Sound Pipeline Architecture Index
 
+<!-- convention-summary-start -->
+### Dual Audio Engine & Sound Pipeline Architecture Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Dual Audio Engine & Sound Pipeline Architecture Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 12_dual_audio_engine_and_sound_pipeline
+- **Scope & Code Paths**: `./01_dual_audio_backend_architecture.md`, `./02_mobile_browser_audiocontext_unlock.md`, `./03_dynamic_sound_bank_loading.md`
+- **Related Docs**: [`01_dual_audio_backend_architecture.md`](./01_dual_audio_backend_architecture.md), [`02_mobile_browser_audiocontext_unlock.md`](./02_mobile_browser_audiocontext_unlock.md), [`03_dynamic_sound_bank_loading.md`](./03_dynamic_sound_bank_loading.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Subsystem Mission

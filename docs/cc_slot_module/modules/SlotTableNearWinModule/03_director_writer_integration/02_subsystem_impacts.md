@@ -7,6 +7,17 @@ tags: ["SlotTableNearWinModule", "slot_table_near_win_module", "cc_slot_module",
 
 # 🌐 SlotTableNearWinModule Subsystem Impacts
 
+<!-- convention-summary-start -->
+### SlotTableNearWinModule Subsystem Impacts Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for SlotTableNearWinModule Subsystem Impacts.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 03_director_writer_integration
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Cross-Subsystem Interactions

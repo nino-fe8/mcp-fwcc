@@ -7,6 +7,17 @@ tags: ["GameInit", "gameinit", "cc_slot_module", "gotchas", "early_inject_access
 
 # 🛑 Gotcha: Early `@inject` Access Before GameInit `provide()`
 
+<!-- convention-summary-start -->
+### Gotcha: Early @inject Access Before GameInit provide() Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Gotcha: Early @inject Access Before GameInit provide().
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 07_gotchas
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Symptom & Visual Defect
 Upon game load, console crashes with:
 ```text

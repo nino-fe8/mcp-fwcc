@@ -7,6 +7,17 @@ tags: ["spin_button_assets", "spine_specifications", "art_pipeline", "button_sta
 
 # 🔘 Spin Button Asset Specifications & Spine 3.8 Animation Pipeline
 
+<!-- convention-summary-start -->
+### Spin Button Asset Specifications & Spine 3.8 Animation Pipeline Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Spin Button Asset Specifications & Spine 3.8 Animation Pipeline.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 08_gui_dashboard_and_controls_system
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Architectural Role & Spin Button Modality

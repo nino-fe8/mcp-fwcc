@@ -12,6 +12,17 @@ author: "ARK Slot Engineering Team"
 
 # 2. 🏛️ Scene Tree & Prefab Hierarchy Specification
 
+<!-- convention-summary-start -->
+### Red Cliff (g9666) - Scene Tree, Canvas & Prefab Hierarchy Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Red Cliff (g9666) - Scene Tree, Canvas & Prefab Hierarchy.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: game_implement, g9666_red_cliff
+- **Scope & Code Paths**: `MainGamePrefab.prefab`, `FreeGamePrefab.prefab`, `UI_MC.prefab`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 2.1 Scene Files Overview

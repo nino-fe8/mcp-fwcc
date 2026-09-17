@@ -7,6 +7,17 @@ tags: ["FortuneWheelGameDirector", "fortune_wheel_director", "cc_slot_module", "
 
 # ⚠️ Gotcha: Missing `STOP_SPIN_WHEEL` Indefinite Spin Hang
 
+<!-- convention-summary-start -->
+### Missing STOP_SPIN_WHEEL Indefinite Spin Hang Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Missing STOP_SPIN_WHEEL Indefinite Spin Hang.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 07_gotchas
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Symptom & Visual Defect

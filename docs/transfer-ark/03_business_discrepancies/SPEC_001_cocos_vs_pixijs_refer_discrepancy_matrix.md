@@ -11,6 +11,17 @@ author: "ARK Studio Slot Engineering and QA Team"
 
 # 📊 Bảng Đối Chiếu Quy Chuẩn Nghiệp Vụ: Cocos Creator (ARK Studio) vs Pixi.js (Game Refer)
 
+<!-- convention-summary-start -->
+### Bảng Đối Chiếu Quy Chuẩn Nghiệp Vụ: Cocos Creator (ARK Studio) vs Pixi.js (Game Refer) Summary
+
+- **Core Architecture / Purpose**: Specifies the standard business behavior, UI presentation, and player interaction differences between Cocos Creator and Reference Game for Bảng Đối Chiếu Quy Chuẩn Nghiệp Vụ: Cocos Creator (ARK Studio) vs Pixi.js (Game Refer).
+- **Key Mechanisms & Design**: Adopts Theo Ref. Reconciles base SDK component locking, event dispatching, and view rehydration to match reference specifications exactly.
+- **Domain Capabilities**: business_mapping, 03_business_discrepancies
+- **Scope & Code Paths**: `assets/cc-release-slot/cc1-red-cliff/scripts/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 > **Tài liệu gốc**: `Compare Cocos vs Pixijs.xlsx`  
 > **Mục đích**: Quy chuẩn hóa 100% các hành vi giao diện (UI), trải nghiệm người chơi (UX), quy tắc chuyển cảnh và xử lý logic giữa engine Cocos Creator của ARK Studio và Game mẫu Refer (Pixi.js) để QA, Dev và GD làm căn cứ nghiệm thu.
 

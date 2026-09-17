@@ -7,6 +7,17 @@ tags: ["HorizontalTableConfig", "horizontal_table_config", "cc_slot_mechanics", 
 
 # 📖 `HorizontalTableConfig.SYMBOL_INDEXES()`
 
+<!-- convention-summary-start -->
+### HorizontalTableConfig.SYMBOL_INDEXES Method Implementation Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for HorizontalTableConfig.SYMBOL_INDEXES Method Implementation.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_mechanics, 05_methods
+- **Scope & Code Paths**: `assets/cc-common/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Method Signature

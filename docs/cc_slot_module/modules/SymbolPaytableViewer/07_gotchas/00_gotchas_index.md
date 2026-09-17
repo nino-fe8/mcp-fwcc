@@ -7,6 +7,17 @@ tags: ["SymbolPaytableViewer", "symbolpaytableviewer", "cc_slot_module", "gotcha
 
 # ⚠️ SymbolPaytableViewer Gotchas Index
 
+<!-- convention-summary-start -->
+### SymbolPaytableViewer Gotchas Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for SymbolPaytableViewer Gotchas Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 07_gotchas
+- **Scope & Code Paths**: `01_screen_boundary_callout_clipping.md`
+- **Related Docs**: [`01_screen_boundary_callout_clipping`](01_screen_boundary_callout_clipping.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Gotchas Table

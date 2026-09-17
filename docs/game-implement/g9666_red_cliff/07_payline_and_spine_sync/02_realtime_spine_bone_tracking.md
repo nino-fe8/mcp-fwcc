@@ -8,6 +8,17 @@ tags: ["9666", "PaylineInfoModule9666", "spine", "bone_tracking", "hsnCombineSpi
 
 # 🦴 Red Cliff (g9666) Real-Time Spine Bone Tracking ('hsn' & 'money')
 
+<!-- convention-summary-start -->
+### Red Cliff (g9666) Real-Time Spine Bone Tracking ( Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Red Cliff (g9666) Real-Time Spine Bone Tracking (.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: game_implement, 07_payline_and_spine_sync
+- **Scope & Code Paths**: `PaylineInfoModule9666.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Spine Bone Anchor Architecture

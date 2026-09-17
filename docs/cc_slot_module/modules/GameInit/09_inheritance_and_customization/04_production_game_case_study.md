@@ -7,6 +7,17 @@ tags: ["GameInit", "gameinit", "cc_slot_module", "customization", "case_study", 
 
 # 📖 Production Case Study: Root Bootstrap in Red Cliff Slot (`g9666L`)
 
+<!-- convention-summary-start -->
+### Production Case Study: Root Bootstrap in Red Cliff Slot (g9666L) Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Production Case Study: Root Bootstrap in Red Cliff Slot (g9666L).
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 09_inheritance_and_customization
+- **Scope & Code Paths**: `GameInit.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Context & Architecture Choice
 
 In **Red Cliff (`g9666L`)**, the development team utilizes the **Standard Companion Bootstrap Pattern**:

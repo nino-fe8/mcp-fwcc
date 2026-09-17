@@ -7,6 +7,17 @@ tags: ["GameDataStore", "game_data_store", "cc_slot_module", "overview", "archit
 
 # 🏛️ GameDataStore Central State Management & Deep-Clone Distribution Architecture
 
+<!-- convention-summary-start -->
+### GameDataStore Central State Management & Deep-Clone Distribution Architecture Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for GameDataStore Central State Management & Deep-Clone Distribution Architecture.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 01_overview
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/Core/GameDataStore.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Executive Summary & Purpose
 
 `GameDataStore` (`assets/cc-common/cc-slot-module/Core/GameDataStore.ts`) is the **Single Source of Truth (SSOT) and Central State Authority** for the entire slot game application.

@@ -7,6 +7,17 @@ tags: ["SlotSymbolManager", "slot_symbol_manager", "cc_slot_module", "recipe", "
 
 # 🍳 Recipe: Dynamic Priority Z-Index Sorting Configuration
 
+<!-- convention-summary-start -->
+### Recipe: Dynamic Priority Z-Index Sorting Configuration Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Recipe: Dynamic Priority Z-Index Sorting Configuration.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 08_recipes
+- **Scope & Code Paths**: `GameConfig.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Problem Statement
 Ensure that Mega Scatter symbols with large Spine glow borders always render above expanding Wilds and regular payline symbols.
 

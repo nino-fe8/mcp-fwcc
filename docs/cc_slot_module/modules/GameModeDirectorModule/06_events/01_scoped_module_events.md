@@ -7,6 +7,17 @@ tags: ["GameModeDirectorModule", "game_mode_director", "cc_slot_module", "events
 
 # 📡 GameModeDirectorModule Scoped Module Events (`GameModuleEvent`)
 
+<!-- convention-summary-start -->
+### GameModeDirectorModule Scoped Module Events (GameModuleEvent) Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for GameModeDirectorModule Scoped Module Events (GameModuleEvent).
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 06_events
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Scoped Events Dictionary
 
 The `moduleEvent` bus isolates communication between the mode director and its designated `moduleList` children:

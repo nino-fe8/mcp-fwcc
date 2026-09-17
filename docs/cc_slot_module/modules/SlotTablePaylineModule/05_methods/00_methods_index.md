@@ -7,6 +7,17 @@ tags: ["SlotTablePaylineModule", "slot_table_payline_module", "cc_slot_module", 
 
 # 📋 SlotTablePaylineModule Methods Index
 
+<!-- convention-summary-start -->
+### SlotTablePaylineModule Methods Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for SlotTablePaylineModule Methods Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 05_methods
+- **Scope & Code Paths**: `./onLoadExtend.md`, `./init.md`, `./initExtend.md`
+- **Related Docs**: [`onLoadExtend(): void`](./onLoadExtend.md), [`init(): void`](./init.md), [`initExtend(): void`](./initExtend.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Declared Methods Summary Table

@@ -7,6 +7,17 @@ tags: ["cc_slot_module", "systems", "ios_audio", "audiocontext_unlock", "user_ge
 
 # 🔓 Mobile Browser AudioContext Unlock & Gesture Pipeline
 
+<!-- convention-summary-start -->
+### Mobile Browser AudioContext Unlock & Gesture Pipeline Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Mobile Browser AudioContext Unlock & Gesture Pipeline.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 12_dual_audio_engine_and_sound_pipeline
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. The Mobile Autoplay Restriction

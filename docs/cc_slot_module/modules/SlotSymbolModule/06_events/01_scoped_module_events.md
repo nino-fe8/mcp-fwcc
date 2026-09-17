@@ -7,6 +7,17 @@ tags: ["SlotSymbolModule", "slot_symbol_module", "cc_slot_module", "events", "sc
 
 # 📡 SlotSymbolModule Scoped Module Events & Callbacks
 
+<!-- convention-summary-start -->
+### SlotSymbolModule Scoped Module Events & Callbacks Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for SlotSymbolModule Scoped Module Events & Callbacks.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 06_events
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Direct Method & Delegate Interface

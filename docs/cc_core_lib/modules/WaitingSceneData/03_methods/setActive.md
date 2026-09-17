@@ -7,6 +7,17 @@ tags: ["WaitingSceneData", "waiting_scene_data", "cc_core_lib", "methods", "setA
 
 # 📖 `WaitingSceneData.setActive()`
 
+<!-- convention-summary-start -->
+### WaitingSceneData.setActive Method Implementation & Walkthrough Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for WaitingSceneData.setActive Method Implementation & Walkthrough.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_core_lib, 03_methods
+- **Scope & Code Paths**: `assets/cc-common/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Method Signature

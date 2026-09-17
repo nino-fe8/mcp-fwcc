@@ -7,6 +7,17 @@ tags: ["cc_slot_module", "overview", "script_executor", "writer_module", "comman
 
 # 📜 Script Execution Engine, Writer Command Synthesis & Async Pipeline
 
+<!-- convention-summary-start -->
+### Script Execution Engine, Writer Command Synthesis & Async Pipeline Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Script Execution Engine, Writer Command Synthesis & Async Pipeline.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, over_view
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. The Scripting Triad

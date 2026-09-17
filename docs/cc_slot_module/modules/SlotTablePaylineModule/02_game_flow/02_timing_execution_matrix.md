@@ -7,6 +7,17 @@ tags: ["SlotTablePaylineModule", "slot_table_payline_module", "cc_slot_module", 
 
 # ⏱️ SlotTablePaylineModule Timing Execution Matrix
 
+<!-- convention-summary-start -->
+### SlotTablePaylineModule Timing Execution Matrix Summary
+
+- **Core Architecture / Purpose**: Defines network protocol, socket packet lifecycle, state persistence, and error handling for SlotTablePaylineModule Timing Execution Matrix.
+- **Key Mechanisms & Design**: Handles WebSocket frame dispatch, acknowledgment confirmation, state resume, and resilient synchronization between client DataStore and Backend Gateway.
+- **Domain Capabilities**: cc_slot_module, 02_game_flow
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Execution Cost & Performance Matrix

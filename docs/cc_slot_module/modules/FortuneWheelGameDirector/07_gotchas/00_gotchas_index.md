@@ -7,6 +7,17 @@ tags: ["FortuneWheelGameDirector", "fortune_wheel_director", "cc_slot_module", "
 
 # ⚠️ FortuneWheelGameDirector Gotchas & Pitfalls Index
 
+<!-- convention-summary-start -->
+### FortuneWheelGameDirector Gotchas & Engine Pitfalls Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for FortuneWheelGameDirector Gotchas & Engine Pitfalls Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 07_gotchas
+- **Scope & Code Paths**: `./01_missing_stop_spin_wheel_hang.md`, `./02_turbo_timing_desync_on_fast_stop.md`
+- **Related Docs**: [`01_missing_stop_spin_wheel_hang.md`](./01_missing_stop_spin_wheel_hang.md), [`02_turbo_timing_desync_on_fast_stop.md`](./02_turbo_timing_desync_on_fast_stop.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Known Gotchas & Engine Pitfalls Summary Table

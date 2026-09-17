@@ -7,6 +7,17 @@ tags: ["TableModuleConfig", "table_config", "cc_slot_module", "gotchas", "symbol
 
 # ⚠️ Gotcha: TABLE_FORMAT Mutation Without Invalidation Corrupts SYMBOL_INDEXES
 
+<!-- convention-summary-start -->
+### Gotcha: TABLE_FORMAT Mutation Without Invalidation Corrupts SYMBOL_INDEXES Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Gotcha: TABLE_FORMAT Mutation Without Invalidation Corrupts SYMBOL_INDEXES.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 07_gotchas
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Defect Symptom
 In games with expanding reels (e.g. Free Spins expanding 3x5 grid to 5x5 grid), `SlotTablePaylineModule` highlights wrong symbols or throws `IndexOutOfBounds` exceptions when accessing `SYMBOL_INDEXES`.
 

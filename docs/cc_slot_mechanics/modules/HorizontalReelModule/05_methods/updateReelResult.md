@@ -7,6 +7,17 @@ tags: ["HorizontalReelModule", "horizontal_reel_module", "cc_slot_mechanics", "m
 
 # 📖 `HorizontalReelModule.updateReelResult()`
 
+<!-- convention-summary-start -->
+### HorizontalReelModule.updateReelResult Line-by-Line Method Specification Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for HorizontalReelModule.updateReelResult Line-by-Line Method Specification.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_mechanics, 05_methods
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-mechanics/HorizontalReel/scripts/HorizontalReelModule.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Method Signature & Overview

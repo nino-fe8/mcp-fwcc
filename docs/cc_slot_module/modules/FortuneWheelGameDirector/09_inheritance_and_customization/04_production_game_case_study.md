@@ -7,6 +7,17 @@ tags: ["FortuneWheelGameDirector", "fortune_wheel_director", "cc_slot_module", "
 
 # 📖 Production Case Study: Fortune Wheel Mini-Game Implementation
 
+<!-- convention-summary-start -->
+### Production Case Study: Fortune Wheel Mini-Game Implementation Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Production Case Study: Fortune Wheel Mini-Game Implementation.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 09_inheritance_and_customization
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Context & Wheel Coordination
 
 In Fortune Wheel bonus games, `FortuneWheelGameDirector` dispatches physics events to `FortuneWheelModule`:

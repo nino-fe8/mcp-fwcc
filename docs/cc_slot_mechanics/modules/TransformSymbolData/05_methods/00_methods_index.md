@@ -7,6 +7,17 @@ tags: ["TransformSymbolData", "transform_symbol_data", "cc_slot_mechanics", "met
 
 # 📖 `TransformSymbolData` Methods Master Index
 
+<!-- convention-summary-start -->
+### TransformSymbolData Methods Master Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for TransformSymbolData Methods Master Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_mechanics, 05_methods
+- **Scope & Code Paths**: `./onloadExtend.md`, `./getTransformData.md`, `./getMatrix0.md`
+- **Related Docs**: [`onloadExtend()`](./onloadExtend.md), [`getTransformData()`](./getTransformData.md), [`getMatrix0()`](./getMatrix0.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Declared Method Signatures & Summary

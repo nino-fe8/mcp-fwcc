@@ -7,6 +7,17 @@ tags: ["ExtraBetModule", "extra_bet_module", "cc_slot_module", "methods", "index
 
 # 📚 ExtraBetModule Methods Catalog Index
 
+<!-- convention-summary-start -->
+### ExtraBetModule Methods Catalog Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for ExtraBetModule Methods Catalog Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 05_methods
+- **Scope & Code Paths**: `./start.md`, `./setupObserver.md`, `./disableExtraBet.md`
+- **Related Docs**: [`start`](./start.md), [`setupObserver`](./setupObserver.md), [`disableExtraBet`](./disableExtraBet.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Declared Methods Index (All 11 Methods)

@@ -7,6 +7,17 @@ tags: ["PaylineLineModule", "payline_line_module", "cc_slot_module", "methods", 
 
 # 📚 PaylineLineModule Methods Catalog Index
 
+<!-- convention-summary-start -->
+### PaylineLineModule Methods Catalog Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for PaylineLineModule Methods Catalog Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 05_methods
+- **Scope & Code Paths**: `./registerPaylineEvents.md`, `./onDestroy.md`, `./setupPaylines.md`
+- **Related Docs**: [`registerPaylineEvents`](./registerPaylineEvents.md), [`onDestroy`](./onDestroy.md), [`setupPaylines`](./setupPaylines.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Declared Methods Index

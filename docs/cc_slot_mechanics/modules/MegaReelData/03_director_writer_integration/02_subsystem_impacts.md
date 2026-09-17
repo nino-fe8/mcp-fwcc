@@ -7,6 +7,17 @@ tags: ["MegaReelData", "mega_reel_data", "cc_slot_mechanics", "pipeline", "subsy
 
 # 🌐 MegaReelData Subsystem Impacts
 
+<!-- convention-summary-start -->
+### MegaReelData Subsystem Impacts Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for MegaReelData Subsystem Impacts.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_mechanics, 03_director_writer_integration
+- **Scope & Code Paths**: `assets/cc-common/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Cross-Subsystem Impacts

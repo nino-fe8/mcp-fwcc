@@ -7,6 +7,17 @@ tags: ["GameModeWriterModule", "game_mode_writer", "cc_slot_module", "director_w
 
 # 🎼 GameModeWriterModule Pipeline Orchestration & Script Assembly
 
+<!-- convention-summary-start -->
+### GameModeWriterModule Pipeline Orchestration & Script Assembly Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for GameModeWriterModule Pipeline Orchestration & Script Assembly.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 03_director_writer_integration
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Declarative Script Assembly Principles
 
 `GameModeWriterModule` acts as the screenplay author:

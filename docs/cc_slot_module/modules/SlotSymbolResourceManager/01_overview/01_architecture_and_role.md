@@ -7,6 +7,17 @@ tags: ["SlotSymbolResourceManager", "slot_symbol_resource_manager", "cc_slot_mod
 
 # 🎨 SlotSymbolResourceManager Architectural Role & Asset Provider
 
+<!-- convention-summary-start -->
+### SlotSymbolResourceManager Architectural Role & Asset Provider Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for SlotSymbolResourceManager Architectural Role & Asset Provider.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 01_overview
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/BaseModule/Table/SlotSymbol/SlotSymbolResourceManager.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Architectural Purpose: The Symbol Co-Located Pair

@@ -7,6 +7,17 @@ tags: ["cc_slot_module", "systems", "script_pipeline", "scripting_triad", "archi
 
 # 🎭 The 3-Tier Scripting Triad (Director - Writer - Executor)
 
+<!-- convention-summary-start -->
+### The 3-Tier Scripting Triad (Director - Writer - Executor) Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for The 3-Tier Scripting Triad (Director - Writer - Executor).
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 04_script_execution_pipeline
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Architectural Triad Blueprint

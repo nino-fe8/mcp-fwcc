@@ -7,6 +7,17 @@ tags: ["SpinButtonNormalManager", "spin_button_normal_manager", "cc_core_lib", "
 
 # 📖 `SpinButtonNormalManager` Methods Master Index
 
+<!-- convention-summary-start -->
+### SpinButtonNormalManager Methods Master Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for SpinButtonNormalManager Methods Master Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_core_lib, 03_methods
+- **Scope & Code Paths**: `./init.md`, `./onSpinButtonHover.md`, `./onSpinButtonCancelHover.md`
+- **Related Docs**: [`init()`](./init.md), [`onSpinButtonHover()`](./onSpinButtonHover.md), [`onSpinButtonCancelHover()`](./onSpinButtonCancelHover.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Declared Method Signatures

@@ -7,6 +7,17 @@ tags: ["SceneUtils", "scene_utils", "cc_core_lib", "methods", "index"]
 
 # 📖 `SceneUtils` Methods Master Index
 
+<!-- convention-summary-start -->
+### SceneUtils Methods Master Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for SceneUtils Methods Master Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_core_lib, 03_methods
+- **Scope & Code Paths**: `./getSceneName.md`, `./getSceneLanguage.md`
+- **Related Docs**: [`getSceneName()`](./getSceneName.md), [`getSceneLanguage()`](./getSceneLanguage.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Declared Method Signatures

@@ -7,6 +7,17 @@ tags: ["TransformSymbolVFX", "transform_symbol_vfx", "cc_slot_mechanics", "recip
 
 # 💡 Recipe: Custom TransformSymbolVFX Subclass Implementation
 
+<!-- convention-summary-start -->
+### Recipe: Custom TransformSymbolVFX Subclass Implementation Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Recipe: Custom TransformSymbolVFX Subclass Implementation.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_mechanics, 08_recipes
+- **Scope & Code Paths**: `assets/cc-common/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Subclass Implementation Example

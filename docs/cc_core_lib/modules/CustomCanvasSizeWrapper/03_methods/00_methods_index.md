@@ -7,6 +7,17 @@ tags: ["CustomCanvasSizeWrapper", "custom_canvas_size_wrapper", "cc_core_lib", "
 
 # 📖 `CustomCanvasSizeWrapper` Methods Master Index
 
+<!-- convention-summary-start -->
+### CustomCanvasSizeWrapper Methods Master Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for CustomCanvasSizeWrapper Methods Master Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_core_lib, 03_methods
+- **Scope & Code Paths**: `./updateCustomCanvasSize.md`, `./updateWindowOrientation.md`, `./scaleCanvasByOrientation.md`
+- **Related Docs**: [`updateCustomCanvasSize()`](./updateCustomCanvasSize.md), [`updateWindowOrientation()`](./updateWindowOrientation.md), [`scaleCanvasByOrientation()`](./scaleCanvasByOrientation.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Declared Method Signatures

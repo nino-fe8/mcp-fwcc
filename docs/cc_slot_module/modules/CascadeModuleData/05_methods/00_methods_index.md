@@ -7,6 +7,17 @@ tags: ["CascadeModuleData", "cascade_module_data", "cc_slot_module", "methods", 
 
 # 📚 CascadeModuleData Methods Catalog Index
 
+<!-- convention-summary-start -->
+### CascadeModuleData Methods Catalog Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for CascadeModuleData Methods Catalog Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 05_methods
+- **Scope & Code Paths**: `./onloadExtend.md`, `./getMatrix.md`, `./getTraceWay.md`
+- **Related Docs**: [`onloadExtend`](./onloadExtend.md), [`getMatrix`](./getMatrix.md), [`getTraceWay`](./getTraceWay.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Declared Methods Index

@@ -7,6 +7,17 @@ tags: ["GameInit", "gameinit", "cc_slot_module", "properties", "injected_service
 
 # 💉 GameInit Provided & Injected Services Architecture
 
+<!-- convention-summary-start -->
+### GameInit Provided & Injected Services Architecture Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for GameInit Provided & Injected Services Architecture.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 04_properties_and_state
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Provided Services Reference Table
 
 `GameInit` functions as the IoC Container root. Instead of receiving injected services, it registers (**provides**) 12 core service instances to the container via `eno.provide(Token, Instance, gameId)`:

@@ -7,6 +7,17 @@ tags: ["cc_slot_module", "systems", "game_mode", "architecture", "index", "flow"
 
 # 🎮 Game Mode System Architecture Index
 
+<!-- convention-summary-start -->
+### Game Mode System Architecture Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Game Mode System Architecture Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 01_game_mode_system
+- **Scope & Code Paths**: `./01_game_mode_concepts_and_types.md`, `./02_mode_anatomy_director_writer_data.md`, `./03_inter_module_communication_4_channels.md`
+- **Related Docs**: [`01_game_mode_concepts_and_types.md`](./01_game_mode_concepts_and_types.md), [`02_mode_anatomy_director_writer_data.md`](./02_mode_anatomy_director_writer_data.md), [`03_inter_module_communication_4_channels.md`](./03_inter_module_communication_4_channels.md)
+<!-- convention-summary-end -->
+
+
 Welcome to the technical guide on the **Game Mode Architecture & Finite State Machine (FSM)** in `cc-slot-module`.
 
 ---

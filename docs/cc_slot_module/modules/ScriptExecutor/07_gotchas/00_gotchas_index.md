@@ -7,6 +7,17 @@ tags: ["ScriptExecutor", "script_executor", "cc_slot_module", "gotchas", "engine
 
 # ⚠️ ScriptExecutor Gotchas & Pitfalls Index
 
+<!-- convention-summary-start -->
+### ScriptExecutor Gotchas & Engine Pitfalls Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for ScriptExecutor Gotchas & Engine Pitfalls Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 07_gotchas
+- **Scope & Code Paths**: `./01_unhandled_action_rejection_halts_spin_loop.md`, `./02_director_method_must_return_promise.md`
+- **Related Docs**: [`01_unhandled_action_rejection_halts_spin_loop.md`](./01_unhandled_action_rejection_halts_spin_loop.md), [`02_director_method_must_return_promise.md`](./02_director_method_must_return_promise.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Known Gotchas & Engine Pitfalls Summary Table

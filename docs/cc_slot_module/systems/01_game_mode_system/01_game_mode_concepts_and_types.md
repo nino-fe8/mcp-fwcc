@@ -7,6 +7,17 @@ tags: ["cc_slot_module", "systems", "game_mode", "concepts", "types", "fsm", "st
 
 # 🎮 Game Mode Concepts & Standard Types
 
+<!-- convention-summary-start -->
+### Game Mode Concepts & Standard Types Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Game Mode Concepts & Standard Types.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 01_game_mode_system
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Architectural Role: Finite State Machine (FSM)

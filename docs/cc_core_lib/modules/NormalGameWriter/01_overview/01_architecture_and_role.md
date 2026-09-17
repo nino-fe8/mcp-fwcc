@@ -7,6 +7,17 @@ tags: ["NormalGameWriter", "normal_game_writer", "cc_core_lib", "overview", "eno
 
 # 🏛️ `NormalGameWriter` Architectural Role & Runtime Integration
 
+<!-- convention-summary-start -->
+### NormalGameWriter Architectural Role & Runtime Integration Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for NormalGameWriter Architectural Role & Runtime Integration.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_core_lib, 01_overview
+- **Scope & Code Paths**: `assets/cc-common/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 - **Package Source**: `assets/cc-common/cc-core-lib/slot-base-logic`
 - **Global Namespace Anchor**: `eno.NormalGameWriter` / `globalThis.eno.NormalGameWriter`
 - **Inheritance Hierarchy**: `NormalGameWriter` ➔ `BaseWriter`

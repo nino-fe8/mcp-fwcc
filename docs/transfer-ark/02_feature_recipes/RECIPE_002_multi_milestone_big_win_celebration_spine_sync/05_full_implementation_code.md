@@ -11,6 +11,17 @@ author: "ARK Slot Engineering Team"
 
 # 5. 💻 Complete Source Code Implementation
 
+<!-- convention-summary-start -->
+### Multi-Milestone Big Win - Complete Implementation Code Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Multi-Milestone Big Win - Complete Implementation Code.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: feature, RECIPE_002_multi_milestone_big_win_celebration_spine_sync
+- **Scope & Code Paths**: `assets/cc-release-slot/cc1-red-cliff/scripts/Cutscene/WinEffectModule9666.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 **Production File**: `assets/cc-release-slot/cc1-red-cliff/scripts/Cutscene/WinEffectModule9666.ts`
 
 ```typescript

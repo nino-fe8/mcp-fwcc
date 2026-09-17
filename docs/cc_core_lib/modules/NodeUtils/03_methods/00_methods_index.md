@@ -7,6 +7,17 @@ tags: ["NodeUtils", "node_utils", "cc_core_lib", "methods", "index"]
 
 # 📖 `NodeUtils` Methods Master Index
 
+<!-- convention-summary-start -->
+### NodeUtils Methods Master Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for NodeUtils Methods Master Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_core_lib, 03_methods
+- **Scope & Code Paths**: `./changeColor.md`, `./setZIndex.md`, `./updateSiblingIndex.md`
+- **Related Docs**: [`changeColor()`](./changeColor.md), [`setZIndex()`](./setZIndex.md), [`updateSiblingIndex()`](./updateSiblingIndex.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Declared Method Signatures

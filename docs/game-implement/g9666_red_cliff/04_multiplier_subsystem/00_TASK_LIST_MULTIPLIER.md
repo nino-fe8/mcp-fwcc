@@ -8,6 +8,17 @@ tags: ["9666", "multiplier", "task_list", "debugging", "verification"]
 
 # 📋 Red Cliff (g9666) Multiplier Subsystem Step-by-Step Task & Debugging Checklist
 
+<!-- convention-summary-start -->
+### Red Cliff (g9666) Multiplier Subsystem Step-by-Step Task & Debugging Checklist Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Red Cliff (g9666) Multiplier Subsystem Step-by-Step Task & Debugging Checklist.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: game_implement, 04_multiplier_subsystem
+- **Scope & Code Paths**: `../../../../assets/cc-release-slot/cc1-red-cliff/scripts/Table/SlotSymbolModule9666.ts#L80-L95`, `../../../../assets/cc-release-slot/cc1-red-cliff/scripts/GameMode/FreeGameWriterModule9666.ts#L12-L14`, `../../../../assets/cc-release-slot/cc1-red-cliff/scripts/Gui/CollectMultiModule9666.ts#L127-L142`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 🎯 Purpose & Scope

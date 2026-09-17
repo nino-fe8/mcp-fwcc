@@ -11,6 +11,17 @@ author: "ARK Slot Engineering Team"
 
 # BUG-006: Fix Auto Spin Unexpectedly Disabled After Big Win + Free Game Transition
 
+<!-- convention-summary-start -->
+### Fix Auto Spin Unexpectedly Disabled After Big Win + Free Game Transition Summary
+
+- **Core Architecture / Purpose**: Documents root cause, architectural pitfalls, reproduction steps, and official code fix for Fix Auto Spin Unexpectedly Disabled After Big Win + Free Game Transition.
+- **Key Mechanisms & Design**: Guards edge cases, prevents race conditions/null crashes, and enforces state machine integrity during game transitions.
+- **Domain Capabilities**: bugfix, 01_bugs_and_gotchas
+- **Scope & Code Paths**: `NormalGameDirectorModule9666.ts`, `assets/cc-release-slot/cc1-red-cliff/scripts/GameMode/NormalGameDirectorModule9666.ts`, `assets/cc-common/cc-slot-module/GUI/SpinButton/SlotButtonNormal.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. 📌 Problem Overview

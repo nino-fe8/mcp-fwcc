@@ -7,6 +7,17 @@ tags: ["GameModeWriterModule", "game_mode_writer", "cc_slot_module", "customizat
 
 # 🚀 Game Creation Workflow: Authoring Declarative Action Pipelines
 
+<!-- convention-summary-start -->
+### Game Creation Workflow: Authoring Declarative Action Pipelines Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Game Creation Workflow: Authoring Declarative Action Pipelines.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 09_inheritance_and_customization
+- **Scope & Code Paths**: `scripts/GameMode/CustomModeWriterModule.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 Follow this 3-step checklist when authoring declarative action pipelines:
 
 ---

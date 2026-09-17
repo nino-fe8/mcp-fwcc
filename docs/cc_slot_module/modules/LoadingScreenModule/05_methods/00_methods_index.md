@@ -7,6 +7,17 @@ tags: ["LoadingScreenModule", "loading_screen_module", "cc_slot_module", "method
 
 # 📖 LoadingScreenModule Methods Master Index
 
+<!-- convention-summary-start -->
+### LoadingScreenModule Methods Master Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for LoadingScreenModule Methods Master Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 05_methods
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Declared Methods

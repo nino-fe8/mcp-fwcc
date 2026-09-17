@@ -7,6 +7,17 @@ tags: ["GameDataStore", "game_data_store", "cc_slot_module", "recipe", "win_leve
 
 # 🍳 Recipe: Calibrating Custom Win Level Time Curves
 
+<!-- convention-summary-start -->
+### Recipe: Calibrating Custom Win Level Time Curves Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Recipe: Calibrating Custom Win Level Time Curves.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 08_recipes
+- **Scope & Code Paths**: `GameConfig.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Problem Statement
 Configure snappy count-up times for small wins while delivering an extended 10-second celebration for Jackpot/Super Mega wins.
 

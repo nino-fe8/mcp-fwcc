@@ -7,6 +7,17 @@ tags: ["MultiplierReelModule", "multiplier_reel_module", "cc_slot_mechanics", "g
 
 # 🔄 `MultiplierReelModule` Mechanics Game Flow & Execution Sequence
 
+<!-- convention-summary-start -->
+### MultiplierReelModule Mechanics Game Flow & Sequence Summary
+
+- **Core Architecture / Purpose**: Defines network protocol, socket packet lifecycle, state persistence, and error handling for MultiplierReelModule Mechanics Game Flow & Sequence.
+- **Key Mechanisms & Design**: Handles WebSocket frame dispatch, acknowledgment confirmation, state resume, and resilient synchronization between client DataStore and Backend Gateway.
+- **Domain Capabilities**: cc_slot_mechanics, 02_game_flow
+- **Scope & Code Paths**: `assets/cc-common/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Sequence Execution Diagram

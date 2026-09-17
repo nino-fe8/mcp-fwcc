@@ -7,6 +7,17 @@ tags: ["FreeOptionDirectorModule", "free_option_director", "cc_slot_module", "ga
 
 # 🌀 FreeOptionDirectorModule Interaction Phase Breakdown
 
+<!-- convention-summary-start -->
+### FreeOptionDirectorModule Interaction Phase Breakdown Summary
+
+- **Core Architecture / Purpose**: Defines network protocol, socket packet lifecycle, state persistence, and error handling for FreeOptionDirectorModule Interaction Phase Breakdown.
+- **Key Mechanisms & Design**: Handles WebSocket frame dispatch, acknowledgment confirmation, state resume, and resilient synchronization between client DataStore and Backend Gateway.
+- **Domain Capabilities**: cc_slot_module, 02_game_flow
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Interaction Sequence
 
 ```mermaid

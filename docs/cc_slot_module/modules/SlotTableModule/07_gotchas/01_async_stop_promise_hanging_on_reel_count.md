@@ -7,6 +7,17 @@ tags: ["SlotTableModule", "slot_table", "cc_slot_module", "gotchas", "promise_ha
 
 # ⚠️ Gotcha: Table Stop Promise Hanging Indefinitely
 
+<!-- convention-summary-start -->
+### Gotcha: Table Stop Promise Hanging Indefinitely Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Gotcha: Table Stop Promise Hanging Indefinitely.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 07_gotchas
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Defect Symptom
 After the reels visually stop spinning, the game never proceeds to show winning lines or update balances. The spin button remains permanently disabled.
 

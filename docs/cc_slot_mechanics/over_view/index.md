@@ -7,6 +7,17 @@ tags: ["cc_slot_mechanics", "overview", "systems", "index", "architecture", "mas
 
 # 📚 Cocos Creator Slot Mechanics Architecture & Master Systems Guide
 
+<!-- convention-summary-start -->
+### Cocos Creator Slot Mechanics Architecture & Master Systems Guide Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Cocos Creator Slot Mechanics Architecture & Master Systems Guide.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_mechanics, over_view
+- **Scope & Code Paths**: `./01_mechanics_architecture_and_philosophy.md`, `./02_sdk_quintet_design_pattern.md`, `./03_ways_vs_lines_vs_clusters_evaluation.md`
+- **Related Docs**: [`01_mechanics_architecture_and_philosophy.md`](./01_mechanics_architecture_and_philosophy.md), [`02_sdk_quintet_design_pattern.md`](./02_sdk_quintet_design_pattern.md), [`03_ways_vs_lines_vs_clusters_evaluation.md`](./03_ways_vs_lines_vs_clusters_evaluation.md)
+<!-- convention-summary-end -->
+
+
 Welcome to the comprehensive master guide for the **Slot Mechanics SDK** (`cc-slot-mechanics`) — supporting 20 advanced game mechanics for modern slot titles.
 
 ---

@@ -3,13 +3,25 @@ id: "transfer-ark:feature:multi_milestone_big_win:02_state_machine"
 title: "Multi-Milestone Big Win - State Machine & Lifecycle Flow"
 category: "feature"
 game_ids: ["g9666", "all"]
-sdk_modules: ["WinEffectModule", "BaseCutscene"]
-tags: ["state_machine", "lifecycle", "sequence_diagram", "touch_skip", "debounce"]
+sdk_modules: ["WinEffectModule", "BaseCutscene", "WinEffectData9666"]
+tags: ["state_machine", "lifecycle", "sequence_diagram", "touch_skip", "debounce", "spacebar", "early_title_switch"]
 created_at: "2026-08-25"
+updated_at: "2026-09-14"
 author: "ARK Slot Engineering Team"
 ---
 
 # 2. 🔄 State Machine & Lifecycle Flow
+
+<!-- convention-summary-start -->
+### Multi-Milestone Big Win - State Machine & Lifecycle Flow Summary
+
+- **Core Architecture / Purpose**: Đặc tả 4-state machine (`IDLE` → `COUNTING` → `COUNTING_COMPLETED` → `CLOSING`), toàn bộ lifecycle methods, luồng sequence từ Director đến Spine đến Sound, cùng các rule cho touch/keyboard skip.
+- **Key Mechanisms & Design**: `WinEffectData9666` lưu state; `moveToNextMilestone` có `forceTargetLevel` và `_tweenEarlySwitch`; `triggerMoneyCount` có guard; spacebar support qua `onEnable`/`onDisable`.
+- **Domain Capabilities**: feature, RECIPE_002_multi_milestone_big_win_celebration_spine_sync
+- **Scope & Code Paths**: `assets/cc-release-slot/cc1-red-cliff/scripts/Cutscene/`
+- **Related Docs**: [Master Index](./INDEX.md)
+<!-- convention-summary-end -->
+
 
 ---
 
@@ -24,6 +36,8 @@ export enum WinPopupState {
 }
 ```
 
+> State được lưu trong `WinEffectData9666.popupState`, truy cập qua `this._popupState` (getter/setter).
+
 ```mermaid
 stateDiagram-v2
     [*] --> IDLE
@@ -31,21 +45,24 @@ stateDiagram-v2
     
     state COUNTING {
         [*] --> Milestone_1
-        Milestone_1 --> Milestone_2: Step complete OR Tap (skipMilestone)
-        Milestone_2 --> Milestone_3: Step complete OR Tap (skipMilestone)
-        Milestone_3 --> [*]: Final target reached
+        Milestone_1 --> Milestone_2: tween complete OR skipMilestone()
+        Milestone_2 --> Milestone_3: tween complete OR skipMilestone()
+        Milestone_3 --> [*]: advanceMilestone() returns null
+        note right of Milestone_1: _tweenEarlySwitch fires leadTime\nseconds before tween ends
     }
 
     COUNTING --> COUNTING_COMPLETED: finishCounting()
     
     state COUNTING_COMPLETED {
-        [*] --> LockTouch_1s: Start 1.0s Debounce Tween
-        LockTouch_1s --> AllowClickToClose: 1.0s Elapsed (_canClickToClose = true)
-        LockTouch_1s --> AutoClose_3s: Start 3.0s Auto-Close Timer
+        [*] --> LockTouch: _canClickToClose = false
+        LockTouch --> AllowClose: DEBOUNCE_CLOSE_TIME (1.0s) elapsed
+        LockTouch --> AutoClose: AUTO_CLOSE_TIME (3.0s) elapsed
+        AllowClose --> [*]: User click -> closePopup()
+        AutoClose --> [*]: playSoundEnd() -> closePopup()
     }
 
-    COUNTING_COMPLETED --> CLOSING: User Click (after debounce) OR 3.0s Timeout
-    CLOSING --> IDLE: exit() -> cleanupTweens() -> fireCutsceneClose()
+    COUNTING_COMPLETED --> CLOSING: User Click OR Auto-Close
+    CLOSING --> IDLE: exit() -> cleanupTweens() -> resumeMainBGM() -> super.exit()
     CLOSING --> [*]
 ```
 
@@ -64,21 +81,27 @@ sequenceDiagram
 
     D->>CC: PLAY_CUTSCENE (BIG_WIN, winAmount, totalBet)
     CC->>W: play(content, callback)
-    W->>W: enter() -> showEffectWin()
-    W->>Snd: playMusic('BGM_BIGWIN')
-    W->>W: setupMilestones(totalBet) -> IMilestone[]
+    W->>W: enter() - check Turbo/FTR
+    Note over W: isTurboActive || isFastToResult?
+    alt Turbo / Fast-To-Result
+        W->>Snd: _duckCurrentBgm() + playSfx(SOUND_SHORTEN)
+        W->>W: showFastEffectWin() -> super
+        W-->>CC: callback resolved immediately
+    else Normal Mode
+        W->>W: showEffectWin()
+        W->>Snd: switchMusicWithFade(BGM_BIGWIN, true)
+        W->>W: initValue() -> winData.setupMilestones()
+        W->>W: changeTitle(level=0) -> playLevelAnim(0)
+        W->>Sp: setAnimation(0, win_1_in, false)
+        W->>Sp: setEventListener(slot_money event -> triggerMoneyCount)
+        W->>Sp: setCompleteListener(-> triggerMoneyCount + loop anim)
+        W->>W: scheduleOnce(triggerMoneyCount, INTRO_DELAY) backup
 
-    loop For each Milestone Tier (1 to N)
+        Sp-->>W: [Spine Event: slot_money fires]
+        W->>W: triggerMoneyCount() [guard: once only]
+        W->>W: fadeInWinAmount() + startParticle()
+        W->>Snd: playSoundCounting() [loop SFX every 1.5s]
         W->>W: moveToNextMilestone()
-        W->>Snd: playSfx(`BIGWIN_LEVEL${level}`)
-        W->>Sp: setAnimation(0, `win_${level}_in`, false)
-        W->>Sp: setCompleteListener -> setAnimation(0, `win_${level}_loop`, true)
-        W->>W: Tween _bigWinProgress from startVal to targetAmount
-        opt User Taps Screen During Count
-            User->>W: onClick() -> skipMilestone()
-            W->>W: Fast-forward to targetAmount & advance
-        end
-    end
 
     W->>W: finishCounting()
     W->>Snd: playSfx('BIGWIN_END')

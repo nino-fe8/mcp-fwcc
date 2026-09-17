@@ -7,6 +7,17 @@ tags: ["DialogMessageModule", "dialogmessagemodule", "cc_slot_module", "methods"
 
 # 📑 DialogMessageModule Methods Index
 
+<!-- convention-summary-start -->
+### DialogMessageModule Methods Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for DialogMessageModule Methods Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 05_methods
+- **Scope & Code Paths**: `onLoadExtend.md`, `setupObserver.md`, `showDialog.md`
+- **Related Docs**: [`onLoadExtend`](onLoadExtend.md), [`setupObserver`](setupObserver.md), [`showDialog`](showDialog.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Methods Table

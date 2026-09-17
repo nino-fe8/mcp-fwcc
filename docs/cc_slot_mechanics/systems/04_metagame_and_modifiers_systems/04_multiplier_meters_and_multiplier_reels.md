@@ -7,6 +7,17 @@ tags: ["cc_slot_mechanics", "systems", "multiplier_reel", "multiplier_meter", "c
 
 # ✖️ Multiplier Meters & Dedicated Multiplier Reels
 
+<!-- convention-summary-start -->
+### Multiplier Meters & Dedicated Multiplier Reels Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Multiplier Meters & Dedicated Multiplier Reels.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_mechanics, 04_metagame_and_modifiers_systems
+- **Scope & Code Paths**: `assets/cc-common/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Dedicated Multiplier Column

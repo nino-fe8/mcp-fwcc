@@ -7,6 +7,17 @@ tags: ["GameInit", "gameinit", "cc_slot_module", "methods", "api", "index"]
 
 # 🚀 GameInit Methods & API Specification Index
 
+<!-- convention-summary-start -->
+### GameInit Methods & API Specification Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for GameInit Methods & API Specification Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 05_methods
+- **Scope & Code Paths**: `./onLoad.md`, `./start.md`, `./initializeConfigAndDataStore.md`
+- **Related Docs**: [`onLoad(): void`](./onLoad.md), [`start(): void`](./start.md), [`initializeConfigAndDataStore(): void`](./initializeConfigAndDataStore.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Master Method Index
 
 | Method Signature | Visibility | Lifecycle Phase | Brief Purpose |

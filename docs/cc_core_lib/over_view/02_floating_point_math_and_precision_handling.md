@@ -7,6 +7,17 @@ tags: ["cc_core_lib", "overview", "float_utils", "precision", "financial_math"]
 
 # 🔢 Floating Point Arithmetic & Financial Precision
 
+<!-- convention-summary-start -->
+### Floating Point Arithmetic & Financial Precision Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Floating Point Arithmetic & Financial Precision.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_core_lib, over_view
+- **Scope & Code Paths**: `assets/cc-common/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. The IEEE-754 Problem in Slot Gaming

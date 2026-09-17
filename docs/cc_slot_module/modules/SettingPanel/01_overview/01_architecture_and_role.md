@@ -7,6 +7,17 @@ tags: ["SettingPanel", "settingpanel", "cc_slot_module", "overview", "architectu
 
 # 🏛️ SettingPanel Architecture & Role
 
+<!-- convention-summary-start -->
+### SettingPanel Architecture & Role Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for SettingPanel Architecture & Role.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 01_overview
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 `SettingPanel` is the settings modal controller in the `cc-common` Slot Framework SDK. Inheriting from `BaseUIPopup`, it manages player audio preferences (BGM and SFX toggle switches) and provides entry points to secondary sub-panels (Bet History and Jackpot History).
 
 ---

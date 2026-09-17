@@ -7,6 +7,17 @@ tags: ["cc_slot_module", "systems", "reactive_data", "reconnection", "hydration"
 
 # 🔌 Network Reconnection & State Hydration (`isResume`)
 
+<!-- convention-summary-start -->
+### Network Reconnection & State Hydration (isResume) Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Network Reconnection & State Hydration (isResume).
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 03_reactive_data_system
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Reconnection Lifecycle & Hydration Flow

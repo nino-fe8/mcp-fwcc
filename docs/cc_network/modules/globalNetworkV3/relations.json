@@ -1,0 +1,20 @@
+{
+  "moduleId": "globalNetworkV3",
+  "category": "cc_network",
+  "sourcePath": "assets/cc-common/cc-network/v3/globalNetworkV3.js",
+  "dependencies": [
+    "game-network",
+    "loadConfigAsync",
+    "gameStateSlot"
+  ],
+  "consumers": [
+    "connectNetworkV3",
+    "SlotBaseModule",
+    "GameDirector"
+  ],
+  "keyMethods": [
+    "init",
+    "registerGame",
+    "triggerUserLogout"
+  ]
+}

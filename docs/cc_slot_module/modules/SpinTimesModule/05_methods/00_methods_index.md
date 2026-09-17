@@ -7,6 +7,17 @@ tags: ["SpinTimesModule", "spin_times_module", "cc_slot_module", "methods", "ind
 
 # 📚 SpinTimesModule Methods Catalog Index
 
+<!-- convention-summary-start -->
+### SpinTimesModule Methods Catalog Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for SpinTimesModule Methods Catalog Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 05_methods
+- **Scope & Code Paths**: `./onLoadExtend.md`, `./setupObserver.md`, `./updateState.md`
+- **Related Docs**: [`onLoadExtend`](./onLoadExtend.md), [`setupObserver`](./setupObserver.md), [`updateState`](./updateState.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Declared Methods Index (All 6 Methods)

@@ -7,6 +7,17 @@ tags: ["GameEventManager", "game_event_manager", "cc_slot_module", "gotchas", "a
 
 # 🛑 Gotcha: Unhandled Async Promise Rejection Inside `emit()`
 
+<!-- convention-summary-start -->
+### Gotcha: Unhandled Async Promise Rejection Inside emit() Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Gotcha: Unhandled Async Promise Rejection Inside emit().
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 07_gotchas
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Symptom & Visual Defect
 A spin sequence hangs indefinitely or logs `UnhandledPromiseRejection` when an event listener throws an asynchronous error inside a timer or await block.
 

@@ -1,0 +1,20 @@
+{
+  "moduleId": "EventManager",
+  "category": "cc_network",
+  "sourcePath": "assets/cc-common/cc-network/game-network.js",
+  "dependencies": [
+    "Duplicate",
+    "logger"
+  ],
+  "consumers": [
+    "MessageManager",
+    "PlayerInfoStateManager",
+    "SlotBaseModule"
+  ],
+  "keyMethods": [
+    "registerEvent",
+    "waitForEvent",
+    "removeWaitingQueue",
+    "cleanUp"
+  ]
+}

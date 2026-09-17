@@ -7,6 +7,17 @@ tags: ["SlotPaylineSchedule", "slot_payline_schedule", "cc_slot_module", "events
 
 # 📡 SlotPaylineSchedule Scoped & Emitter Events Specification
 
+<!-- convention-summary-start -->
+### SlotPaylineSchedule Scoped & Emitter Events Specification Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for SlotPaylineSchedule Scoped & Emitter Events Specification.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 06_events
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Subscribed Scoped `moduleEvent` Steps (From Director/Writer)

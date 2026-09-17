@@ -7,6 +7,17 @@ tags: ["MainGame", "main_game", "cc_core_lib", "methods", "index"]
 
 # 📖 `MainGame` Methods Master Index
 
+<!-- convention-summary-start -->
+### MainGame Methods Master Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for MainGame Methods Master Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_core_lib, 03_methods
+- **Scope & Code Paths**: `./onStartSpinRequest.md`, `./onBuyFeatureSpinRequest.md`, `./onStartSpinTrialRequest.md`
+- **Related Docs**: [`onStartSpinRequest()`](./onStartSpinRequest.md), [`onBuyFeatureSpinRequest()`](./onBuyFeatureSpinRequest.md), [`onStartSpinTrialRequest()`](./onStartSpinTrialRequest.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Declared Method Signatures

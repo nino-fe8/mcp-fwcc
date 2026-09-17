@@ -7,6 +7,17 @@ tags: ["BonusGameWriter", "bonus_game_writer", "cc_core_lib", "methods", "index"
 
 # 📖 `BonusGameWriter` Methods Master Index
 
+<!-- convention-summary-start -->
+### BonusGameWriter Methods Master Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for BonusGameWriter Methods Master Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_core_lib, 03_methods
+- **Scope & Code Paths**: `./makeScriptTriggerBonusGame.md`, `./makeScriptResultReceived.md`, `./makeScriptShowResult.md`
+- **Related Docs**: [`makeScriptTriggerBonusGame()`](./makeScriptTriggerBonusGame.md), [`makeScriptResultReceived()`](./makeScriptResultReceived.md), [`makeScriptShowResult()`](./makeScriptShowResult.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Declared Method Signatures

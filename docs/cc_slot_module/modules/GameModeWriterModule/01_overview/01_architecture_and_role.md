@@ -7,6 +7,17 @@ tags: ["GameModeWriterModule", "game_mode_writer", "cc_slot_module", "overview",
 
 # 🏛️ GameModeWriterModule Master Script Generator Architecture
 
+<!-- convention-summary-start -->
+### GameModeWriterModule Master Script Generator Architecture Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for GameModeWriterModule Master Script Generator Architecture.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 01_overview
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/GameMode/GameModeWriterModule.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Executive Summary & Purpose
 
 `GameModeWriterModule` (`assets/cc-common/cc-slot-module/GameMode/GameModeWriterModule.ts`) is the **Root Abstract Script Generator Base Class** for all game mode writers (`NormalGameWriterModule`, `FreeGameWriterModule`, `BonusGameWriterModule`).

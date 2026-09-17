@@ -7,6 +7,17 @@ tags: ["TumblingSceneTest", "tumbling_scene_test", "cc_slot_mechanics", "methods
 
 # 📖 `TumblingSceneTest` Methods Master Index
 
+<!-- convention-summary-start -->
+### TumblingSceneTest Methods Master Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for TumblingSceneTest Methods Master Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_mechanics, 05_methods
+- **Scope & Code Paths**: `./stopWithRandomMatrix.md`, `./fastStop.md`
+- **Related Docs**: [`stopWithRandomMatrix()`](./stopWithRandomMatrix.md), [`fastStop()`](./fastStop.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Declared Method Signatures & Summary

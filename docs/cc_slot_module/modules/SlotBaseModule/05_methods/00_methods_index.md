@@ -7,6 +7,17 @@ tags: ["SlotBaseModule", "slot_base_module", "cc_slot_module", "methods", "index
 
 # 📚 SlotBaseModule Methods Catalog Index
 
+<!-- convention-summary-start -->
+### SlotBaseModule Methods Catalog Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for SlotBaseModule Methods Catalog Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 05_methods
+- **Scope & Code Paths**: `./onLoad.md`, `./onLoadExtend.md`, `./setupModule.md`
+- **Related Docs**: [`onLoad`](./onLoad.md), [`onLoadExtend`](./onLoadExtend.md), [`setupModule`](./setupModule.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Declared Methods Index (All 6 Methods)

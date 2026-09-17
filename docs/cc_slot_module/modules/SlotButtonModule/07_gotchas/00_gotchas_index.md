@@ -7,6 +7,17 @@ tags: ["SlotButtonModule", "slot_button_module", "cc_slot_module", "gotchas", "i
 
 # ⚠️ SlotButtonModule Gotchas Index
 
+<!-- convention-summary-start -->
+### SlotButtonModule Gotchas Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for SlotButtonModule Gotchas Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 07_gotchas
+- **Scope & Code Paths**: `./01_unreleased_system_event_listener_leak.md`, `./02_spacebar_trigger_when_popup_displayed.md`, `./03_double_tap_auto_spin_conflict.md`
+- **Related Docs**: [`01_unreleased_system_event_listener_leak`](./01_unreleased_system_event_listener_leak.md), [`02_spacebar_trigger_when_popup_displayed`](./02_spacebar_trigger_when_popup_displayed.md), [`03_double_tap_auto_spin_conflict`](./03_double_tap_auto_spin_conflict.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Catalog of Pitfalls

@@ -7,6 +7,17 @@ tags: ["GameInit", "gameinit", "cc_slot_module", "gotchas", "singleton_leak", "m
 
 # 🛑 Gotcha: Singleton Dependency Leak on Scene Reload
 
+<!-- convention-summary-start -->
+### Gotcha: Singleton Dependency Leak on Scene Reload Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Gotcha: Singleton Dependency Leak on Scene Reload.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 07_gotchas
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Symptom & Visual Defect
 After player leaves the slot game and returns back to the lobby or re-enters the slot scene, multiple ghost event listeners fire and memory steadily climbs.
 

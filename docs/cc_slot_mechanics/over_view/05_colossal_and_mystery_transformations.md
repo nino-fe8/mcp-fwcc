@@ -7,6 +7,17 @@ tags: ["cc_slot_mechanics", "overview", "colossal_blocks", "mystery_morph", "gig
 
 # 🗿 Colossal Blocks & Mystery Transformation Architecture
 
+<!-- convention-summary-start -->
+### Colossal Blocks & Mystery Transformation Architecture Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Colossal Blocks & Mystery Transformation Architecture.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_mechanics, over_view
+- **Scope & Code Paths**: `assets/cc-common/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Multi-Cell Symbol Geometry

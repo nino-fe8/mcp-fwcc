@@ -7,6 +7,17 @@ tags: ["TrialModeData", "trial_mode_data", "cc_core_lib", "methods", "index"]
 
 # 📖 `TrialModeData` Methods Master Index
 
+<!-- convention-summary-start -->
+### TrialModeData Methods Master Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for TrialModeData Methods Master Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_core_lib, 03_methods
+- **Scope & Code Paths**: `./setFinishedTutorialOption.md`, `./setButtonTrialActive.md`, `./setDisplayBackToRealButton.md`
+- **Related Docs**: [`setFinishedTutorialOption()`](./setFinishedTutorialOption.md), [`setButtonTrialActive()`](./setButtonTrialActive.md), [`setDisplayBackToRealButton()`](./setDisplayBackToRealButton.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Declared Method Signatures

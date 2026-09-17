@@ -8,6 +8,17 @@ tags: ["9666", "SlotSymbolModule9666", "multiplier_wild", "lifecycle", "state_ma
 
 # 🌟 Red Cliff (g9666) Multiplier Wild Lifecycle & State Machine
 
+<!-- convention-summary-start -->
+### Red Cliff (g9666) Multiplier Wild Lifecycle & State Machine Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Red Cliff (g9666) Multiplier Wild Lifecycle & State Machine.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: game_implement, 04_multiplier_subsystem
+- **Scope & Code Paths**: `SlotSymbolModule9666.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Overview & Multiplier Wild (K1) Data Format

@@ -7,6 +7,17 @@ tags: ["SlotButtonModule", "SlotButtonNormal", "SlotButtonSpine", "SlotButtonSpr
 
 # 📚 SlotButton Ecosystem Methods Catalog Index
 
+<!-- convention-summary-start -->
+### SlotButton Ecosystem Methods Catalog Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for SlotButton Ecosystem Methods Catalog Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 05_methods
+- **Scope & Code Paths**: `./onLoadExtend.md`, `./setup.md`, `./onEnable.md`
+- **Related Docs**: [`onLoadExtend`](./onLoadExtend.md), [`setup`](./setup.md), [`onEnable`](./onEnable.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Declared Methods Index (All 29 Methods Across Ecosystem)

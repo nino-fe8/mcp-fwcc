@@ -7,6 +7,17 @@ tags: ["SlotTableSoundEffectModule", "slot_table_sound_effect_module", "cc_slot_
 
 # 📋 SlotTableSoundEffectModule Methods Index
 
+<!-- convention-summary-start -->
+### SlotTableSoundEffectModule Methods Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for SlotTableSoundEffectModule Methods Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 05_methods
+- **Scope & Code Paths**: `./onLoadExtend.md`, `./onReelStartSound.md`, `./onReelStopSound.md`
+- **Related Docs**: [`onLoadExtend(): void`](./onLoadExtend.md), [`onReelStartSound(): void`](./onReelStartSound.md), [`onReelStopSound(data): void`](./onReelStopSound.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Declared Methods Summary Table

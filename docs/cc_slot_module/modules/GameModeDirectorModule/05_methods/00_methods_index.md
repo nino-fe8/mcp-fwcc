@@ -7,6 +7,17 @@ tags: ["GameModeDirectorModule", "game_mode_director", "cc_slot_module", "method
 
 # 📋 GameModeDirectorModule Methods Index
 
+<!-- convention-summary-start -->
+### GameModeDirectorModule Methods Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for GameModeDirectorModule Methods Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 05_methods
+- **Scope & Code Paths**: `./onExtendedLoad.md`, `./setupModules.md`, `./init.md`
+- **Related Docs**: [`onExtendedLoad(): void`](./onExtendedLoad.md), [`setupModules(): void`](./setupModules.md), [`init(): void`](./init.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Lifecycle & Setup

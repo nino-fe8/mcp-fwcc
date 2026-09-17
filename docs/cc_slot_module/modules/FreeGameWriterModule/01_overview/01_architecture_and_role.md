@@ -7,6 +7,17 @@ tags: ["FreeGameWriterModule", "free_game_writer", "cc_slot_module", "overview",
 
 # 🏛️ FreeGameWriterModule Free Spins Script Generator Architecture
 
+<!-- convention-summary-start -->
+### FreeGameWriterModule Free Spins Script Generator Architecture Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for FreeGameWriterModule Free Spins Script Generator Architecture.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 01_overview
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/GameMode/FreeGame/FreeGameWriterModule.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Executive Summary & Purpose
 
 `FreeGameWriterModule` (`assets/cc-common/cc-slot-module/GameMode/FreeGame/FreeGameWriterModule.ts`) is the **Declarative Action Script Generator for Free Spins**.

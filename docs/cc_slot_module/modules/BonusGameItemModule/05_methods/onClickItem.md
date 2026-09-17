@@ -7,6 +7,17 @@ tags: ["BonusGameItemModule", "bonus_game_item", "cc_slot_module", "method", "on
 
 # `BonusGameItemModule.onClickItem(_e: any, isAutoTrigger?: boolean): void`
 
+<!-- convention-summary-start -->
+### BonusGameItemModule.onClickItem() Method Specification Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for BonusGameItemModule.onClickItem() Method Specification.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 05_methods
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Method Signature

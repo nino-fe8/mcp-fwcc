@@ -7,6 +7,17 @@ tags: ["cc_slot_module", "systems", "cutscenes", "win_effect", "coin_roll", "mon
 
 # 💰 Win Effect Tiers, Dynamic Title Scaling & Coin Roll Mechanics
 
+<!-- convention-summary-start -->
+### Win Effect Tiers, Dynamic Title Scaling & Coin Roll Mechanics Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Win Effect Tiers, Dynamic Title Scaling & Coin Roll Mechanics.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 07_cutscenes_and_celebration_system
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Multiplier Thresholds & Title Escalation

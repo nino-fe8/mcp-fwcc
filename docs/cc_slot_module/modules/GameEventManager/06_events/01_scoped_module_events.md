@@ -7,6 +7,17 @@ tags: ["GameEventManager", "game_event_manager", "cc_slot_module", "events", "sc
 
 # 📡 GameEventManager Relationship with Scoped Node Events
 
+<!-- convention-summary-start -->
+### GameEventManager Relationship with Scoped Node Events Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for GameEventManager Relationship with Scoped Node Events.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 06_events
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Global Bus vs Scoped Bus
 
 `GameEventManager` is the **Global Bus** (`this.eventManager`), distinct from the local node event bus (`this.node.emit` / `this.moduleEvent`):

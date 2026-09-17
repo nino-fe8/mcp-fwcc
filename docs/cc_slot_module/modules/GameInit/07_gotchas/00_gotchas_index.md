@@ -7,6 +7,17 @@ tags: ["GameInit", "gameinit", "cc_slot_module", "gotchas", "engine_defects", "i
 
 # ⚠️ GameInit Gotchas & Engine Defects Index
 
+<!-- convention-summary-start -->
+### GameInit Gotchas & Engine Defects Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for GameInit Gotchas & Engine Defects Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 07_gotchas
+- **Scope & Code Paths**: `./01_early_inject_access_before_provide.md`, `./02_singleton_dependency_leak_scene_reload.md`
+- **Related Docs**: [`01_early_inject_access_before_provide`](./01_early_inject_access_before_provide.md), [`02_singleton_dependency_leak_scene_reload`](./02_singleton_dependency_leak_scene_reload.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Known Gotchas Reference Table
 
 | Gotcha Slug | Defect Description | Root Cause | Impact Level |

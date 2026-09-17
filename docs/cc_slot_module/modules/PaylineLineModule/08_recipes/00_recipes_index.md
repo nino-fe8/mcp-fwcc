@@ -7,6 +7,17 @@ tags: ["PaylineLineModule", "payline_line_module", "cc_slot_module", "recipes", 
 
 # 💡 PaylineLineModule Practical Recipes Index
 
+<!-- convention-summary-start -->
+### PaylineLineModule Practical Recipes Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for PaylineLineModule Practical Recipes Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 08_recipes
+- **Scope & Code Paths**: `./01_custom_multi_colored_vector_lines.md`
+- **Related Docs**: [`01_custom_multi_colored_vector_lines`](./01_custom_multi_colored_vector_lines.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Recipes Catalog

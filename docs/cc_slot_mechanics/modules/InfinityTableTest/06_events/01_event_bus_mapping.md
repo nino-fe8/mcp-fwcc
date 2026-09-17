@@ -7,6 +7,17 @@ tags: ["InfinityTableTest", "infinity_table_test", "cc_slot_mechanics", "events"
 
 # 🔊 `InfinityTableTest` Event Bus Mapping & Subscriptions
 
+<!-- convention-summary-start -->
+### InfinityTableTest Event Bus Mapping & Subscriptions Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for InfinityTableTest Event Bus Mapping & Subscriptions.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_mechanics, 06_events
+- **Scope & Code Paths**: `assets/cc-common/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Registered Module Events

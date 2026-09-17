@@ -7,6 +7,17 @@ tags: ["cc_slot_module", "SlotBaseModule", "eventManager", "moduleEvent", "GameE
 
 # 📡 Dual Event Bus Architecture in `SlotBaseModule`
 
+<!-- convention-summary-start -->
+### Dual Event Bus System: Global vs Scoped Module Events Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Dual Event Bus System: Global vs Scoped Module Events.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, over_view
+- **Scope & Code Paths**: `Core/GameEventManager.ts`, `GameMode/GameModuleEvent.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. The Dual-Bus Design Rationale
 
 In modern slot games, multiple game modes (Normal Game, Free Game, Bonus Pick Game) frequently coexist within the scene graph. If all modules listened to a single flat global event bus, an event such as `TABLE_STOPPED` or `SHOW_BEAUTY_MATRIX` fired by a Free Game spin would accidentally trigger callbacks in the inactive Normal Game module.

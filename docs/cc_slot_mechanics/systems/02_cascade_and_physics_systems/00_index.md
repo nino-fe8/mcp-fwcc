@@ -7,6 +7,17 @@ tags: ["cc_slot_mechanics", "systems", "cascades", "avalanche", "wild_generation
 
 # 🌊 Cascades & Physics Systems Architecture Index
 
+<!-- convention-summary-start -->
+### Cascades & Physics Systems Architecture Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Cascades & Physics Systems Architecture Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_mechanics, 02_cascade_and_physics_systems
+- **Scope & Code Paths**: `./01_tumbling_vertical_cascade_physics.md`, `./02_horizontal_avalanche_gravity.md`, `./03_cascade_wild_generation_pipeline.md`
+- **Related Docs**: [`01_tumbling_vertical_cascade_physics.md`](./01_tumbling_vertical_cascade_physics.md), [`02_horizontal_avalanche_gravity.md`](./02_horizontal_avalanche_gravity.md), [`03_cascade_wild_generation_pipeline.md`](./03_cascade_wild_generation_pipeline.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Subsystem Mission

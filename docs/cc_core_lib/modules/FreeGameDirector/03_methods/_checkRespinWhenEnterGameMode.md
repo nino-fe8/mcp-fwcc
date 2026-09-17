@@ -7,6 +7,17 @@ tags: ["FreeGameDirector", "free_game_director", "cc_core_lib", "methods", "_che
 
 # 📖 `FreeGameDirector._checkRespinWhenEnterGameMode()`
 
+<!-- convention-summary-start -->
+### FreeGameDirector._checkRespinWhenEnterGameMode Method Implementation & Walkthrough Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for FreeGameDirector._checkRespinWhenEnterGameMode Method Implementation & Walkthrough.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_core_lib, 03_methods
+- **Scope & Code Paths**: `assets/cc-common/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Method Signature

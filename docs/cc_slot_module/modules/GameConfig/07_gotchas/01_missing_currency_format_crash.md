@@ -7,6 +7,17 @@ tags: ["GameConfig", "gameconfig", "cc_slot_module", "gotchas", "currency", "Mon
 
 # 🛑 Gotcha: Missing Currency Code Crash in `MoneyFormatter`
 
+<!-- convention-summary-start -->
+### Gotcha: Missing Currency Code Crash in MoneyFormatter Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Gotcha: Missing Currency Code Crash in MoneyFormatter.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 07_gotchas
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Symptom & Visual Defect
 Upon game entry with a new currency (e.g. `MYR`, `IDR`, `BRL`), game initialization crashes with:
 ```text

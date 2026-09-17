@@ -7,6 +7,17 @@ tags: ["TableModuleConfig", "table_config", "cc_slot_module", "gotchas", "index"
 
 # ⚠️ TableModuleConfig Gotchas Index
 
+<!-- convention-summary-start -->
+### TableModuleConfig Gotchas Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for TableModuleConfig Gotchas Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 07_gotchas
+- **Scope & Code Paths**: `./01_table_format_mismatch_with_symbol_indexes.md`, `./02_missing_buffer_rows_mega_symbols_pop.md`
+- **Related Docs**: [`01_table_format_mismatch_with_symbol_indexes`](./01_table_format_mismatch_with_symbol_indexes.md), [`02_missing_buffer_rows_mega_symbols_pop`](./02_missing_buffer_rows_mega_symbols_pop.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Master Gotchas Index
 
 | Gotcha Slug | Defect Description | Root Cause | Impact Level |

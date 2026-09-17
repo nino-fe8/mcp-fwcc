@@ -7,6 +7,17 @@ tags: ["CollectionItemData", "collection_item_data", "cc_slot_mechanics", "metho
 
 # 📖 `CollectionItemData` Methods Master Index
 
+<!-- convention-summary-start -->
+### CollectionItemData Methods Master Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for CollectionItemData Methods Master Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_mechanics, 05_methods
+- **Scope & Code Paths**: `./onDataUpdate.md`, `./getCollection.md`
+- **Related Docs**: [`onDataUpdate()`](./onDataUpdate.md), [`getCollection()`](./getCollection.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Declared Method Signatures & Summary

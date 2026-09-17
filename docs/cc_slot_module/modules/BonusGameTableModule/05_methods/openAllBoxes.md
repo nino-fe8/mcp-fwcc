@@ -7,6 +7,17 @@ tags: ["BonusGameTableModule", "bonus_game_table", "cc_slot_module", "method", "
 
 # `BonusGameTableModule.openAllBoxes(result: any): Promise<void>`
 
+<!-- convention-summary-start -->
+### BonusGameTableModule.openAllBoxes() Method Specification Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for BonusGameTableModule.openAllBoxes() Method Specification.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 05_methods
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Method Signature

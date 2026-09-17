@@ -7,6 +7,17 @@ tags: ["GameDataStore", "game_data_store", "cc_slot_module", "recipes", "key_map
 
 # 💡 Recipe: Custom Backend Key Mapping & Payload Extension
 
+<!-- convention-summary-start -->
+### Recipe: Custom Backend Key Mapping & Payload Extension Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Recipe: Custom Backend Key Mapping & Payload Extension.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 08_recipes
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Concrete Subclass Implementation
 
 ```typescript

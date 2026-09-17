@@ -7,6 +7,17 @@ tags: ["MegaReelSceneTest", "mega_reel_scene_test", "cc_slot_mechanics", "method
 
 # 📖 `MegaReelSceneTest.property()`
 
+<!-- convention-summary-start -->
+### MegaReelSceneTest.property Method Implementation Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for MegaReelSceneTest.property Method Implementation.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_mechanics, 05_methods
+- **Scope & Code Paths**: `assets/cc-common/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Method Signature

@@ -7,6 +7,17 @@ tags: ["GameConfig", "gameconfig", "cc_slot_module", "gotchas", "TABLE_FORMAT", 
 
 # 🛑 Gotcha: `TABLE_FORMAT` Column Count Matrix Mismatch
 
+<!-- convention-summary-start -->
+### Gotcha: TABLE_FORMAT Column Count Matrix Mismatch Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Gotcha: TABLE_FORMAT Column Count Matrix Mismatch.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 07_gotchas
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Symptom & Visual Defect
 Reels fail to stop, or the game crashes when receiving the spin result packet:
 ```text

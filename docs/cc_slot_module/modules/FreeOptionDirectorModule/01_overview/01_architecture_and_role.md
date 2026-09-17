@@ -7,6 +7,17 @@ tags: ["FreeOptionDirectorModule", "free_option_director", "cc_slot_module", "ov
 
 # 🏛️ FreeOptionDirectorModule Interactive Feature Selection Architecture
 
+<!-- convention-summary-start -->
+### FreeOptionDirectorModule Interactive Feature Selection Architecture Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for FreeOptionDirectorModule Interactive Feature Selection Architecture.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 01_overview
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/GameMode/FreeOption/FreeOptionDirectorModule.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Executive Summary & Purpose
 
 `FreeOptionDirectorModule` (`assets/cc-common/cc-slot-module/GameMode/FreeOption/FreeOptionDirectorModule.ts`) is the **Interactive Player Choice & Volatility Selection Engine** for the `cc-common` Slot SDK.

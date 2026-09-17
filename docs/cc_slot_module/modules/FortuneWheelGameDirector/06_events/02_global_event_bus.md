@@ -7,6 +7,17 @@ tags: ["FortuneWheelGameDirector", "fortune_wheel_director", "cc_slot_module", "
 
 # 🌐 FortuneWheelGameDirector Global Event Bus (`eventManager` & `gameLogic`)
 
+<!-- convention-summary-start -->
+### FortuneWheelGameDirector Global Event Bus (eventManager & gameLogic) Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for FortuneWheelGameDirector Global Event Bus (eventManager & gameLogic).
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 06_events
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Network & GameLogic Dispatches (`this.gameLogic.emit`)

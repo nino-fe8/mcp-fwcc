@@ -7,6 +7,17 @@ tags: ["SlotSymbolModule", "slot_symbol_module", "cc_slot_module", "methods", "i
 
 # 📋 SlotSymbolModule Methods Index
 
+<!-- convention-summary-start -->
+### SlotSymbolModule Methods Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for SlotSymbolModule Methods Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 05_methods
+- **Scope & Code Paths**: `./getModuleComponent.md`, `./init.md`, `./changeToSymbol.md`
+- **Related Docs**: [`getModuleComponent(node): SlotSymbolModule`](./getModuleComponent.md), [`init(symbolValue, initSize): void`](./init.md), [`changeToSymbol(symbolValue): void`](./changeToSymbol.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Declared Methods Summary Table

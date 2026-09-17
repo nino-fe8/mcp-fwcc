@@ -7,6 +7,17 @@ tags: ["BetSelectionPanel", "betselectionpanel", "cc_slot_module", "overview", "
 
 # 🏛️ BetSelectionPanel Architecture & Role
 
+<!-- convention-summary-start -->
+### BetSelectionPanel Architecture & Role Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for BetSelectionPanel Architecture & Role.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 01_overview
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 `BetSelectionPanel` is the dual-wheel interactive bet selector modal in the `cc-common` Slot Framework SDK. Inheriting from `BaseUIPopup`, it features synchronized twin ScrollViews—one for Bet Denominations (`scrollViewDenom`) and one for Total Bet amounts (`scrollViewTotal`)—with top/bottom buffer padding, snap-to-closest item physics, mouse wheel support, and animated selection tweens.
 
 ---

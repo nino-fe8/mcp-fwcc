@@ -7,6 +7,17 @@ tags: ["cc_slot_module", "systems", "reactive_data", "triad_guide", "implementat
 
 # 🛠️ Step-by-Step Implementation Guide for Module-Data-Config Triads
 
+<!-- convention-summary-start -->
+### Step-by-Step Implementation Guide for Module-Data-Config Triads Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Step-by-Step Implementation Guide for Module-Data-Config Triads.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 03_reactive_data_system
+- **Scope & Code Paths**: `*Data.ts`, `*Config.ts`, `*Module.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Architectural Checklist Before Writing Code

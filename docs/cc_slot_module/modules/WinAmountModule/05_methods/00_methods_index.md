@@ -7,6 +7,17 @@ tags: ["WinAmountModule", "win_amount_module", "cc_slot_module", "methods", "ind
 
 # 📚 WinAmountModule Methods Catalog Index
 
+<!-- convention-summary-start -->
+### WinAmountModule Methods Catalog Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for WinAmountModule Methods Catalog Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 05_methods
+- **Scope & Code Paths**: `./onLoadExtend.md`, `./updateWinAmount.md`, `./fastUpdateWinAmount.md`
+- **Related Docs**: [`onLoadExtend`](./onLoadExtend.md), [`updateWinAmount`](./updateWinAmount.md), [`fastUpdateWinAmount`](./fastUpdateWinAmount.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Declared Methods Index (All 16 Methods)

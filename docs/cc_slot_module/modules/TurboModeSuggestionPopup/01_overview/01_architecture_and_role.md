@@ -7,6 +7,17 @@ tags: ["TurboModeSuggestionPopup", "turbomodesuggestionpopup", "cc_slot_module",
 
 # 🏛️ TurboModeSuggestionPopup Architecture & Role
 
+<!-- convention-summary-start -->
+### TurboModeSuggestionPopup Architecture & Role Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for TurboModeSuggestionPopup Architecture & Role.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 01_overview
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 `TurboModeSuggestionPopup` is the intelligent player retention modal in the `cc-common` Slot Framework SDK. Mounted under `Canvas/Director/Popup/TurboSuggestion`, it prompts players to activate Turbo / Fast-Play mode after consecutive standard spins, automatically localizing suggestion dialogue and routing confirmation events.
 
 ---

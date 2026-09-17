@@ -7,6 +7,17 @@ tags: ["MegawayModule", "megaway_module", "cc_slot_mechanics", "overview", "arch
 
 # 🏛️ `MegawayModule` Architectural Role & Mechanics Overview
 
+<!-- convention-summary-start -->
+### MegawayModule Architectural Role & Mechanics Overview Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for MegawayModule Architectural Role & Mechanics Overview.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_mechanics, 01_overview
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-mechanics/Megaway/scripts/MegawayModule.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 - **Mechanics Package**: `assets/cc-common/cc-slot-mechanics/Megaway`
 - **Source File**: `assets/cc-common/cc-slot-mechanics/Megaway/scripts/MegawayModule.ts`
 - **Class Hierarchy**: `MegawayModule` ➔ `SlotBaseModule`

@@ -7,6 +7,17 @@ tags: ["IconPromotion", "icon_promotion", "cc_slot_module", "methods", "index"]
 
 # 📚 IconPromotion Methods Catalog Index
 
+<!-- convention-summary-start -->
+### IconPromotion Methods Catalog Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for IconPromotion Methods Catalog Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 05_methods
+- **Scope & Code Paths**: `./onLoadExtend.md`, `./setupObserver.md`, `./showPromotion.md`
+- **Related Docs**: [`onLoadExtend`](./onLoadExtend.md), [`setupObserver`](./setupObserver.md), [`showPromotion`](./showPromotion.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Declared Methods Index (All 4 Methods)

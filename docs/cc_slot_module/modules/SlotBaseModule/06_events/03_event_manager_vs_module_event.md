@@ -7,6 +7,17 @@ tags: ["SlotBaseModule", "slot_base_module", "cc_slot_module", "events", "eventM
 
 # ⚖️ `eventManager` vs `moduleEvent` Architectural Comparison
 
+<!-- convention-summary-start -->
+### SlotBaseModule: eventManager vs moduleEvent Architectural Comparison Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for SlotBaseModule: eventManager vs moduleEvent Architectural Comparison.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 06_events
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Architectural Comparison Matrix

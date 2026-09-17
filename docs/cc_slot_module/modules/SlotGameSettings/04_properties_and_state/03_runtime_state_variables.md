@@ -7,6 +7,17 @@ tags: ["SlotGameSettings", "slot_game_settings", "cc_slot_module", "properties",
 
 # 💾 SlotGameSettings Properties & Accessors Deep Specification
 
+<!-- convention-summary-start -->
+### SlotGameSettings Properties & Accessors Deep Specification Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for SlotGameSettings Properties & Accessors Deep Specification.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 04_properties_and_state
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Comprehensive State & Accessors Table
 
 | Property / Getter | Type | Default Value | Mutated By | Read By | Purpose & Execution Impact |

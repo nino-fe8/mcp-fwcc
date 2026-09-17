@@ -7,6 +7,17 @@ tags: ["TableModuleConfig", "table_config", "cc_slot_module", "recipe", "ways_to
 
 # 🍳 Recipe: Configuring 720 Ways 3-4-5-4-3 Diamond Grid Layout
 
+<!-- convention-summary-start -->
+### Recipe: Configuring 720 Ways 3-4-5-4-3 Diamond Grid Layout Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Recipe: Configuring 720 Ways 3-4-5-4-3 Diamond Grid Layout.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 08_recipes
+- **Scope & Code Paths**: `TableModuleConfig.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Problem Statement
 Configure a 720 Ways-to-Win slot game using a diamond format (`[3, 4, 5, 4, 3]`).
 

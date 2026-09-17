@@ -7,6 +7,17 @@ tags: ["BonusGameItemModule", "bonus_game_item", "cc_slot_module", "recipe", "sp
 
 # 🍳 Recipe: Multi-Track Spine Chest Animation
 
+<!-- convention-summary-start -->
+### Recipe: Multi-Track Spine Chest Animation Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Recipe: Multi-Track Spine Chest Animation.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 08_recipes
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Problem Statement
 You need to play idle swaying animations on unopened chests and transition smoothly into an "open" explosion animation upon click.
 

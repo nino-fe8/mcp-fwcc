@@ -7,6 +7,17 @@ tags: ["LightningGameWriter", "lightning_game_writer", "cc_core_lib", "methods",
 
 # 📖 `LightningGameWriter` Methods Master Index
 
+<!-- convention-summary-start -->
+### LightningGameWriter Methods Master Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for LightningGameWriter Methods Master Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_core_lib, 03_methods
+- **Scope & Code Paths**: `./makeScriptResultReceived.md`, `./makeScriptPlayGameMode.md`, `./makeScriptShowResult.md`
+- **Related Docs**: [`makeScriptResultReceived()`](./makeScriptResultReceived.md), [`makeScriptPlayGameMode()`](./makeScriptPlayGameMode.md), [`makeScriptShowResult()`](./makeScriptShowResult.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Declared Method Signatures

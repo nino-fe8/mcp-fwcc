@@ -7,6 +7,17 @@ tags: ["TumblingReelModule", "tumbling_reel_module", "cc_slot_mechanics", "metho
 
 # 📖 `TumblingReelModule.playFastStopAnimation()`
 
+<!-- convention-summary-start -->
+### TumblingReelModule.playFastStopAnimation Method Implementation Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for TumblingReelModule.playFastStopAnimation Method Implementation.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_mechanics, 05_methods
+- **Scope & Code Paths**: `assets/cc-common/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Method Signature

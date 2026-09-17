@@ -7,6 +7,17 @@ tags: ["BonusGameDirectorModule", "bonus_game_director", "cc_slot_module", "cust
 
 # 🏗️ BonusGameDirectorModule Subclassing & Mini-Game Customization Guide
 
+<!-- convention-summary-start -->
+### BonusGameDirectorModule Subclassing & Mini-Game Customization Guide Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for BonusGameDirectorModule Subclassing & Mini-Game Customization Guide.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 09_inheritance_and_customization
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Class Inheritance Declaration
 
 When constructing a custom pick-and-click or mini-game feature director:

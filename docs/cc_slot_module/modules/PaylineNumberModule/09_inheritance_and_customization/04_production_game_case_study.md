@@ -7,6 +7,17 @@ tags: ["PaylineNumberModule", "payline_number_module", "cc_slot_module", "case_s
 
 # 🎰 PaylineNumberModule Production Game Case Study (Classic Slot 20 Lines)
 
+<!-- convention-summary-start -->
+### PaylineNumberModule Production Game Case Study (Classic Slot 20 Lines) Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for PaylineNumberModule Production Game Case Study (Classic Slot 20 Lines).
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 09_inheritance_and_customization
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Production Context

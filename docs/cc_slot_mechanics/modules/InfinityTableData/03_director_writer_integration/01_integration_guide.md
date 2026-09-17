@@ -7,6 +7,17 @@ tags: ["InfinityTableData", "infinity_table_data", "cc_slot_mechanics", "integra
 
 # 🔌 `InfinityTableData` Director & ScriptExecutor Integration
 
+<!-- convention-summary-start -->
+### InfinityTableData Director & ScriptExecutor Integration Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for InfinityTableData Director & ScriptExecutor Integration.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_mechanics, 03_director_writer_integration
+- **Scope & Code Paths**: `assets/cc-common/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Script Writer Command Integration

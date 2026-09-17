@@ -7,6 +7,17 @@ tags: ["cc_slot_mechanics", "systems", "tumbling_reels", "gravity_drop", "bounce
 
 # ⬇️ Tumbling Vertical Cascade Physics & Gravity Math
 
+<!-- convention-summary-start -->
+### Tumbling Vertical Cascade Physics & Gravity Math Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Tumbling Vertical Cascade Physics & Gravity Math.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_mechanics, 02_cascade_and_physics_systems
+- **Scope & Code Paths**: `assets/cc-common/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Column Drop Distance Formula

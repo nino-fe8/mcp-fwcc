@@ -7,6 +7,17 @@ tags: ["SymbolPaytableViewer", "symbolpaytableviewer", "cc_slot_module", "method
 
 # 📑 SymbolPaytableViewer Methods Index
 
+<!-- convention-summary-start -->
+### SymbolPaytableViewer Methods Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for SymbolPaytableViewer Methods Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 05_methods
+- **Scope & Code Paths**: `onLoadExtend.md`, `handleTouchSymbol.md`, `getSymbolCode.md`
+- **Related Docs**: [`onLoadExtend`](onLoadExtend.md), [`handleTouchSymbol`](handleTouchSymbol.md), [`getSymbolCode`](getSymbolCode.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Master Methods Overview

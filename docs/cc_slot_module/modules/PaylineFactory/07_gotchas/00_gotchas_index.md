@@ -7,6 +7,17 @@ tags: ["PaylineFactory", "payline_factory", "cc_slot_module", "gotchas", "index"
 
 # ⚠️ PaylineFactory Gotchas & Engine Defects Index
 
+<!-- convention-summary-start -->
+### PaylineFactory Gotchas & Engine Defects Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for PaylineFactory Gotchas & Engine Defects Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 07_gotchas
+- **Scope & Code Paths**: `./01_lost_prefab_name_tag.md`, `./02_double_pool_get_leak.md`
+- **Related Docs**: [`01_lost_prefab_name_tag`](./01_lost_prefab_name_tag.md), [`02_double_pool_get_leak`](./02_double_pool_get_leak.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Catalog of Pitfalls

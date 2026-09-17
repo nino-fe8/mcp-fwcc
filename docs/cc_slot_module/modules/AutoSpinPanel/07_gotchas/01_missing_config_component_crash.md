@@ -7,6 +7,17 @@ tags: ["AutoSpinPanel", "autospinpanel", "cc_slot_module", "gotchas", "null_poin
 
 # ⚠️ Missing Config Component Crash
 
+<!-- convention-summary-start -->
+### Missing Config Component Crash Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Missing Config Component Crash.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 07_gotchas
+- **Scope & Code Paths**: `AutoSpinPanelConfig.ts`, `AutoSpinPanel.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Defect & Solution

@@ -7,6 +7,17 @@ tags: ["SlotReelModule", "slot_reel", "cc_slot_module", "overview", "scene_prefa
 
 # 🏛️ SlotReelModule Dynamic Instantiation & Scene Placement
 
+<!-- convention-summary-start -->
+### SlotReelModule Dynamic Instantiation & Scene Placement Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for SlotReelModule Dynamic Instantiation & Scene Placement.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 01_overview
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Runtime Instantiation inside `SlotTableModule/Table`

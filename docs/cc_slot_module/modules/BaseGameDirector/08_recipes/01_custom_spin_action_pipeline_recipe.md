@@ -7,6 +7,17 @@ tags: ["BaseGameDirector", "base_game_director", "cc_slot_module", "recipes", "p
 
 # 💡 Recipe: Adding Custom Action Steps to Director Spin Loop
 
+<!-- convention-summary-start -->
+### Recipe: Adding Custom Action Steps to Director Spin Loop Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Recipe: Adding Custom Action Steps to Director Spin Loop.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 08_recipes
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Concrete Production Use-Case
 
 When creating a game with custom feature animations (e.g. Red Cliff expanding Wilds or near-win refills), add dedicated action scripts:

@@ -7,6 +7,17 @@ tags: ["cc_slot_mechanics", "systems", "gigablox", "mega_reel", "transform_symbo
 
 # 🧱 Colossal & Transform Systems Architecture Index
 
+<!-- convention-summary-start -->
+### Colossal & Transform Systems Architecture Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Colossal & Transform Systems Architecture Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_mechanics, 03_colossal_and_transform_systems
+- **Scope & Code Paths**: `./01_gigablox_colossal_blocks_sync.md`, `./02_mega_reel_multi_size_expansion.md`, `./03_transform_symbol_mystery_morphs.md`
+- **Related Docs**: [`01_gigablox_colossal_blocks_sync.md`](./01_gigablox_colossal_blocks_sync.md), [`02_mega_reel_multi_size_expansion.md`](./02_mega_reel_multi_size_expansion.md), [`03_transform_symbol_mystery_morphs.md`](./03_transform_symbol_mystery_morphs.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Subsystem Mission

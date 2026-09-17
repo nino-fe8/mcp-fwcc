@@ -7,6 +7,17 @@ tags: ["cc_slot_module", "systems", "payline", "lifecycle", "blink_all", "line_c
 
 # 🎭 The Two-Stage Win Presentation Lifecycle
 
+<!-- convention-summary-start -->
+### The Two-Stage Win Presentation Lifecycle Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for The Two-Stage Win Presentation Lifecycle.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 05_payline_and_win_presentation_system
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Lifecycle Overview

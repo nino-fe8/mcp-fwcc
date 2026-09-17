@@ -7,6 +7,17 @@ tags: ["FreeGameDirectorModule", "free_game_director", "cc_slot_module", "gotcha
 
 # ⚠️ FreeGameDirectorModule Gotchas Index
 
+<!-- convention-summary-start -->
+### FreeGameDirectorModule Gotchas Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for FreeGameDirectorModule Gotchas Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 07_gotchas
+- **Scope & Code Paths**: `./01_is_first_auto_spin_delay_bypass.md`, `./02_free_spin_times_desync_on_reconnect.md`, `./03_missing_sync_normal_table_matrix_leak.md`
+- **Related Docs**: [`01_is_first_auto_spin_delay_bypass`](./01_is_first_auto_spin_delay_bypass.md), [`02_free_spin_times_desync_on_reconnect`](./02_free_spin_times_desync_on_reconnect.md), [`03_missing_sync_normal_table_matrix_leak`](./03_missing_sync_normal_table_matrix_leak.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Master Gotchas Index
 
 | Gotcha Slug | Defect Description | Root Cause | Impact Level |

@@ -1,0 +1,13 @@
+{
+  "moduleId": "authenPusher",
+  "category": "cc_network",
+  "sourcePath": "assets/cc-common/cc-network/authenPusher.js",
+  "dependencies": [],
+  "consumers": [
+    "globalNetworkV3"
+  ],
+  "keyMethods": [
+    "initPusher",
+    "getInstance"
+  ]
+}

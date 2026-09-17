@@ -7,6 +7,17 @@ tags: ["SlotCellSceneTest", "slot_cell_scene_test", "cc_slot_mechanics", "overvi
 
 # 🏛️ `SlotCellSceneTest` Architectural Role & Mechanics Overview
 
+<!-- convention-summary-start -->
+### SlotCellSceneTest Architectural Role & Mechanics Overview Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for SlotCellSceneTest Architectural Role & Mechanics Overview.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_mechanics, 01_overview
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-mechanics/SlotCellTable/scripts/SlotCellSceneTest.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 - **Mechanics Package**: `assets/cc-common/cc-slot-mechanics/SlotCellTable`
 - **Source File**: `assets/cc-common/cc-slot-mechanics/SlotCellTable/scripts/SlotCellSceneTest.ts`
 - **Class Hierarchy**: `SlotCellSceneTest` ➔ `Component`

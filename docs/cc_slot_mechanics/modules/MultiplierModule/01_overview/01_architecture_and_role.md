@@ -7,6 +7,17 @@ tags: ["MultiplierModule", "multiplier_module", "cc_slot_mechanics", "overview",
 
 # 🏛️ `MultiplierModule` Architectural Role & Mechanics Overview
 
+<!-- convention-summary-start -->
+### MultiplierModule Architectural Role & Mechanics Overview Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for MultiplierModule Architectural Role & Mechanics Overview.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_mechanics, 01_overview
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-mechanics/Multiplier/scripts/MultiplierModule.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 - **Mechanics Package**: `assets/cc-common/cc-slot-mechanics/Multiplier`
 - **Source File**: `assets/cc-common/cc-slot-mechanics/Multiplier/scripts/MultiplierModule.ts`
 - **Class Hierarchy**: `MultiplierModule` ➔ `SlotBaseModule`

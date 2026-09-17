@@ -7,6 +7,17 @@ tags: ["GameDataStore", "game_data_store", "cc_slot_module", "methods", "index"]
 
 # 📋 GameDataStore Methods Index
 
+<!-- convention-summary-start -->
+### GameDataStore Methods Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for GameDataStore Methods Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 05_methods
+- **Scope & Code Paths**: `./onLoad.md`, `./setConfig.md`, `./setGameSpeed.md`
+- **Related Docs**: [`onLoad(): void`](./onLoad.md), [`setConfig(gameConfig): void`](./setConfig.md), [`setGameSpeed(speed): void`](./setGameSpeed.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Lifecycle, Registry & State Setup

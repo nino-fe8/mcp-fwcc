@@ -7,6 +7,17 @@ tags: ["SlotReelModule", "slot_reel_module", "cc_slot_module", "overview", "arch
 
 # 🎰 SlotReelModule Architectural Role & Column Physics
 
+<!-- convention-summary-start -->
+### SlotReelModule Architectural Role & Column Physics Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for SlotReelModule Architectural Role & Column Physics.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 01_overview
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/BaseModule/Table/SlotTable/scripts/SlotReelModule.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Architectural Purpose & System Boundary

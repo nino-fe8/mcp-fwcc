@@ -1,0 +1,22 @@
+{
+  "moduleId": "PlayerInfoStateManager",
+  "category": "cc_network",
+  "sourcePath": "assets/cc-common/cc-network/game-network.js",
+  "dependencies": [
+    "EventManager",
+    "logger"
+  ],
+  "consumers": [
+    "globalNetworkV3",
+    "PaylineInfoModule9666",
+    "SlotBaseModule",
+    "BetManager"
+  ],
+  "keyMethods": [
+    "setWalletBalance",
+    "getWalletBalance",
+    "getWalletByType",
+    "isRealUser",
+    "isAnonymousUser"
+  ]
+}

@@ -7,6 +7,17 @@ tags: ["SoundPlayerModuleImpl", "sound_player_module_impl", "cc_slot_module", "g
 
 # ⏱️ SoundPlayerModuleImpl Timing Matrix
 
+<!-- convention-summary-start -->
+### SoundPlayerModuleImpl Timing Matrix Summary
+
+- **Core Architecture / Purpose**: Defines network protocol, socket packet lifecycle, state persistence, and error handling for SoundPlayerModuleImpl Timing Matrix.
+- **Key Mechanisms & Design**: Handles WebSocket frame dispatch, acknowledgment confirmation, state resume, and resilient synchronization between client DataStore and Backend Gateway.
+- **Domain Capabilities**: cc_slot_module, 02_game_flow
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 | Phase | Method | Impact |
 | :--- | :--- | :--- |
 | **Scene Start** | `playMainBGM()` | Starts base game background music loop |

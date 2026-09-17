@@ -7,6 +7,17 @@ tags: ["PaylineLineModule", "payline_line_module", "cc_slot_module", "gotchas", 
 
 # ⚠️ Gotcha: Sparse Array Indexing with `this.lines[lineID]`
 
+<!-- convention-summary-start -->
+### Gotcha: Sparse Array Indexing with this.lines[lineID] Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Gotcha: Sparse Array Indexing with this.lines[lineID].
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 07_gotchas
+- **Scope & Code Paths**: `PaylineLineModule.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Problem Description

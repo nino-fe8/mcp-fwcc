@@ -8,6 +8,17 @@ tags: ["9666", "math", "megaways", "rtp", "volatility"]
 
 # 📐 Red Cliff (g9666) Mathematical Specification & Megaways Model
 
+<!-- convention-summary-start -->
+### Red Cliff (g9666) Mathematical Specification & Megaways Model Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Red Cliff (g9666) Mathematical Specification & Megaways Model.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: game_implement, 01_game_overview
+- **Scope & Code Paths**: `assets/cc-common/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Megaways Combinatorial Equation

@@ -7,6 +7,17 @@ tags: ["SpinButtonNormalManager", "spin_button_normal_manager", "cc_core_lib", "
 
 # 🏛️ `SpinButtonNormalManager` Architectural Role & Runtime Integration
 
+<!-- convention-summary-start -->
+### SpinButtonNormalManager Architectural Role & Runtime Integration Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for SpinButtonNormalManager Architectural Role & Runtime Integration.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_core_lib, 01_overview
+- **Scope & Code Paths**: `assets/cc-common/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 - **Package Source**: `assets/cc-common/cc-core-lib/slot-base-logic`
 - **Global Namespace Anchor**: `eno.SpinButtonNormalManager` / `globalThis.eno.SpinButtonNormalManager`
 - **Inheritance Hierarchy**: `SpinButtonNormalManager` ➔ `SpinButtonManager`

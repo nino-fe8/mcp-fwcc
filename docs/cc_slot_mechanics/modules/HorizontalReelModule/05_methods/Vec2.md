@@ -7,6 +7,17 @@ tags: ["HorizontalReelModule", "horizontal_reel_module", "cc_slot_mechanics", "m
 
 # 📖 `HorizontalReelModule.Vec2()`
 
+<!-- convention-summary-start -->
+### HorizontalReelModule.Vec2 Method Implementation Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for HorizontalReelModule.Vec2 Method Implementation.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_mechanics, 05_methods
+- **Scope & Code Paths**: `assets/cc-common/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Method Signature

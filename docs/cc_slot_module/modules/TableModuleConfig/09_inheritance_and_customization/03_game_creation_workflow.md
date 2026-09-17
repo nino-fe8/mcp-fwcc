@@ -7,6 +7,17 @@ tags: ["TableModuleConfig", "table_config", "cc_slot_module", "customization", "
 
 # 🚀 Game Creation Workflow: TableModuleConfig Setup
 
+<!-- convention-summary-start -->
+### Game Creation Workflow: TableModuleConfig Setup Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Game Creation Workflow: TableModuleConfig Setup.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 09_inheritance_and_customization
+- **Scope & Code Paths**: `TableModuleConfig[GameId].ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 Follow this 4-step checklist:
 
 ---

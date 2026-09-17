@@ -7,6 +7,17 @@ tags: ["cc_slot_module", "systems", "gui_dashboard", "betting", "denominations",
 
 # 💰 Betting Matrix, Denominations & Ante-Bet Modifier Mechanics
 
+<!-- convention-summary-start -->
+### Betting Matrix, Denominations & Ante-Bet Modifier Mechanics Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Betting Matrix, Denominations & Ante-Bet Modifier Mechanics.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 08_gui_dashboard_and_controls_system
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Mathematical Total Bet Formula

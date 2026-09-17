@@ -7,6 +7,17 @@ tags: ["GameEventManager", "game_event_manager", "cc_slot_module", "customizatio
 
 # 🚀 Game Creation Workflow: Adding Custom Game Events
 
+<!-- convention-summary-start -->
+### Game Creation Workflow: Adding Custom Game Events Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Game Creation Workflow: Adding Custom Game Events.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 09_inheritance_and_customization
+- **Scope & Code Paths**: `scripts/Enum/GameUIEvents[GameId].ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 Follow this 4-step checklist when introducing new game mechanics requiring cross-module coordination:
 
 ---

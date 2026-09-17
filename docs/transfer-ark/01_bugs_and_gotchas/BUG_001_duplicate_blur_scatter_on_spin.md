@@ -11,6 +11,17 @@ author: "ARK Slot Engineering Team"
 
 # BUG-001: 2 Blur Scatter Symbols Appearing on 1 Reel During Spin
 
+<!-- convention-summary-start -->
+### Fix 2 Blur Scatter Symbols Appearing on 1 Reel During Spin Summary
+
+- **Core Architecture / Purpose**: Documents root cause, architectural pitfalls, reproduction steps, and official code fix for Fix 2 Blur Scatter Symbols Appearing on 1 Reel During Spin.
+- **Key Mechanisms & Design**: Guards edge cases, prevents race conditions/null crashes, and enforces state machine integrity during game transitions.
+- **Domain Capabilities**: bugfix, 01_bugs_and_gotchas
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/BaseModule/Table/SlotTable/scripts/SlotReelModule.ts`, `assets/cc-release-slot/cc1-red-cliff/scripts/Table/SlotReelModule9666.ts`, `SlotReelModule<GameId>.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. 📌 Problem Overview

@@ -7,6 +7,17 @@ tags: ["cc_slot_module", "systems", "game_mode", "prefabs", "main_game_prefab", 
 
 # 📦 Game Mode Prefabs: Anatomy, Wiring & Game Setup Guide
 
+<!-- convention-summary-start -->
+### Game Mode Prefabs: Anatomy, Wiring & Game Setup Guide Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Game Mode Prefabs: Anatomy, Wiring & Game Setup Guide.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 01_game_mode_system
+- **Scope & Code Paths**: `MainGamePrefab.prefab`, `FreeGamePrefab.prefab`, `BonusGamePrefab.prefab`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Executive Concept: The Self-Contained Mode Package

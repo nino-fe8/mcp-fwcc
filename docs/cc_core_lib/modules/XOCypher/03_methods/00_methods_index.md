@@ -7,6 +7,17 @@ tags: ["XOCypher", "xocypher", "cc_core_lib", "methods", "index"]
 
 # 📖 `XOCypher` Methods Master Index
 
+<!-- convention-summary-start -->
+### XOCypher Methods Master Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for XOCypher Methods Master Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_core_lib, 03_methods
+- **Scope & Code Paths**: `./encode.md`, `./decode.md`, `./encode_new.md`
+- **Related Docs**: [`encode()`](./encode.md), [`decode()`](./decode.md), [`encode_new()`](./encode_new.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Declared Method Signatures

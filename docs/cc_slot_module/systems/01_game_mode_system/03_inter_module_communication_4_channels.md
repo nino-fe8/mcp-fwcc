@@ -7,6 +7,17 @@ tags: ["cc_slot_module", "systems", "game_mode", "communication_channels", "even
 
 # 📡 Inter-Module Communication: 4 Channels Architecture
 
+<!-- convention-summary-start -->
+### Inter-Module Communication: 4 Channels Architecture Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Inter-Module Communication: 4 Channels Architecture.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 01_game_mode_system
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Multi-Tier Communication Architecture Overview

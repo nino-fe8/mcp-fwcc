@@ -7,6 +7,17 @@ tags: ["cc_slot_mechanics", "systems", "buy_feature", "collection_item", "instan
 
 # 🎯 Metagame & Modifiers Systems Architecture Index
 
+<!-- convention-summary-start -->
+### Metagame & Modifiers Systems Architecture Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Metagame & Modifiers Systems Architecture Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_mechanics, 04_metagame_and_modifiers_systems
+- **Scope & Code Paths**: `./01_buy_feature_hud_and_pricing_math.md`, `./02_collection_item_metagame_meters.md`, `./03_instant_cash_hold_and_win.md`
+- **Related Docs**: [`01_buy_feature_hud_and_pricing_math.md`](./01_buy_feature_hud_and_pricing_math.md), [`02_collection_item_metagame_meters.md`](./02_collection_item_metagame_meters.md), [`03_instant_cash_hold_and_win.md`](./03_instant_cash_hold_and_win.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Subsystem Mission

@@ -7,6 +7,17 @@ tags: ["SlotTableModule", "slot_table", "cc_slot_module", "gotchas", "index"]
 
 # ⚠️ SlotTableModule Gotchas Index
 
+<!-- convention-summary-start -->
+### SlotTableModule Gotchas Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for SlotTableModule Gotchas Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 07_gotchas
+- **Scope & Code Paths**: `./01_async_stop_promise_hanging_on_reel_count.md`, `./02_missing_table_module_config_component.md`, `./03_symbol_manager_pooling_race_condition.md`
+- **Related Docs**: [`01_async_stop_promise_hanging_on_reel_count`](./01_async_stop_promise_hanging_on_reel_count.md), [`02_missing_table_module_config_component`](./02_missing_table_module_config_component.md), [`03_symbol_manager_pooling_race_condition`](./03_symbol_manager_pooling_race_condition.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Master Gotchas Index
 
 | Gotcha Slug | Defect Description | Root Cause | Impact Level |

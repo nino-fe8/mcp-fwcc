@@ -19,10 +19,10 @@ export function createSearchTools(docsEngine: DocsSearchEngine, graphEngine: Gra
         required: ["query"],
       },
       handler: async (args: any) => {
-        const query = String(args.query || "");
+        const query = String(args.query || args.keyword || args.q || args.prompt || "");
         const limit = Number(args.limit) || 5;
-        const category = args.category;
-        const tag = args.tag;
+        const category = args.category || args.cat || args.tier;
+        const tag = args.tag || args.tags;
 
         const results = docsEngine.search(query, limit, category, tag);
         return {
@@ -44,11 +44,12 @@ export function createSearchTools(docsEngine: DocsSearchEngine, graphEngine: Gra
         type: "object",
         properties: {
           keyword: { type: "string", description: "Exact symbol or keyword (e.g. 'onLoadExtend', 'SlotBaseModule', 'parseDataPS', 'RESET_MULTIPLIER')" },
+          query: { type: "string", description: "Alias for keyword" },
         },
         required: ["keyword"],
       },
       handler: async (args: any) => {
-        const keyword = String(args.keyword || "");
+        const keyword = String(args.keyword || args.query || args.q || args.symbol || args.name || "");
         const matches = docsEngine.searchExact(keyword);
 
         return {
@@ -70,11 +71,15 @@ export function createSearchTools(docsEngine: DocsSearchEngine, graphEngine: Gra
         type: "object",
         properties: {
           topicOrRelPath: { type: "string", description: "Topic ID or relative path (e.g. 'SlotBaseModule', '01_module_architecture_and_philosophy', 'cc_slot_module:overview:architecture_and_philosophy')" },
+          relPath: { type: "string", description: "Alias for topicOrRelPath" },
+          rel_path: { type: "string", description: "Alias for topicOrRelPath" },
+          path: { type: "string", description: "Alias for topicOrRelPath" },
+          topic: { type: "string", description: "Alias for topicOrRelPath" },
+          id: { type: "string", description: "Alias for topicOrRelPath" },
         },
-        required: ["topicOrRelPath"],
       },
       handler: async (args: any) => {
-        const topic = String(args.topicOrRelPath || "");
+        const topic = String(args.topicOrRelPath || args.relPath || args.rel_path || args.path || args.topic || args.id || args.docId || args.file || "");
         const res = docsEngine.getDoc(topic);
 
         if (!res.found) {
@@ -97,15 +102,19 @@ export function createSearchTools(docsEngine: DocsSearchEngine, graphEngine: Gra
         type: "object",
         properties: {
           chunkIdOrPath: { type: "string", description: "Exact chunk ID (e.g. 'NormalGameDirectorModule#sec-1') or relative file path (e.g. '08_deep_dive/code_analysis/SlotReelModule.md')" },
+          relPath: { type: "string", description: "Alias for chunkIdOrPath" },
+          rel_path: { type: "string", description: "Alias for chunkIdOrPath" },
+          path: { type: "string", description: "Alias for chunkIdOrPath" },
           chunkIndex: { type: "number", description: "0-based chunk section index when using file path (default: 0)" },
+          chunk_index: { type: "number", description: "Alias for chunkIndex" },
           windowSize: { type: "number", description: "Number of context chunks to include before and after (default: 1)", default: 1 },
+          window_size: { type: "number", description: "Alias for windowSize" },
         },
-        required: ["chunkIdOrPath"],
       },
       handler: async (args: any) => {
-        const chunkIdOrPath = String(args.chunkIdOrPath || "");
-        const chunkIndex = args.chunkIndex !== undefined ? Number(args.chunkIndex) : undefined;
-        const windowSize = args.windowSize !== undefined ? Number(args.windowSize) : 1;
+        const chunkIdOrPath = String(args.chunkIdOrPath || args.relPath || args.rel_path || args.path || args.chunkId || args.chunk_id || args.id || "");
+        const chunkIndex = args.chunkIndex !== undefined ? Number(args.chunkIndex) : args.chunk_index !== undefined ? Number(args.chunk_index) : undefined;
+        const windowSize = args.windowSize !== undefined ? Number(args.windowSize) : args.window_size !== undefined ? Number(args.window_size) : 1;
 
         const res = docsEngine.readChunk(chunkIdOrPath, chunkIndex, windowSize);
 
@@ -134,12 +143,13 @@ export function createSearchTools(docsEngine: DocsSearchEngine, graphEngine: Gra
         type: "object",
         properties: {
           tierOrCategory: { type: "string", description: "Tier path or category keyword (e.g. '08_deep_dive', '05_recipes', '04_events', 'cc_slot_module', 'cc_slot_mechanics')" },
+          category: { type: "string", description: "Alias for tierOrCategory" },
+          tier: { type: "string", description: "Alias for tierOrCategory" },
           limit: { type: "number", description: "Maximum topics to return (default: 20)", default: 20 },
         },
-        required: ["tierOrCategory"],
       },
       handler: async (args: any) => {
-        const tierOrCategory = String(args.tierOrCategory || "");
+        const tierOrCategory = String(args.tierOrCategory || args.category || args.tier || args.topic || args.query || args.q || "");
         const limit = Number(args.limit) || 20;
         const topics = docsEngine.searchTopic(tierOrCategory, limit);
 
@@ -154,7 +164,7 @@ export function createSearchTools(docsEngine: DocsSearchEngine, graphEngine: Gra
       },
     },
 
-    // 3c. fwcc_read_batch
+    // 3d. fwcc_read_batch
     {
       name: "fwcc_read_batch",
       description: "Read multiple documentation files or topics in a single tool call to accelerate agent comprehension without looping.",
@@ -166,11 +176,20 @@ export function createSearchTools(docsEngine: DocsSearchEngine, graphEngine: Gra
             items: { type: "string" },
             description: "List of relative paths or topic IDs to read (e.g. ['NormalGameDirectorModule/05_methods/enter.md', 'NormalGameWriterModule/05_methods/makeScriptResumeNormalGame.md'])",
           },
+          paths: { type: "array", items: { type: "string" }, description: "Alias for pathsOrTopics" },
+          topics: { type: "array", items: { type: "string" }, description: "Alias for pathsOrTopics" },
         },
-        required: ["pathsOrTopics"],
       },
       handler: async (args: any) => {
-        const list = Array.isArray(args.pathsOrTopics) ? args.pathsOrTopics : [];
+        const list = Array.isArray(args.pathsOrTopics)
+          ? args.pathsOrTopics
+          : Array.isArray(args.paths)
+          ? args.paths
+          : Array.isArray(args.topics)
+          ? args.topics
+          : Array.isArray(args.docs)
+          ? args.docs
+          : [];
         const results = docsEngine.readBatch(list);
 
         return {
@@ -219,11 +238,13 @@ export function createSearchTools(docsEngine: DocsSearchEngine, graphEngine: Gra
         type: "object",
         properties: {
           className: { type: "string", description: "Exact class name (e.g. 'SlotDirector', 'SlotBaseModule', 'PaylineInfoModule', 'SlotGameSettings')" },
+          class_name: { type: "string", description: "Alias for className" },
+          name: { type: "string", description: "Alias for className" },
+          concept: { type: "string", description: "Alias for className" },
         },
-        required: ["className"],
       },
       handler: async (args: any) => {
-        const className = String(args.className || "");
+        const className = String(args.className || args.class_name || args.name || args.concept || args.topic || "");
         const res = docsEngine.getClassApi(className);
 
         if (!res.found) {
@@ -251,11 +272,13 @@ export function createSearchTools(docsEngine: DocsSearchEngine, graphEngine: Gra
         type: "object",
         properties: {
           concept: { type: "string", description: "Core concept or Class name (e.g. 'SlotBaseModule', 'SlotDirector', 'SlotTableModule', 'GameDataStore')" },
+          className: { type: "string", description: "Alias for concept" },
+          name: { type: "string", description: "Alias for concept" },
+          topic: { type: "string", description: "Alias for concept" },
         },
-        required: ["concept"],
       },
       handler: async (args: any) => {
-        const concept = String(args.concept || "");
+        const concept = String(args.concept || args.className || args.class_name || args.name || args.topic || "");
         const res = graphEngine.getRelated(concept);
 
         if (!res) {
@@ -283,11 +306,13 @@ export function createSearchTools(docsEngine: DocsSearchEngine, graphEngine: Gra
         type: "object",
         properties: {
           concept: { type: "string", description: "Class or component name (e.g. 'SlotBaseModule', 'GameEventManager', 'SlotSoundPlayerModule')" },
+          className: { type: "string", description: "Alias for concept" },
+          name: { type: "string", description: "Alias for concept" },
+          topic: { type: "string", description: "Alias for concept" },
         },
-        required: ["concept"],
       },
       handler: async (args: any) => {
-        const concept = String(args.concept || "");
+        const concept = String(args.concept || args.className || args.class_name || args.name || args.topic || "");
         const backlinks = graphEngine.getBacklinks(concept);
 
         return {

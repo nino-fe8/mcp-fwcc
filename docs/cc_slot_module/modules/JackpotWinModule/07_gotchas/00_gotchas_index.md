@@ -7,6 +7,17 @@ tags: ["JackpotWinModule", "jackpot_win_module", "cc_slot_module", "gotchas", "i
 
 # ⚠️ JackpotWinModule Gotchas Index
 
+<!-- convention-summary-start -->
+### JackpotWinModule Gotchas Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for JackpotWinModule Gotchas Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 07_gotchas
+- **Scope & Code Paths**: `./01_missing_fast_skip_tween_cleanup.md`
+- **Related Docs**: [`01_missing_fast_skip_tween_cleanup`](./01_missing_fast_skip_tween_cleanup.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Catalog of Pitfalls

@@ -7,6 +7,17 @@ tags: ["cc_slot_module", "systems", "popup_controller", "base_ui_popup", "modal_
 
 # 🪟 Modal Queue & Popup Controller Architecture
 
+<!-- convention-summary-start -->
+### Modal Queue & Popup Controller Architecture Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Modal Queue & Popup Controller Architecture.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 09_popups_history_settings_system
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Architectural Role

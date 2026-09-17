@@ -1,0 +1,1030 @@
+{
+  "date": "2026-08-28",
+  "totalRequests": 39,
+  "totalToolCalls": 17,
+  "totalSuccess": 37,
+  "totalErrors": 2,
+  "successRatePercent": 94.9,
+  "totalDurationMs": 1915,
+  "avgDurationMs": 49.1,
+  "byTool": {
+    "fwcc_search_docs": {
+      "calls": 8,
+      "success": 8,
+      "errors": 0,
+      "totalDurationMs": 192,
+      "avgDurationMs": 24,
+      "minDurationMs": 7,
+      "maxDurationMs": 47,
+      "lastCalledAt": "2026-08-28T09:41:57.151Z"
+    },
+    "fwcc_get_doc": {
+      "calls": 2,
+      "success": 2,
+      "errors": 0,
+      "totalDurationMs": 16,
+      "avgDurationMs": 8,
+      "minDurationMs": 1,
+      "maxDurationMs": 15,
+      "lastCalledAt": "2026-08-28T07:46:13.237Z"
+    },
+    "fwcc_record_transfer_knowledge": {
+      "calls": 1,
+      "success": 1,
+      "errors": 0,
+      "totalDurationMs": 1656,
+      "avgDurationMs": 1656,
+      "minDurationMs": 1656,
+      "maxDurationMs": 1656,
+      "lastCalledAt": "2026-08-28T07:13:24.544Z"
+    },
+    "fwcc_sync_doc_update": {
+      "calls": 2,
+      "success": 0,
+      "errors": 2,
+      "totalDurationMs": 2,
+      "avgDurationMs": 1,
+      "minDurationMs": 1,
+      "maxDurationMs": 1,
+      "lastCalledAt": "2026-08-28T09:41:27.247Z"
+    },
+    "fwcc_list_topics": {
+      "calls": 1,
+      "success": 1,
+      "errors": 0,
+      "totalDurationMs": 21,
+      "avgDurationMs": 21,
+      "minDurationMs": 21,
+      "maxDurationMs": 21,
+      "lastCalledAt": "2026-08-28T08:42:29.603Z"
+    },
+    "fwcc_get_class_api": {
+      "calls": 1,
+      "success": 1,
+      "errors": 0,
+      "totalDurationMs": 20,
+      "avgDurationMs": 20,
+      "minDurationMs": 20,
+      "maxDurationMs": 20,
+      "lastCalledAt": "2026-08-28T09:41:39.137Z"
+    },
+    "fwcc_get_daily_stats": {
+      "calls": 1,
+      "success": 1,
+      "errors": 0,
+      "totalDurationMs": 7,
+      "avgDurationMs": 7,
+      "minDurationMs": 7,
+      "maxDurationMs": 7,
+      "lastCalledAt": "2026-08-28T09:41:43.534Z"
+    },
+    "fwcc_get_gotchas": {
+      "calls": 1,
+      "success": 1,
+      "errors": 0,
+      "totalDurationMs": 1,
+      "avgDurationMs": 1,
+      "minDurationMs": 1,
+      "maxDurationMs": 1,
+      "lastCalledAt": "2026-08-28T09:41:48.679Z"
+    }
+  },
+  "byCaller": {
+    "192.168.20.84": {
+      "calls": 20,
+      "success": 18,
+      "errors": 2,
+      "clientName": "192.168.20.84",
+      "firstSeenAt": "2026-08-28T07:10:50.511Z",
+      "lastSeenAt": "2026-08-28T09:51:33.437Z"
+    },
+    "192.168.20.168": {
+      "calls": 19,
+      "success": 19,
+      "errors": 0,
+      "clientName": "192.168.20.168",
+      "firstSeenAt": "2026-08-28T07:30:44.409Z",
+      "lastSeenAt": "2026-08-28T10:15:58.071Z"
+    }
+  },
+  "byHour": {
+    "14": 11,
+    "15": 8,
+    "16": 12,
+    "17": 8
+  },
+  "recentActivities": [
+    {
+      "id": "act_1787912158071_7sovk",
+      "timestamp": "2026-08-28T10:15:58.071Z",
+      "date": "2026-08-28",
+      "time": "17:15:58",
+      "caller": {
+        "ip": "192.168.20.168",
+        "name": "192.168.20.168",
+        "userAgent": "codex-mcp-client/0.150.0-alpha.8",
+        "clientId": ""
+      },
+      "type": "rpc_method",
+      "name": "tools/list",
+      "argsSummary": "",
+      "durationMs": 0,
+      "success": true
+    },
+    {
+      "id": "act_1787912158066_9kjws",
+      "timestamp": "2026-08-28T10:15:58.066Z",
+      "date": "2026-08-28",
+      "time": "17:15:58",
+      "caller": {
+        "ip": "192.168.20.168",
+        "name": "192.168.20.168",
+        "userAgent": "codex-mcp-client/0.150.0-alpha.8",
+        "clientId": ""
+      },
+      "type": "rpc_method",
+      "name": "initialize",
+      "argsSummary": "protocolVersion: \"2025-06-18\", capabilities: {..}, clientInfo: {..}",
+      "args": {
+        "protocolVersion": "2025-06-18",
+        "capabilities": {
+          "extensions": {
+            "io.modelcontextprotocol/ui": {
+              "mimeTypes": [
+                "text/html;profile=mcp-app",
+                "text/html+skybridge"
+              ]
+            },
+            "openai/form": {}
+          },
+          "elicitation": {
+            "form": {},
+            "url": {}
+          }
+        },
+        "clientInfo": {
+          "name": "codex-mcp-client",
+          "title": "Codex",
+          "version": "0.150.0-alpha.8"
+        }
+      },
+      "durationMs": 0,
+      "success": true
+    },
+    {
+      "id": "act_1787912137819_6np89",
+      "timestamp": "2026-08-28T10:15:37.819Z",
+      "date": "2026-08-28",
+      "time": "17:15:37",
+      "caller": {
+        "ip": "192.168.20.168",
+        "name": "192.168.20.168",
+        "userAgent": "codex-mcp-client/0.150.0-alpha.8",
+        "clientId": ""
+      },
+      "type": "rpc_method",
+      "name": "tools/list",
+      "argsSummary": "",
+      "durationMs": 0,
+      "success": true
+    },
+    {
+      "id": "act_1787912137816_un3xg",
+      "timestamp": "2026-08-28T10:15:37.816Z",
+      "date": "2026-08-28",
+      "time": "17:15:37",
+      "caller": {
+        "ip": "192.168.20.168",
+        "name": "192.168.20.168",
+        "userAgent": "codex-mcp-client/0.150.0-alpha.8",
+        "clientId": ""
+      },
+      "type": "rpc_method",
+      "name": "initialize",
+      "argsSummary": "protocolVersion: \"2025-06-18\", capabilities: {..}, clientInfo: {..}",
+      "args": {
+        "protocolVersion": "2025-06-18",
+        "capabilities": {
+          "extensions": {
+            "io.modelcontextprotocol/ui": {
+              "mimeTypes": [
+                "text/html;profile=mcp-app",
+                "text/html+skybridge"
+              ]
+            },
+            "openai/form": {}
+          },
+          "elicitation": {
+            "form": {},
+            "url": {}
+          }
+        },
+        "clientInfo": {
+          "name": "codex-mcp-client",
+          "title": "Codex",
+          "version": "0.150.0-alpha.8"
+        }
+      },
+      "durationMs": 0,
+      "success": true
+    },
+    {
+      "id": "act_1787912136852_k8udm",
+      "timestamp": "2026-08-28T10:15:36.852Z",
+      "date": "2026-08-28",
+      "time": "17:15:36",
+      "caller": {
+        "ip": "192.168.20.168",
+        "name": "192.168.20.168",
+        "userAgent": "codex-mcp-client/0.150.0-alpha.8",
+        "clientId": ""
+      },
+      "type": "rpc_method",
+      "name": "tools/list",
+      "argsSummary": "",
+      "durationMs": 0,
+      "success": true
+    },
+    {
+      "id": "act_1787912136850_a1shs",
+      "timestamp": "2026-08-28T10:15:36.850Z",
+      "date": "2026-08-28",
+      "time": "17:15:36",
+      "caller": {
+        "ip": "192.168.20.168",
+        "name": "192.168.20.168",
+        "userAgent": "codex-mcp-client/0.150.0-alpha.8",
+        "clientId": ""
+      },
+      "type": "rpc_method",
+      "name": "initialize",
+      "argsSummary": "protocolVersion: \"2025-06-18\", capabilities: {..}, clientInfo: {..}",
+      "args": {
+        "protocolVersion": "2025-06-18",
+        "capabilities": {
+          "elicitation": {
+            "form": {},
+            "url": {}
+          }
+        },
+        "clientInfo": {
+          "name": "codex-mcp-client",
+          "title": "Codex",
+          "version": "0.150.0-alpha.8"
+        }
+      },
+      "durationMs": 0,
+      "success": true
+    },
+    {
+      "id": "act_1787912112040_jbbma",
+      "timestamp": "2026-08-28T10:15:12.040Z",
+      "date": "2026-08-28",
+      "time": "17:15:12",
+      "caller": {
+        "ip": "192.168.20.168",
+        "name": "192.168.20.168",
+        "userAgent": "codex-mcp-client/0.150.0-alpha.8",
+        "clientId": ""
+      },
+      "type": "rpc_method",
+      "name": "tools/list",
+      "argsSummary": "",
+      "durationMs": 0,
+      "success": true
+    },
+    {
+      "id": "act_1787912112037_hirwj",
+      "timestamp": "2026-08-28T10:15:12.037Z",
+      "date": "2026-08-28",
+      "time": "17:15:12",
+      "caller": {
+        "ip": "192.168.20.168",
+        "name": "192.168.20.168",
+        "userAgent": "codex-mcp-client/0.150.0-alpha.8",
+        "clientId": ""
+      },
+      "type": "rpc_method",
+      "name": "initialize",
+      "argsSummary": "protocolVersion: \"2025-06-18\", capabilities: {..}, clientInfo: {..}",
+      "args": {
+        "protocolVersion": "2025-06-18",
+        "capabilities": {
+          "elicitation": {
+            "form": {},
+            "url": {}
+          }
+        },
+        "clientInfo": {
+          "name": "codex-mcp-client",
+          "title": "Codex",
+          "version": "0.150.0-alpha.8"
+        }
+      },
+      "durationMs": 0,
+      "success": true
+    },
+    {
+      "id": "act_1787910693437_hz1gb",
+      "timestamp": "2026-08-28T09:51:33.437Z",
+      "date": "2026-08-28",
+      "time": "16:51:33",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "rpc_method",
+      "name": "tools/list",
+      "argsSummary": "",
+      "durationMs": 0,
+      "success": true
+    },
+    {
+      "id": "act_1787910693434_j5bzo",
+      "timestamp": "2026-08-28T09:51:33.434Z",
+      "date": "2026-08-28",
+      "time": "16:51:33",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "rpc_method",
+      "name": "initialize",
+      "argsSummary": "clientInfo: {..}, protocolVersion: \"2025-11-25\", capabilities: {..}",
+      "args": {
+        "clientInfo": {
+          "name": "antigravity-client",
+          "version": "v1.0.0"
+        },
+        "protocolVersion": "2025-11-25",
+        "capabilities": {
+          "elicitation": {
+            "form": {},
+            "url": {}
+          },
+          "roots": {
+            "listChanged": true
+          }
+        }
+      },
+      "durationMs": 0,
+      "success": true
+    },
+    {
+      "id": "act_1787910117151_dojny",
+      "timestamp": "2026-08-28T09:41:57.151Z",
+      "date": "2026-08-28",
+      "time": "16:41:57",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_search_docs",
+      "argsSummary": "query: \"connectNetworkV3 loginScene to...\"",
+      "args": {
+        "query": "connectNetworkV3 loginScene token"
+      },
+      "durationMs": 7,
+      "success": true
+    },
+    {
+      "id": "act_1787910108679_mucmm",
+      "timestamp": "2026-08-28T09:41:48.679Z",
+      "date": "2026-08-28",
+      "time": "16:41:48",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_get_gotchas",
+      "argsSummary": "category: \"cc_slot_module\"",
+      "args": {
+        "category": "cc_slot_module"
+      },
+      "durationMs": 1,
+      "success": true
+    },
+    {
+      "id": "act_1787910103534_rgjdx",
+      "timestamp": "2026-08-28T09:41:43.534Z",
+      "date": "2026-08-28",
+      "time": "16:41:43",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_get_daily_stats",
+      "argsSummary": "",
+      "args": {},
+      "durationMs": 7,
+      "success": true
+    },
+    {
+      "id": "act_1787910099137_juatf",
+      "timestamp": "2026-08-28T09:41:39.137Z",
+      "date": "2026-08-28",
+      "time": "16:41:39",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_get_class_api",
+      "argsSummary": "className: \"SlotGameLogic\"",
+      "args": {
+        "className": "SlotGameLogic"
+      },
+      "durationMs": 20,
+      "success": true
+    },
+    {
+      "id": "act_1787910087247_jorzp",
+      "timestamp": "2026-08-28T09:41:27.247Z",
+      "date": "2026-08-28",
+      "time": "16:41:27",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_sync_doc_update",
+      "argsSummary": "",
+      "args": {},
+      "durationMs": 1,
+      "success": false,
+      "error": "[{\"type\":\"text\",\"text\":\"[Tool Execution Error] Cannot read properties of undefined (reading 'toLowerCase')\"}]"
+    },
+    {
+      "id": "act_1787910081773_kjsh3",
+      "timestamp": "2026-08-28T09:41:21.773Z",
+      "date": "2026-08-28",
+      "time": "16:41:21",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_search_docs",
+      "argsSummary": "query: \"ITEM_011 exit button ru param\"",
+      "args": {
+        "query": "ITEM_011 exit button ru param"
+      },
+      "durationMs": 12,
+      "success": true
+    },
+    {
+      "id": "act_1787910046630_96evb",
+      "timestamp": "2026-08-28T09:40:46.630Z",
+      "date": "2026-08-28",
+      "time": "16:40:46",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_search_docs",
+      "argsSummary": "query: \"Hold Spin Button to Trigger Au...\"",
+      "args": {
+        "query": "Hold Spin Button to Trigger Auto Spin Item 04"
+      },
+      "durationMs": 28,
+      "success": true
+    },
+    {
+      "id": "act_1787909412127_hf574",
+      "timestamp": "2026-08-28T09:30:12.127Z",
+      "date": "2026-08-28",
+      "time": "16:30:12",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "rpc_method",
+      "name": "tools/list",
+      "argsSummary": "",
+      "durationMs": 0,
+      "success": true
+    },
+    {
+      "id": "act_1787909412124_ks6qg",
+      "timestamp": "2026-08-28T09:30:12.124Z",
+      "date": "2026-08-28",
+      "time": "16:30:12",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "rpc_method",
+      "name": "initialize",
+      "argsSummary": "clientInfo: {..}, protocolVersion: \"2025-11-25\", capabilities: {..}",
+      "args": {
+        "clientInfo": {
+          "name": "antigravity-client",
+          "version": "v1.0.0"
+        },
+        "protocolVersion": "2025-11-25",
+        "capabilities": {
+          "elicitation": {
+            "form": {},
+            "url": {}
+          },
+          "roots": {
+            "listChanged": true
+          }
+        }
+      },
+      "durationMs": 0,
+      "success": true
+    },
+    {
+      "id": "act_1787908323562_zzqg2",
+      "timestamp": "2026-08-28T09:12:03.562Z",
+      "date": "2026-08-28",
+      "time": "16:12:03",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_search_docs",
+      "argsSummary": "query: \"Game Flow Join Game dataResume...\"",
+      "args": {
+        "query": "Game Flow Join Game dataResume playSession"
+      },
+      "durationMs": 38,
+      "success": true
+    },
+    {
+      "id": "act_1787907435225_kskc1",
+      "timestamp": "2026-08-28T08:57:15.225Z",
+      "date": "2026-08-28",
+      "time": "15:57:15",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_search_docs",
+      "argsSummary": "query: \"connectNetworkV3 getToken tria...\"",
+      "args": {
+        "query": "connectNetworkV3 getToken trialMode"
+      },
+      "durationMs": 47,
+      "success": true
+    },
+    {
+      "id": "act_1787906549603_5xnou",
+      "timestamp": "2026-08-28T08:42:29.603Z",
+      "date": "2026-08-28",
+      "time": "15:42:29",
+      "caller": {
+        "ip": "192.168.20.168",
+        "name": "192.168.20.168",
+        "userAgent": "",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_list_topics",
+      "argsSummary": "",
+      "args": {},
+      "durationMs": 21,
+      "success": true
+    },
+    {
+      "id": "act_1787906181116_ie31w",
+      "timestamp": "2026-08-28T08:36:21.116Z",
+      "date": "2026-08-28",
+      "time": "15:36:21",
+      "caller": {
+        "ip": "192.168.20.168",
+        "name": "192.168.20.168",
+        "userAgent": "",
+        "clientId": ""
+      },
+      "type": "rpc_method",
+      "name": "tools/list",
+      "argsSummary": "",
+      "durationMs": 0,
+      "success": true
+    },
+    {
+      "id": "act_1787906181112_22hr5",
+      "timestamp": "2026-08-28T08:36:21.112Z",
+      "date": "2026-08-28",
+      "time": "15:36:21",
+      "caller": {
+        "ip": "192.168.20.168",
+        "name": "192.168.20.168",
+        "userAgent": "",
+        "clientId": ""
+      },
+      "type": "rpc_method",
+      "name": "initialize",
+      "argsSummary": "protocolVersion: \"2025-06-18\", capabilities: {..}, clientInfo: {..}",
+      "args": {
+        "protocolVersion": "2025-06-18",
+        "capabilities": {
+          "extensions": {
+            "openai/form": {}
+          },
+          "elicitation": {
+            "form": {},
+            "url": {}
+          }
+        },
+        "clientInfo": {
+          "name": "codex-mcp-client",
+          "title": "Codex",
+          "version": "0.146.0-alpha.3"
+        }
+      },
+      "durationMs": 0,
+      "success": true
+    },
+    {
+      "id": "act_1787906162865_17y1m",
+      "timestamp": "2026-08-28T08:36:02.865Z",
+      "date": "2026-08-28",
+      "time": "15:36:02",
+      "caller": {
+        "ip": "192.168.20.168",
+        "name": "192.168.20.168",
+        "userAgent": "",
+        "clientId": ""
+      },
+      "type": "rpc_method",
+      "name": "tools/list",
+      "argsSummary": "",
+      "durationMs": 0,
+      "success": true
+    },
+    {
+      "id": "act_1787906162861_ajw99",
+      "timestamp": "2026-08-28T08:36:02.861Z",
+      "date": "2026-08-28",
+      "time": "15:36:02",
+      "caller": {
+        "ip": "192.168.20.168",
+        "name": "192.168.20.168",
+        "userAgent": "",
+        "clientId": ""
+      },
+      "type": "rpc_method",
+      "name": "initialize",
+      "argsSummary": "protocolVersion: \"2025-06-18\", capabilities: {..}, clientInfo: {..}",
+      "args": {
+        "protocolVersion": "2025-06-18",
+        "capabilities": {
+          "extensions": {
+            "openai/form": {}
+          },
+          "elicitation": {
+            "form": {},
+            "url": {}
+          }
+        },
+        "clientInfo": {
+          "name": "codex-mcp-client",
+          "title": "Codex",
+          "version": "0.146.0-alpha.3"
+        }
+      },
+      "durationMs": 0,
+      "success": true
+    },
+    {
+      "id": "act_1787906113453_nppy3",
+      "timestamp": "2026-08-28T08:35:13.453Z",
+      "date": "2026-08-28",
+      "time": "15:35:13",
+      "caller": {
+        "ip": "192.168.20.168",
+        "name": "192.168.20.168",
+        "userAgent": "",
+        "clientId": ""
+      },
+      "type": "rpc_method",
+      "name": "tools/list",
+      "argsSummary": "",
+      "durationMs": 0,
+      "success": true
+    },
+    {
+      "id": "act_1787906113447_7nr5c",
+      "timestamp": "2026-08-28T08:35:13.447Z",
+      "date": "2026-08-28",
+      "time": "15:35:13",
+      "caller": {
+        "ip": "192.168.20.168",
+        "name": "192.168.20.168",
+        "userAgent": "",
+        "clientId": ""
+      },
+      "type": "rpc_method",
+      "name": "initialize",
+      "argsSummary": "protocolVersion: \"2025-06-18\", capabilities: {..}, clientInfo: {..}",
+      "args": {
+        "protocolVersion": "2025-06-18",
+        "capabilities": {
+          "elicitation": {
+            "form": {},
+            "url": {}
+          }
+        },
+        "clientInfo": {
+          "name": "codex-mcp-client",
+          "title": "Codex",
+          "version": "0.146.0-alpha.3"
+        }
+      },
+      "durationMs": 0,
+      "success": true
+    },
+    {
+      "id": "act_1787903173237_enqup",
+      "timestamp": "2026-08-28T07:46:13.237Z",
+      "date": "2026-08-28",
+      "time": "14:46:13",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_get_doc",
+      "argsSummary": "relPath: \"cc_slot_module/modules/MenuPan...\"",
+      "args": {
+        "relPath": "cc_slot_module/modules/MenuPanel/05_methods/updateButtonLayout.md"
+      },
+      "durationMs": 15,
+      "success": true
+    },
+    {
+      "id": "act_1787903166758_1h9xt",
+      "timestamp": "2026-08-28T07:46:06.758Z",
+      "date": "2026-08-28",
+      "time": "14:46:06",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_search_docs",
+      "argsSummary": "query: \"checkConditionCloseGameIframe\"",
+      "args": {
+        "query": "checkConditionCloseGameIframe"
+      },
+      "durationMs": 22,
+      "success": true
+    },
+    {
+      "id": "act_1787903119872_0rf5m",
+      "timestamp": "2026-08-28T07:45:19.872Z",
+      "date": "2026-08-28",
+      "time": "14:45:19",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_search_docs",
+      "argsSummary": "query: \"BackToLobby\"",
+      "args": {
+        "query": "BackToLobby"
+      },
+      "durationMs": 19,
+      "success": true
+    },
+    {
+      "id": "act_1787902244418_ndi1a",
+      "timestamp": "2026-08-28T07:30:44.418Z",
+      "date": "2026-08-28",
+      "time": "14:30:44",
+      "caller": {
+        "ip": "192.168.20.168",
+        "name": "192.168.20.168",
+        "userAgent": "codex-mcp-client/0.150.0-alpha.8",
+        "clientId": ""
+      },
+      "type": "rpc_method",
+      "name": "tools/list",
+      "argsSummary": "",
+      "durationMs": 0,
+      "success": true
+    },
+    {
+      "id": "act_1787902244417_3c3jv",
+      "timestamp": "2026-08-28T07:30:44.417Z",
+      "date": "2026-08-28",
+      "time": "14:30:44",
+      "caller": {
+        "ip": "192.168.20.168",
+        "name": "192.168.20.168",
+        "userAgent": "codex-mcp-client/0.150.0-alpha.8",
+        "clientId": ""
+      },
+      "type": "rpc_method",
+      "name": "tools/list",
+      "argsSummary": "",
+      "durationMs": 0,
+      "success": true
+    },
+    {
+      "id": "act_1787902244410_manwd",
+      "timestamp": "2026-08-28T07:30:44.410Z",
+      "date": "2026-08-28",
+      "time": "14:30:44",
+      "caller": {
+        "ip": "192.168.20.168",
+        "name": "192.168.20.168",
+        "userAgent": "codex-mcp-client/0.150.0-alpha.8",
+        "clientId": ""
+      },
+      "type": "rpc_method",
+      "name": "initialize",
+      "argsSummary": "protocolVersion: \"2025-06-18\", capabilities: {..}, clientInfo: {..}",
+      "args": {
+        "protocolVersion": "2025-06-18",
+        "capabilities": {
+          "extensions": {
+            "io.modelcontextprotocol/ui": {
+              "mimeTypes": [
+                "text/html;profile=mcp-app",
+                "text/html+skybridge"
+              ]
+            }
+          },
+          "elicitation": {
+            "form": {},
+            "url": {}
+          }
+        },
+        "clientInfo": {
+          "name": "codex-mcp-client",
+          "title": "Codex",
+          "version": "0.150.0-alpha.8"
+        }
+      },
+      "durationMs": 0,
+      "success": true
+    },
+    {
+      "id": "act_1787902244409_5iqg4",
+      "timestamp": "2026-08-28T07:30:44.409Z",
+      "date": "2026-08-28",
+      "time": "14:30:44",
+      "caller": {
+        "ip": "192.168.20.168",
+        "name": "192.168.20.168",
+        "userAgent": "codex-mcp-client/0.150.0-alpha.8",
+        "clientId": ""
+      },
+      "type": "rpc_method",
+      "name": "initialize",
+      "argsSummary": "protocolVersion: \"2025-06-18\", capabilities: {..}, clientInfo: {..}",
+      "args": {
+        "protocolVersion": "2025-06-18",
+        "capabilities": {
+          "extensions": {
+            "io.modelcontextprotocol/ui": {
+              "mimeTypes": [
+                "text/html;profile=mcp-app",
+                "text/html+skybridge"
+              ]
+            }
+          },
+          "elicitation": {
+            "form": {},
+            "url": {}
+          }
+        },
+        "clientInfo": {
+          "name": "codex-mcp-client",
+          "title": "Codex",
+          "version": "0.150.0-alpha.8"
+        }
+      },
+      "durationMs": 0,
+      "success": true
+    },
+    {
+      "id": "act_1787901277216_uc6g6",
+      "timestamp": "2026-08-28T07:14:37.216Z",
+      "date": "2026-08-28",
+      "time": "14:14:37",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_sync_doc_update",
+      "argsSummary": "relPath: \"transfer-ark/01_bugs_and_gotch...\"",
+      "args": {
+        "relPath": "transfer-ark/01_bugs_and_gotchas/BUG_011_exit_button_always_visible_and_disabled_without_return_url_ru_param.md"
+      },
+      "durationMs": 1,
+      "success": false,
+      "error": "[{\"type\":\"text\",\"text\":\"[Tool Execution Error] Cannot read properties of undefined (reading 'toLowerCase')\"}]"
+    },
+    {
+      "id": "act_1787901204544_rfgax",
+      "timestamp": "2026-08-28T07:13:24.544Z",
+      "date": "2026-08-28",
+      "time": "14:13:24",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_record_transfer_knowledge",
+      "argsSummary": "category: \"game_implement\", content: \"# BackToLobbyModule9666 Return...\", title: \"BackToLobbyModule9666 Return U...\", to...",
+      "args": {
+        "category": "game_implement",
+        "content": "# BackToLobbyModule9666 Return URL (&ru) Behavior Specification\n\n## Context & Requirement\n- **Requirement**: Nút Exit / Back to Lobby luôn hiển thị trong game (thay vì ẩn đi khi không có iframe). Trong trường hợp link game không có parameter `&ru`, nút Exit bị disable (`interactable = false`) và không kích hoạt bất kỳ action nào khi click.\n- **Implementation**: [`BackToLobbyModule9666.ts`](file:///c:/Users/ADMIN/lamnino/cc20-new-all-in-one/assets/cc-release-slot/cc1-red-cliff/scripts/Gui/BackToLobbyModule9666.ts)\n  - `onLoadExtend()` & `start()`: Gọi `updateButtonState()` để kiểm tra `canBackToLobby()` và gán `btn.interactable = isInteractable`. Đồng thời giữ `this.node.active = true`.\n  - `canBackToLobby()`: Kiểm tra qua `gameCommonUtils.checkConditionCloseGameIframe()`, `gameCommonUtils.getUrlParam('ru')`, hoặc `window.location.search`.\n  - `trigger()`: Early return nếu `!this.canBackToLobby()`.\n",
+        "title": "BackToLobbyModule9666 Return URL (&ru) Disabled Behavior",
+        "topic": "BackToLobbyModule9666"
+      },
+      "durationMs": 1656,
+      "success": true
+    },
+    {
+      "id": "act_1787901082959_jyyyn",
+      "timestamp": "2026-08-28T07:11:22.959Z",
+      "date": "2026-08-28",
+      "time": "14:11:22",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_get_doc",
+      "argsSummary": "relPath: \"cc_core_lib/modules/ExitButton...\"",
+      "args": {
+        "relPath": "cc_core_lib/modules/ExitButtonManager/03_methods/backToLobby.md"
+      },
+      "durationMs": 1,
+      "success": true
+    },
+    {
+      "id": "act_1787901050511_j8pod",
+      "timestamp": "2026-08-28T07:10:50.511Z",
+      "date": "2026-08-28",
+      "time": "14:10:50",
+      "caller": {
+        "ip": "192.168.20.84",
+        "name": "192.168.20.84",
+        "userAgent": "Go-http-client/1.1",
+        "clientId": ""
+      },
+      "type": "tool_call",
+      "name": "fwcc_search_docs",
+      "argsSummary": "query: \"BackToLobby\"",
+      "args": {
+        "query": "BackToLobby"
+      },
+      "durationMs": 19,
+      "success": true
+    }
+  ],
+  "lastUpdated": "2026-08-28T10:15:58.072Z"
+}

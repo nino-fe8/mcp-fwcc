@@ -7,6 +7,17 @@ tags: ["SettingPanel", "settingpanel", "cc_slot_module", "inheritance", "workflo
 
 # 🚀 SettingPanel Game Creation Workflow
 
+<!-- convention-summary-start -->
+### SettingPanel Game Creation Workflow Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for SettingPanel Game Creation Workflow.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 09_inheritance_and_customization
+- **Scope & Code Paths**: `SettingPanel.prefab`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Checklist

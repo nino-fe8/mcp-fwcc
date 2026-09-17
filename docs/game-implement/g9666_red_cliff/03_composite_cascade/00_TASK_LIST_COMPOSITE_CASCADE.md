@@ -8,6 +8,17 @@ tags: ["9666", "task_list", "composite_cascade", "debugging", "verification"]
 
 # 📋 Red Cliff (g9666) Composite Cascade Step-by-Step Task & Debugging Checklist
 
+<!-- convention-summary-start -->
+### Red Cliff (g9666) Composite Cascade Step-by-Step Task & Debugging Checklist Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Red Cliff (g9666) Composite Cascade Step-by-Step Task & Debugging Checklist.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: game_implement, 03_composite_cascade
+- **Scope & Code Paths**: `9666TableUtil.ts`, `../../../../assets/cc-release-slot/cc1-red-cliff/scripts/Table/HorizontalTableModuleData9666.ts`, `../../../../assets/cc-release-slot/cc1-red-cliff/scripts/GameModule/VerticalCascadeModule9666.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 🎯 Purpose & Scope

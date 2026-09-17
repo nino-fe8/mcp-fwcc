@@ -7,6 +7,17 @@ tags: ["GameModeDirectorModule", "game_mode_director", "cc_slot_module", "custom
 
 # 🚀 Game Creation Workflow: Setting Up Game Mode Containers
 
+<!-- convention-summary-start -->
+### Game Creation Workflow: Setting Up Game Mode Containers Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Game Creation Workflow: Setting Up Game Mode Containers.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 09_inheritance_and_customization
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 Follow this 5-step checklist when setting up a game mode in a new slot title:
 
 ---

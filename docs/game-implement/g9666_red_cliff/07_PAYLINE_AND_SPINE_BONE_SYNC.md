@@ -8,6 +8,17 @@ tags: ["9666", "payline", "allways", "spine", "bone_tracking", "hsnCombineSpine"
 
 # ⚔️ Red Cliff (g9666) Payline & Spine Bone Tracking Subsystem
 
+<!-- convention-summary-start -->
+### Red Cliff (g9666) Payline & Spine Bone Tracking Subsystem Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Red Cliff (g9666) Payline & Spine Bone Tracking Subsystem.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: game_implement, g9666_red_cliff
+- **Scope & Code Paths**: `./07_payline_and_spine_sync/`
+- **Related Docs**: [00. Step-by-Step Task & Debugging Checklist](./07_payline_and_spine_sync/00_TASK_LIST_PAYLINE_SYSTEM.md), [01. Payline Architecture & 243 AllWays Rules](./07_payline_and_spine_sync/01_payline_architecture_and_allways.md), [02. Real-Time Spine Bone Tracking ('hsn' & 'money')](./07_payline_and_spine_sync/02_realtime_spine_bone_tracking.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 📚 Detailed Documentation Sub-chapters

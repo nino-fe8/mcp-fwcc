@@ -7,6 +7,17 @@ tags: ["UIManagerModule", "ui_manager_module", "cc_slot_module", "gotchas", "ind
 
 # ⚠️ UIManagerModule Gotchas Index
 
+<!-- convention-summary-start -->
+### UIManagerModule Gotchas Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for UIManagerModule Gotchas Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 07_gotchas
+- **Scope & Code Paths**: `./01_stale_mode_ui_overlap_leak.md`, `./02_blocking_popup_keyboard_leak.md`
+- **Related Docs**: [`01_stale_mode_ui_overlap_leak`](./01_stale_mode_ui_overlap_leak.md), [`02_blocking_popup_keyboard_leak`](./02_blocking_popup_keyboard_leak.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Catalog of Pitfalls

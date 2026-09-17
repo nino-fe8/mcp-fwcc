@@ -11,6 +11,17 @@ author: "ARK Slot Engineering Team"
 
 # BUG-007: Symbol Idle Animation Fails After Combine Dimming and Highpay addAnimation Fallback
 
+<!-- convention-summary-start -->
+### Symbol Idle Animation Fails After Combine Dimming and Highpay addAnimation Fallback Summary
+
+- **Core Architecture / Purpose**: Documents root cause, architectural pitfalls, reproduction steps, and official code fix for Symbol Idle Animation Fails After Combine Dimming and Highpay addAnimation Fallback.
+- **Key Mechanisms & Design**: Guards edge cases, prevents race conditions/null crashes, and enforces state machine integrity during game transitions.
+- **Domain Capabilities**: bugfix, 01_bugs_and_gotchas
+- **Scope & Code Paths**: `assets/cc-release-slot/cc1-red-cliff/scripts/Table/SlotSymbolModule9666.ts`, `assets/cc-common/cc-slot-module/BaseModule/Table/SlotSymbol/SlotSymbolModule.ts`, `assets/cc-common/cc-slot-module/BaseModule/Payline/PaylineModule/scripts/PaylineSymbolModule.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. 📌 Problem / Feature Overview

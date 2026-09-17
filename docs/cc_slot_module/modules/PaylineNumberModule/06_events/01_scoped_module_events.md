@@ -7,6 +7,17 @@ tags: ["PaylineNumberModule", "payline_number_module", "cc_slot_module", "events
 
 # 📡 PaylineNumberModule Internal Payline Events & Item Direct Calling
 
+<!-- convention-summary-start -->
+### PaylineNumberModule Internal Payline Events & Item Direct Calling Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for PaylineNumberModule Internal Payline Events & Item Direct Calling.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 06_events
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Subscribed `payLineEmitter` Events

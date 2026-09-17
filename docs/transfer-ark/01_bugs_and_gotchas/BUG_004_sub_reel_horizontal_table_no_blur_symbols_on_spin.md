@@ -11,6 +11,17 @@ author: "ARK Slot Engineering Team"
 
 # BUG-004: Sub Reel (Horizontal Table) Having No Blur Symbols During Spin & Horizontal Blur Asset Mapping
 
+<!-- convention-summary-start -->
+### Fix Sub Reel (Horizontal Table) Having No Blur Symbols and Map Horizontal Blur Frames Summary
+
+- **Core Architecture / Purpose**: Documents root cause, architectural pitfalls, reproduction steps, and official code fix for Fix Sub Reel (Horizontal Table) Having No Blur Symbols and Map Horizontal Blur Frames.
+- **Key Mechanisms & Design**: Guards edge cases, prevents race conditions/null crashes, and enforces state machine integrity during game transitions.
+- **Domain Capabilities**: bugfix, 01_bugs_and_gotchas
+- **Scope & Code Paths**: `cc-slot-mechanics/HorizontalReel/scripts/HorizontalReelModule.ts`, `HorizontalReelModule9666.ts`, `HorizontalTableModule9666.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. 📌 Problem / Feature Overview

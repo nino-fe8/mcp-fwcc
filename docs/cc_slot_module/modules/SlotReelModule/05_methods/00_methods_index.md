@@ -7,6 +7,17 @@ tags: ["SlotReelModule", "slot_reel_module", "cc_slot_module", "methods", "index
 
 # 📋 SlotReelModule Methods Index
 
+<!-- convention-summary-start -->
+### SlotReelModule Methods Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for SlotReelModule Methods Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 05_methods
+- **Scope & Code Paths**: `./initReel.md`, `./runReelSpin.md`, `./spinAction.md`
+- **Related Docs**: [`initReel({ reelIndex, config, pool }): void`](./initReel.md), [`runReelSpin(mode): void`](./runReelSpin.md), [`spinAction(): void`](./spinAction.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Declared Methods Summary Table

@@ -7,6 +7,17 @@ tags: ["NormalGameWriterModule", "normal_game_writer", "cc_slot_module", "method
 
 # 📋 NormalGameWriterModule Methods Index
 
+<!-- convention-summary-start -->
+### NormalGameWriterModule Methods Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for NormalGameWriterModule Methods Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 05_methods
+- **Scope & Code Paths**: `./makeScriptNormalSpinTrigger.md`, `./makeScriptStartSpinning.md`, `./makeScriptStopSpinningTable.md`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Declared Generator Methods Summary Table

@@ -7,6 +7,17 @@ tags: ["StickySymbolData", "sticky_symbol_data", "cc_slot_mechanics", "methods",
 
 # 📖 `StickySymbolData` Methods Master Index
 
+<!-- convention-summary-start -->
+### StickySymbolData Methods Master Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for StickySymbolData Methods Master Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_mechanics, 05_methods
+- **Scope & Code Paths**: `./onloadExtend.md`, `./cleanStickyIndexes.md`, `./isFinishSticky.md`
+- **Related Docs**: [`onloadExtend()`](./onloadExtend.md), [`cleanStickyIndexes()`](./cleanStickyIndexes.md), [`isFinishSticky()`](./isFinishSticky.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Declared Method Signatures & Summary

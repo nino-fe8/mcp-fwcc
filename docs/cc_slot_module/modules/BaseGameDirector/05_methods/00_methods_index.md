@@ -7,6 +7,17 @@ tags: ["BaseGameDirector", "base_game_director", "cc_slot_module", "methods", "i
 
 # 📋 BaseGameDirector Methods Index
 
+<!-- convention-summary-start -->
+### BaseGameDirector Methods Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for BaseGameDirector Methods Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 05_methods
+- **Scope & Code Paths**: `./init.md`, `./runAction.md`, `./executeNextScript.md`
+- **Related Docs**: [`init(): void`](./init.md), [`runAction(actionName: string, data?: any): Promise<void>`](./runAction.md), [`executeNextScript(script: any): void`](./executeNextScript.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Declared Methods Summary Table

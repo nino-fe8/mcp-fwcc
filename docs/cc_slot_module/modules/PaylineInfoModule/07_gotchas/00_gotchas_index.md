@@ -7,6 +7,17 @@ tags: ["PaylineInfoModule", "payline_info_module", "cc_slot_module", "gotchas", 
 
 # ⚠️ PaylineInfoModule Gotchas Index
 
+<!-- convention-summary-start -->
+### PaylineInfoModule Gotchas Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for PaylineInfoModule Gotchas Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 07_gotchas
+- **Scope & Code Paths**: `./01_unsupported_pay_system_type_crash.md`, `./02_missing_symbol_sprite_frame_mapping.md`
+- **Related Docs**: [`01_unsupported_pay_system_type_crash`](./01_unsupported_pay_system_type_crash.md), [`02_missing_symbol_sprite_frame_mapping`](./02_missing_symbol_sprite_frame_mapping.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Catalog of Pitfalls

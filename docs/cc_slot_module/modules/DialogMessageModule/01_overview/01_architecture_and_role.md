@@ -7,6 +7,17 @@ tags: ["DialogMessageModule", "dialogmessagemodule", "cc_slot_module", "overview
 
 # 🏛️ DialogMessageModule Architecture & Role
 
+<!-- convention-summary-start -->
+### DialogMessageModule Architecture & Role Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for DialogMessageModule Architecture & Role.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 01_overview
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 `DialogMessageModule` is the system-level alert dialog controller in the `cc-common` Slot Framework SDK. Mounted directly on `Canvas/Director/DialogMessage`, it displays unskippable modal alerts for network disconnects, server maintenance, session kicks, and critical confirmation prompts.
 
 ---

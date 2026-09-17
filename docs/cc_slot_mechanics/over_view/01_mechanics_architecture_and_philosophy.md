@@ -7,6 +7,17 @@ tags: ["cc_slot_mechanics", "overview", "architecture", "philosophy", "extensibi
 
 # 🏛️ Slot Mechanics Architecture & Extensible Design Philosophy
 
+<!-- convention-summary-start -->
+### Slot Mechanics Architecture & Extensible Design Philosophy Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Slot Mechanics Architecture & Extensible Design Philosophy.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_mechanics, over_view
+- **Scope & Code Paths**: `assets/cc-common/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Modular Mechanics Decoupling

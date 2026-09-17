@@ -7,6 +7,17 @@ tags: ["cc_slot_module", "systems", "gui_dashboard", "spin_button", "fsm", "touc
 
 # 🔘 Spin Button State Machine, Touch Gestures & Mode Specialization
 
+<!-- convention-summary-start -->
+### Spin Button State Machine, Touch Gestures & Mode Specialization Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Spin Button State Machine, Touch Gestures & Mode Specialization.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 08_gui_dashboard_and_controls_system
+- **Scope & Code Paths**: `SlotButtonNormal.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Class Hierarchy

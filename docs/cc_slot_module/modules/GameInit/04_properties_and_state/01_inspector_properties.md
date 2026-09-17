@@ -7,6 +7,17 @@ tags: ["GameInit", "gameinit", "cc_slot_module", "properties", "inspector", "dec
 
 # 🎛️ GameInit Inspector `@property` Schema
 
+<!-- convention-summary-start -->
+### GameInit Inspector @property Schema Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for GameInit Inspector @property Schema.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 04_properties_and_state
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Inspector Properties Reference Table
 
 The following properties are exposed to the Cocos Creator 2.4 Inspector panel on the `Canvas/Director` node:

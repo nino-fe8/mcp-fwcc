@@ -11,6 +11,17 @@ author: "ARK Studio Slot Engineering & QA Team"
 
 # 5. 🎰 Matrix, Paylines & Payout Presentation
 
+<!-- convention-summary-start -->
+### Business Specification 05: Matrix, Paylines & Payout Presentation Summary
+
+- **Core Architecture / Purpose**: Specifies the standard business behavior, UI presentation, and player interaction differences between Cocos Creator and Reference Game for Business Specification 05: Matrix, Paylines & Payout Presentation.
+- **Key Mechanisms & Design**: Adopts Theo Ref. Reconciles base SDK component locking, event dispatching, and view rehydration to match reference specifications exactly.
+- **Domain Capabilities**: business_mapping, DISCREPANCY_001_cocos_vs_pixijs
+- **Scope & Code Paths**: `assets/cc-release-slot/cc1-red-cliff/scripts/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 5.1 Detailed Discrepancy & Specification Table

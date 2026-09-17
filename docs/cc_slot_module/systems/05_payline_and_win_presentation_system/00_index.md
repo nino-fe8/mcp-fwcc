@@ -7,6 +7,17 @@ tags: ["cc_slot_module", "systems", "payline", "win_presentation", "architecture
 
 # ⚡ Payline & Win Presentation System Architecture Index
 
+<!-- convention-summary-start -->
+### Payline & Win Presentation System Architecture Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Payline & Win Presentation System Architecture Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 05_payline_and_win_presentation_system
+- **Scope & Code Paths**: `./01_payline_evaluation_and_types.md`, `./02_two_stage_presentation_lifecycle.md`, `./03_payline_component_quad_and_rendering_layers.md`
+- **Related Docs**: [`01_payline_evaluation_and_types.md`](./01_payline_evaluation_and_types.md), [`02_two_stage_presentation_lifecycle.md`](./02_two_stage_presentation_lifecycle.md), [`03_payline_component_quad_and_rendering_layers.md`](./03_payline_component_quad_and_rendering_layers.md)
+<!-- convention-summary-end -->
+
+
 Welcome to the technical architecture guide on the **Payline Evaluation & Win Presentation System** in `cc-slot-module`.
 
 ---

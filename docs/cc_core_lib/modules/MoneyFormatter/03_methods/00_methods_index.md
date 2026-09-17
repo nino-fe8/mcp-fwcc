@@ -7,6 +7,17 @@ tags: ["MoneyFormatter", "money_formatter", "cc_core_lib", "methods", "index"]
 
 # 📖 `MoneyFormatter` Methods Master Index
 
+<!-- convention-summary-start -->
+### MoneyFormatter Methods Master Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for MoneyFormatter Methods Master Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_core_lib, 03_methods
+- **Scope & Code Paths**: `./formatMoney.md`, `./formatCoin.md`, `./formatMoneyShort.md`
+- **Related Docs**: [`formatMoney()`](./formatMoney.md), [`formatCoin()`](./formatCoin.md), [`formatMoneyShort()`](./formatMoneyShort.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Declared Method Signatures

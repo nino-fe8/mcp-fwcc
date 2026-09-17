@@ -7,6 +7,17 @@ tags: ["GameModeDirectorModule", "game_mode_director", "cc_slot_module", "gotcha
 
 # 🛑 Gotcha: Missing `moduleList` Wiring Breaks Scoped Event Bus
 
+<!-- convention-summary-start -->
+### Gotcha: Missing moduleList Wiring Breaks Scoped Event Bus Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Gotcha: Missing moduleList Wiring Breaks Scoped Event Bus.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 07_gotchas
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Symptom & Defect
 When clicking the Spin button, the spin button transitions into `SPINNING` state, but the reels never turn, or payline animations never render.
 

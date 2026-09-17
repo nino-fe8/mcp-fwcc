@@ -7,6 +7,17 @@ tags: ["GameDataStore", "game_data_store", "cc_slot_module", "gotchas", "index"]
 
 # ⚠️ GameDataStore Gotchas Index
 
+<!-- convention-summary-start -->
+### GameDataStore Gotchas Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for GameDataStore Gotchas Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 07_gotchas
+- **Scope & Code Paths**: `./01_object_reference_mutation_deep_clone_fix.md`, `./02_compressed_server_key_mismatch_without_mapNewKeys.md`, `./03_win_level_threshold_defaults_without_game_config.md`
+- **Related Docs**: [`01_object_reference_mutation_deep_clone_fix`](./01_object_reference_mutation_deep_clone_fix.md), [`02_compressed_server_key_mismatch_without_mapNewKeys`](./02_compressed_server_key_mismatch_without_mapNewKeys.md), [`03_win_level_threshold_defaults_without_game_config`](./03_win_level_threshold_defaults_without_game_config.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Master Gotchas Index
 
 | Gotcha Slug | Defect Description | Root Cause | Impact Level |

@@ -7,6 +7,17 @@ tags: ["BaseDataModule", "base_data_module", "cc_slot_module", "game_flow", "tim
 
 # ⏱️ BaseDataModule State Synchronization Timings
 
+<!-- convention-summary-start -->
+### BaseDataModule State Synchronization Timings Summary
+
+- **Core Architecture / Purpose**: Defines network protocol, socket packet lifecycle, state persistence, and error handling for BaseDataModule State Synchronization Timings.
+- **Key Mechanisms & Design**: Handles WebSocket frame dispatch, acknowledgment confirmation, state resume, and resilient synchronization between client DataStore and Backend Gateway.
+- **Domain Capabilities**: cc_slot_module, 02_game_flow
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Timing Matrix
 
 | Lifecycle Point | Action | Overhead | Synchronicity |

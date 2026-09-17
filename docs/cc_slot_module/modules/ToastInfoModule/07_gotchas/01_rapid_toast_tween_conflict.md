@@ -7,6 +7,17 @@ tags: ["ToastInfoModule", "toast_info_module", "cc_slot_module", "gotchas", "twe
 
 # ⚠️ Gotcha: Overlapping Scale Tweens on Rapid Alerts
 
+<!-- convention-summary-start -->
+### Gotcha: Overlapping Scale Tweens on Rapid Alerts Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Gotcha: Overlapping Scale Tweens on Rapid Alerts.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 07_gotchas
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Problem Description

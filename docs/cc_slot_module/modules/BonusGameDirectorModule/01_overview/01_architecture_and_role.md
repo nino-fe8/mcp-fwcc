@@ -7,6 +7,17 @@ tags: ["BonusGameDirectorModule", "bonus_game_director", "cc_slot_module", "over
 
 # 🏛️ BonusGameDirectorModule Interactive Pick Feature Architecture
 
+<!-- convention-summary-start -->
+### BonusGameDirectorModule Interactive Pick Feature Architecture Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for BonusGameDirectorModule Interactive Pick Feature Architecture.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 01_overview
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/GameMode/BonusGame/BonusGameDirectorModule.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Executive Summary & Purpose
 
 `BonusGameDirectorModule` (`assets/cc-common/cc-slot-module/GameMode/BonusGame/BonusGameDirectorModule.ts`) is the **Interactive Pick-and-Click / Mini-Game Director** in the `cc-common` Slot SDK.

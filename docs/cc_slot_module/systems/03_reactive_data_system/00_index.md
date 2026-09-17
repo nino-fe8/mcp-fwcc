@@ -7,6 +7,17 @@ tags: ["cc_slot_module", "systems", "reactive_data", "data_store", "reconnection
 
 # 🔄 Reactive Data System & Reconnection Architecture Index
 
+<!-- convention-summary-start -->
+### Reactive Data System & Reconnection Architecture Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Reactive Data System & Reconnection Architecture Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 03_reactive_data_system
+- **Scope & Code Paths**: `./01_server_packet_ingestion_pipeline.md`, `./02_key_deobfuscation_map_new_keys.md`, `./03_state_immutability_and_deep_clone.md`
+- **Related Docs**: [`01_server_packet_ingestion_pipeline.md`](./01_server_packet_ingestion_pipeline.md), [`02_key_deobfuscation_map_new_keys.md`](./02_key_deobfuscation_map_new_keys.md), [`03_state_immutability_and_deep_clone.md`](./03_state_immutability_and_deep_clone.md)
+<!-- convention-summary-end -->
+
+
 Welcome to the technical guide on the **Reactive Data Flow & Reconnection Architecture** in `cc-slot-module`.
 
 ---

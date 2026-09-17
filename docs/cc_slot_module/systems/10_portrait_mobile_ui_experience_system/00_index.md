@@ -7,6 +7,17 @@ tags: ["cc_slot_module", "systems", "portrait_ui", "mobile_ux", "bottom_sheet", 
 
 # 📱 Portrait Mobile UI Experience System Architecture Index
 
+<!-- convention-summary-start -->
+### Portrait Mobile UI Experience System Architecture Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Portrait Mobile UI Experience System Architecture Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 10_portrait_mobile_ui_experience_system
+- **Scope & Code Paths**: `./01_portrait_hud_orchestration.md`, `./02_bottom_sheet_drawers_and_menus.md`, `./03_vertical_paytable_and_symbol_viewer.md`
+- **Related Docs**: [`01_portrait_hud_orchestration.md`](./01_portrait_hud_orchestration.md), [`02_bottom_sheet_drawers_and_menus.md`](./02_bottom_sheet_drawers_and_menus.md), [`03_vertical_paytable_and_symbol_viewer.md`](./03_vertical_paytable_and_symbol_viewer.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Subsystem Mission

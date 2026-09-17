@@ -11,6 +11,17 @@ author: "ARK Slot Engineering Team"
 
 # BUG-002: Multi-Size Blur Symbols (1x2, 1x3) Standard vs Special 1x1 Rule
 
+<!-- convention-summary-start -->
+### Fix Multi-Size Blur Symbols (1x2, 1x3) Standard vs Special 1x1 Rule Summary
+
+- **Core Architecture / Purpose**: Documents root cause, architectural pitfalls, reproduction steps, and official code fix for Fix Multi-Size Blur Symbols (1x2, 1x3) Standard vs Special 1x1 Rule.
+- **Key Mechanisms & Design**: Guards edge cases, prevents race conditions/null crashes, and enforces state machine integrity during game transitions.
+- **Domain Capabilities**: bugfix, 01_bugs_and_gotchas
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/BaseModule/Table/SlotTable/scripts/SlotReelModule.ts`, `assets/cc-release-slot/cc1-red-cliff/scripts/Table/TableModuleConfig9666.ts`, `TableModuleConfig<GameId>.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. 📌 Problem / Feature Overview

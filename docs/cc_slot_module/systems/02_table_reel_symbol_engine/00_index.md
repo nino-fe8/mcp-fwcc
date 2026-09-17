@@ -7,6 +7,17 @@ tags: ["cc_slot_module", "systems", "table_engine", "reels", "symbols", "matrix"
 
 # 🎰 Table, Reels & Symbol Engine Architecture Index
 
+<!-- convention-summary-start -->
+### Table, Reels & Symbol Engine Architecture Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Table, Reels & Symbol Engine Architecture Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 02_table_reel_symbol_engine
+- **Scope & Code Paths**: `./01_table_engine_7_core_components.md`, `./02_2d_matrix_coordinates_and_buffer_rows.md`, `./03_z_index_priority_layer_sorting.md`
+- **Related Docs**: [`01_table_engine_7_core_components.md`](./01_table_engine_7_core_components.md), [`02_2d_matrix_coordinates_and_buffer_rows.md`](./02_2d_matrix_coordinates_and_buffer_rows.md), [`03_z_index_priority_layer_sorting.md`](./03_z_index_priority_layer_sorting.md)
+<!-- convention-summary-end -->
+
+
 Welcome to the technical guide on the **Table, Reels & Symbol Rendering Engine** in `cc-slot-module`.
 
 ---

@@ -7,6 +7,17 @@ tags: ["TurboModeSuggestionPopup", "turbomodesuggestionpopup", "cc_slot_module",
 
 # 📑 TurboModeSuggestionPopup Methods Index
 
+<!-- convention-summary-start -->
+### TurboModeSuggestionPopup Methods Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for TurboModeSuggestionPopup Methods Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 05_methods
+- **Scope & Code Paths**: `onLoadExtend.md`, `start.md`, `setupObserver.md`
+- **Related Docs**: [`onLoadExtend`](onLoadExtend.md), [`start`](start.md), [`setupObserver`](setupObserver.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Master Methods Overview

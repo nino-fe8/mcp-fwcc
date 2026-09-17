@@ -7,6 +7,17 @@ tags: ["WalletModule", "wallet_module", "cc_slot_module", "gotchas", "index"]
 
 # ⚠️ WalletModule Gotchas Index
 
+<!-- convention-summary-start -->
+### WalletModule Gotchas Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for WalletModule Gotchas Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 07_gotchas
+- **Scope & Code Paths**: `./01_unreleased_wallet_observer_leak.md`, `./02_mode_transition_wallet_sync_skip.md`
+- **Related Docs**: [`01_unreleased_wallet_observer_leak`](./01_unreleased_wallet_observer_leak.md), [`02_mode_transition_wallet_sync_skip`](./02_mode_transition_wallet_sync_skip.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Catalog of Pitfalls

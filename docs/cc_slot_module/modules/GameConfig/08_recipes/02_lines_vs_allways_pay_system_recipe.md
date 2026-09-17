@@ -7,6 +7,17 @@ tags: ["GameConfig", "gameconfig", "cc_slot_module", "recipes", "pay_system", "a
 
 # 💡 Recipe: Configuring AllWays vs Paylines Math Models
 
+<!-- convention-summary-start -->
+### Recipe: Configuring AllWays vs Paylines Math Models Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Recipe: Configuring AllWays vs Paylines Math Models.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 08_recipes
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Model 1: AllWays Ways-to-Win Configuration
 In an AllWays game (e.g. 243 ways, 1024 ways, Megaways), symbols pay on adjacent columns from left to right regardless of row position:
 

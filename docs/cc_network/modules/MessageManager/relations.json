@@ -1,0 +1,22 @@
+{
+  "moduleId": "MessageManager",
+  "category": "cc_network",
+  "sourcePath": "assets/cc-common/cc-network/game-network.js",
+  "dependencies": [
+    "SocketManager",
+    "PlayerInfoStateManager",
+    "EventManager",
+    "CommandManager"
+  ],
+  "consumers": [
+    "globalNetworkV3",
+    "CommandManager",
+    "SlotBaseModule"
+  ],
+  "keyMethods": [
+    "initSocket",
+    "sendMessage",
+    "updateToken",
+    "closeAndCleanUp"
+  ]
+}

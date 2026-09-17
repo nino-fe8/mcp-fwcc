@@ -7,6 +7,17 @@ tags: ["cc_slot_module", "systems", "reactive_data", "winAmountPS", "accumulatio
 
 # 💰 PlaySession Win Accumulation Lifecycle, `winAmountPS` & Game Mode Transitions
 
+<!-- convention-summary-start -->
+### PlaySession Win Accumulation Lifecycle, winAmountPS & Game Mode Transitions Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for PlaySession Win Accumulation Lifecycle, winAmountPS & Game Mode Transitions.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 03_reactive_data_system
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Executive Summary & The `winAmountPS` Contract

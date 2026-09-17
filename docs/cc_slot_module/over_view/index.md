@@ -7,6 +7,17 @@ tags: ["cc_slot_module", "overview", "systems", "index", "architecture", "master
 
 # 📚 `cc-slot-module` Core Architecture & Subsystems Master Guide
 
+<!-- convention-summary-start -->
+### cc-slot-module Core Architecture & Subsystems Master Guide Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for cc-slot-module Core Architecture & Subsystems Master Guide.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, over_view
+- **Scope & Code Paths**: `./01_module_architecture_and_philosophy.md`, `./02_dependency_injection_ioc.md`, `./03_dual_event_bus_system.md`
+- **Related Docs**: [`01_module_architecture_and_philosophy.md`](./01_module_architecture_and_philosophy.md), [`02_dependency_injection_ioc.md`](./02_dependency_injection_ioc.md), [`03_dual_event_bus_system.md`](./03_dual_event_bus_system.md)
+<!-- convention-summary-end -->
+
+
 Welcome to the comprehensive master guide for the **Core Architecture & Subsystems** of `cc-slot-module` — the industry-standard Slot Game Development Framework built for Cocos Creator.
 
 ---

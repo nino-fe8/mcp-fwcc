@@ -8,6 +8,17 @@ tags: ["9666", "StackWildModule", "StackWildModuleData", "stack_wild", "expandin
 
 # 🌲 Red Cliff (g9666) Stack Wild Subsystem
 
+<!-- convention-summary-start -->
+### Red Cliff (g9666) Stack Wild Subsystem Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Red Cliff (g9666) Stack Wild Subsystem.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: game_implement, g9666_red_cliff
+- **Scope & Code Paths**: `./05_stack_wild_subsystem/`
+- **Related Docs**: [00. Step-by-Step Task & Debugging Checklist](./05_stack_wild_subsystem/00_TASK_LIST_STACK_WILD.md), [01. Stack Wild Architecture & Data Model](./05_stack_wild_subsystem/01_stack_wild_architecture_and_data.md), [02. Column Expansion & Spine Effects](./05_stack_wild_subsystem/02_expansion_and_spine_column_effects.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 📚 Detailed Documentation Sub-chapters

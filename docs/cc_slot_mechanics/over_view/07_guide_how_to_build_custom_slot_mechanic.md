@@ -7,6 +7,17 @@ tags: ["cc_slot_mechanics", "overview", "custom_mechanic_guide", "developer_tuto
 
 # 🛠️ Developer Guide: How to Build a Custom Slot Mechanic from Scratch
 
+<!-- convention-summary-start -->
+### Developer Guide: How to Build a Custom Slot Mechanic from Scratch Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Developer Guide: How to Build a Custom Slot Mechanic from Scratch.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_mechanics, over_view
+- **Scope & Code Paths**: `[Name]Config.ts`, `[Name]Data.ts`, `[Name]Module.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. 5-Step Mechanic Creation Checklist

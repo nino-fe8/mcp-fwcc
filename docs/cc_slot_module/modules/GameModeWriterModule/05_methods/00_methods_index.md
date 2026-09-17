@@ -7,6 +7,17 @@ tags: ["GameModeWriterModule", "game_mode_writer", "cc_slot_module", "methods", 
 
 # 📋 GameModeWriterModule Methods Index
 
+<!-- convention-summary-start -->
+### GameModeWriterModule Methods Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for GameModeWriterModule Methods Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 05_methods
+- **Scope & Code Paths**: `./onLoadExtend.md`, `./makeScriptResumeGameMode.md`, `./makeScriptStartSpinning.md`
+- **Related Docs**: [`onLoadExtend(): void`](./onLoadExtend.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Declared Generator Methods Summary Table (12 Methods)

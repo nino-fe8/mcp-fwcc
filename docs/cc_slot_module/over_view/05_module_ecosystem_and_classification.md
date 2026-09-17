@@ -7,6 +7,17 @@ tags: ["cc_slot_module", "SlotBaseModule", "ecosystem", "classification", "taxon
 
 # 🌐 Module Ecosystem Taxonomy & Classification in `cc-common`
 
+<!-- convention-summary-start -->
+### Module Ecosystem Taxonomy & Classification Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Module Ecosystem Taxonomy & Classification.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, over_view
+- **Scope & Code Paths**: `GameConfig.ts`, `BaseDataModule.ts`, `ScriptExecutor.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Architectural Taxonomy Overview
 
 All modules in `cc-common` are organized into 6 functional clusters. Every cluster adheres to the `SlotBaseModule` inheritance contract and coordinates through the Director-Writer execution pipeline.

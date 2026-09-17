@@ -8,6 +8,17 @@ tags: ["9666", "reload", "reconnect", "resume", "multiplier_wild", "specificatio
 
 # 🔄 Red Cliff (g9666) Reload & Reconnect Flow for Multiplier Wilds
 
+<!-- convention-summary-start -->
+### Red Cliff (g9666) Reload & Reconnect Flow for Multiplier Wilds Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Red Cliff (g9666) Reload & Reconnect Flow for Multiplier Wilds.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: game_implement, 04_multiplier_subsystem
+- **Scope & Code Paths**: `NormalGameWriterModule9666.ts`, `FreeGameWriterModule9666.ts`, `CollectMultiModule9666.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Design Specification Matrix

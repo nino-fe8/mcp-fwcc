@@ -7,6 +7,17 @@ tags: ["LoadingScreenModule", "loading_screen_module", "cc_slot_module", "pipeli
 
 # 🎛️ LoadingScreenModule Scene Handshake & Director Handover
 
+<!-- convention-summary-start -->
+### LoadingScreenModule Scene Handshake & Director Handover Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for LoadingScreenModule Scene Handshake & Director Handover.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 03_director_writer_integration
+- **Scope & Code Paths**: `GameInit.ts`, `GameDirector.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Handover into Main Game Director

@@ -7,6 +7,17 @@ tags: ["SlotGameSettings", "slot_game_settings", "cc_slot_module", "overview", "
 
 # 🏛️ SlotGameSettings Runtime Preferences & State Coordination Architecture
 
+<!-- convention-summary-start -->
+### SlotGameSettings Runtime Preferences & State Coordination Architecture Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for SlotGameSettings Runtime Preferences & State Coordination Architecture.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 01_overview
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/Core/SlotGameSettings.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Executive Summary & Purpose
 
 `SlotGameSettings` (`assets/cc-common/cc-slot-module/Core/SlotGameSettings.ts`) is the **Global Runtime Preferences & Game State Registry** in the `cc-common` Slot SDK.

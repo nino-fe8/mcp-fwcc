@@ -7,6 +7,17 @@ tags: ["BetHistoryModule", "bethistorymodule", "cc_slot_module", "overview", "ar
 
 # 🏛️ BetHistoryModule Architecture & Core Role
 
+<!-- convention-summary-start -->
+### BetHistoryModule Architecture & Role Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for BetHistoryModule Architecture & Role.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 01_overview
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 The `BetHistoryModule` class is the central UI controller for the player's betting history in the Cocos Common (`cc-common`) Slot Framework SDK. It inherits from `BaseUIPopup` and is responsible for managing the top-level session overview list, paging navigation controls, loading overlays, and delegating detailed round replays to the child `BetHistoryDetailModule`.
 
 ---

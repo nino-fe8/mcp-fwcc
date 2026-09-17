@@ -7,6 +7,17 @@ tags: ["AutoSpinPanel", "autospinpanel", "cc_slot_module", "overview", "architec
 
 # 🏛️ AutoSpinPanel Architecture & Role
 
+<!-- convention-summary-start -->
+### AutoSpinPanel Architecture & Role Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for AutoSpinPanel Architecture & Role.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 01_overview
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 `AutoSpinPanel` is the bottom-sheet drawer modal for selecting automated spin round counts (e.g. 10, 20, 50, 100, ∞) in portrait slot layouts. Inheriting from `BaseUIPopup`, it instantiates option buttons dynamically via `AutoSpinPanelConfig`, manages option highlight states, and initiates auto-spin execution via `GameLogicUIEvents.START_AUTO_SPIN`.
 
 ---

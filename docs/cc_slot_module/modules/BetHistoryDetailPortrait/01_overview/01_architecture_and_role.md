@@ -7,6 +7,17 @@ tags: ["BetHistoryDetailPortrait", "bethistorydetailportrait", "cc_slot_module",
 
 # 🏛️ BetHistoryDetailPortrait Architecture & Role
 
+<!-- convention-summary-start -->
+### BetHistoryDetailPortrait Architecture & Role Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for BetHistoryDetailPortrait Architecture & Role.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 01_overview
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 `BetHistoryDetailPortrait` is the portrait-specific spin round replay controller in the `cc-common` Slot Framework SDK. Inheriting from `BetHistoryDetailModule`, it specializes in Respin / Cascade waterfalls with dedicated `prevRespinBtn` and `nextRespinBtn` navigation buttons, custom respin data observers, and compact mobile layouts.
 
 ---

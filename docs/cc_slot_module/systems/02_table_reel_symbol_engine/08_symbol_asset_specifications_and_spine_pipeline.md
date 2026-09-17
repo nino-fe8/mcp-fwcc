@@ -7,6 +7,17 @@ tags: ["symbol_assets", "spine_specifications", "art_pipeline", "sprite_atlases"
 
 # 🎨 Slot Symbol Asset Technical Specifications & Spine 3.8 Art Pipeline
 
+<!-- convention-summary-start -->
+### Slot Symbol Asset Technical Specifications & Spine 3.8 Art Pipeline Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Slot Symbol Asset Technical Specifications & Spine 3.8 Art Pipeline.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 02_table_reel_symbol_engine
+- **Scope & Code Paths**: `symbols_low.json`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Architectural Role & Asset Pipeline Overview

@@ -7,6 +7,17 @@ tags: ["VerticalCascadeModule", "vertical_cascade_module", "cc_slot_module", "ev
 
 # 📡 VerticalCascadeModule Scoped Events & Node Signals
 
+<!-- convention-summary-start -->
+### VerticalCascadeModule Scoped Events & Node Signals Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for VerticalCascadeModule Scoped Events & Node Signals.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 06_events
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Subscribed Scoped `moduleEvent` Steps

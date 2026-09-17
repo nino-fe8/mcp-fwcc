@@ -7,6 +7,17 @@ tags: ["InfoPanel", "infopanel", "cc_slot_module", "overview", "architecture", "
 
 # 🏛️ InfoPanel Architecture & Role
 
+<!-- convention-summary-start -->
+### InfoPanel Architecture & Role Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for InfoPanel Architecture & Role.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 01_overview
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 `InfoPanel` is the in-game paytable rulebook and feature explanation modal controller in the `cc-common` Slot Framework SDK. Inheriting from `BaseUIPopup`, it supports multi-page horizontal navigation via `cc.PageView` (Landscape mode) or vertical scrolling via `cc.ScrollView` (Portrait mode), dynamic title spriteframe swapping, and boundary navigation button locking.
 
 ---

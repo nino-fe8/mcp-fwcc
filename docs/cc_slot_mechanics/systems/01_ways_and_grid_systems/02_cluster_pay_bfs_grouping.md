@@ -7,6 +7,17 @@ tags: ["cc_slot_mechanics", "systems", "cluster_pay", "bfs_search", "flood_fill"
 
 # 🧩 Cluster Pay BFS Orthogonal Grouping Engine
 
+<!-- convention-summary-start -->
+### Cluster Pay BFS Orthogonal Grouping Engine Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Cluster Pay BFS Orthogonal Grouping Engine.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_mechanics, 01_ways_and_grid_systems
+- **Scope & Code Paths**: `assets/cc-common/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Orthogonal Connected-Component Search (BFS)

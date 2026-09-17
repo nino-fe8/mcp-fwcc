@@ -7,6 +7,17 @@ tags: ["SlotTablePaylineData", "slot_table_payline_data", "cc_slot_module", "gam
 
 # 🌀 SlotTablePaylineData Spin Phase State Breakdown
 
+<!-- convention-summary-start -->
+### SlotTablePaylineData Spin Phase State Breakdown Summary
+
+- **Core Architecture / Purpose**: Defines network protocol, socket packet lifecycle, state persistence, and error handling for SlotTablePaylineData Spin Phase State Breakdown.
+- **Key Mechanisms & Design**: Handles WebSocket frame dispatch, acknowledgment confirmation, state resume, and resilient synchronization between client DataStore and Backend Gateway.
+- **Domain Capabilities**: cc_slot_module, 02_game_flow
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. State Mutation Across Spin Loop

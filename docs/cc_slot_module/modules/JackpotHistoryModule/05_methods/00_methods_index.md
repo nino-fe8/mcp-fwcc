@@ -7,6 +7,17 @@ tags: ["JackpotHistoryModule", "jackpothistorymodule", "cc_slot_module", "method
 
 # 📑 JackpotHistoryModule Methods Index
 
+<!-- convention-summary-start -->
+### JackpotHistoryModule Methods Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for JackpotHistoryModule Methods Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 05_methods
+- **Scope & Code Paths**: `onLoadExtend.md`, `start.md`, `localizeText.md`
+- **Related Docs**: [`onLoadExtend`](onLoadExtend.md), [`start`](start.md), [`localizeText`](localizeText.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Methods Table

@@ -7,6 +7,17 @@ tags: ["ConnectNetwork", "connect_network", "cc_core_lib", "properties", "schema
 
 # 📋 `ConnectNetwork` Detailed Properties & Schema
 
+<!-- convention-summary-start -->
+### ConnectNetwork Detailed Properties & Schema Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for ConnectNetwork Detailed Properties & Schema.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_core_lib, 02_api_and_interfaces
+- **Scope & Code Paths**: `assets/cc-common/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Property Schema & Functional Roles

@@ -7,6 +7,17 @@ tags: ["BonusGameItemModule", "bonus_game_item", "cc_slot_module", "methods", "i
 
 # 📋 BonusGameItemModule Methods Index
 
+<!-- convention-summary-start -->
+### BonusGameItemModule Methods Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for BonusGameItemModule Methods Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 05_methods
+- **Scope & Code Paths**: `./init.md`, `./onClickItem.md`, `./playAnimOpen.md`
+- **Related Docs**: [`init(itemId: number): void`](./init.md), [`onClickItem(_e: any, isAutoTrigger?: boolean): void`](./onClickItem.md), [`playAnimOpen(value: number, callback?: Function): void`](./playAnimOpen.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Declared Methods Summary Table

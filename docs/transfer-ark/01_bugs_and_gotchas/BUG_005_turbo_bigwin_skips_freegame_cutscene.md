@@ -10,6 +10,17 @@ author: "ARK Slot Engineering Team"
 ---
 # BUG-005: Fix Big Win Fast-Track in Turbo Mode via SDK showFastEffectWin Standard
 
+<!-- convention-summary-start -->
+### Fix Big Win Fast-Track in Turbo Mode via SDK showFastEffectWin Standard Summary
+
+- **Core Architecture / Purpose**: Documents root cause, architectural pitfalls, reproduction steps, and official code fix for Fix Big Win Fast-Track in Turbo Mode via SDK showFastEffectWin Standard.
+- **Key Mechanisms & Design**: Guards edge cases, prevents race conditions/null crashes, and enforces state machine integrity during game transitions.
+- **Domain Capabilities**: bugfix, 01_bugs_and_gotchas
+- **Scope & Code Paths**: `WinEffectModule9666.ts`, `GameModeDirectorModule.ts`, `assets/cc-release-slot/cc1-red-cliff/scripts/Cutscene/WinEffectModule9666.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. 📌 Problem / Feature Overview

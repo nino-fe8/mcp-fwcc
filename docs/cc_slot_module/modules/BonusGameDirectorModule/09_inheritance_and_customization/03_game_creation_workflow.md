@@ -7,6 +7,17 @@ tags: ["BonusGameDirectorModule", "bonus_game_director", "cc_slot_module", "cust
 
 # 🚀 Game Creation Workflow: Pick-and-Click Bonus Mode Setup
 
+<!-- convention-summary-start -->
+### Game Creation Workflow: Pick-and-Click Bonus Mode Setup Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Game Creation Workflow: Pick-and-Click Bonus Mode Setup.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 09_inheritance_and_customization
+- **Scope & Code Paths**: `scripts/GameMode/BonusGameDirectorModule[GameId].ts`, `BonusGameWriterModule[GameId].ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 Follow this 4-step checklist when constructing the Bonus Game feature:
 
 ---

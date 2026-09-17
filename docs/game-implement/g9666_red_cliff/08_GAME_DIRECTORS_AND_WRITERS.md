@@ -8,6 +8,17 @@ tags: ["9666", "NormalGameDirectorModule9666", "FreeGameDirectorModule9666", "No
 
 # 🎬 Red Cliff (g9666) Game Directors & Writers Pipeline
 
+<!-- convention-summary-start -->
+### Red Cliff (g9666) Game Directors & Writers Pipeline Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Red Cliff (g9666) Game Directors & Writers Pipeline.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: game_implement, g9666_red_cliff
+- **Scope & Code Paths**: `../../../../assets/cc-release-slot/cc1-red-cliff/scripts/GameMode/NormalGameWriterModule9666.ts`, `../../../../assets/cc-release-slot/cc1-red-cliff/scripts/GameMode/FreeGameWriterModule9666.ts`, `../../../../assets/cc-release-slot/cc1-red-cliff/scripts/GameMode/NormalGameDirectorModule9666.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Architecture Overview

@@ -7,6 +7,17 @@ tags: ["BaseGameDirector", "base_game_director", "cc_slot_module", "director_wri
 
 # 🎼 The Director-Writer-Executor Triad & Game Flow Coordination
 
+<!-- convention-summary-start -->
+### The Director-Writer-Executor Triad & Game Flow Coordination Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for The Director-Writer-Executor Triad & Game Flow Coordination.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 03_director_writer_integration
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. The Core Metaphor: The Theatre Triad
 
 In the `cc-common` Slot framework, game flow orchestration is organized around a strict 3-way separation of concerns known as the **Director-Writer-Executor Triad**:

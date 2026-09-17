@@ -7,6 +7,17 @@ tags: ["GameConfig", "gameconfig", "cc_slot_module", "customization", "case_stud
 
 # 📖 Production Case Study: GameConfig9666 (Red Cliff Slot)
 
+<!-- convention-summary-start -->
+### Production Case Study: GameConfig9666 (Red Cliff Slot) Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Production Case Study: GameConfig9666 (Red Cliff Slot).
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 09_inheritance_and_customization
+- **Scope & Code Paths**: `GameConfig9666.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Context & Custom Requirements
 
 In **Red Cliff (`g9666L`)**, the game uses a custom **5-column Megaways board layout**, a 25-credit AllWays betting system, offline mock payloads for quick prototyping, and custom cheat overlays for QA testing.

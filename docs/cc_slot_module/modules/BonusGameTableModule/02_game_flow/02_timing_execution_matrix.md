@@ -7,6 +7,17 @@ tags: ["BonusGameTableModule", "bonus_game_table", "cc_slot_module", "game_flow"
 
 # ⏱️ BonusGameTableModule Timing Execution Matrix
 
+<!-- convention-summary-start -->
+### BonusGameTableModule Timing Execution Matrix Summary
+
+- **Core Architecture / Purpose**: Defines network protocol, socket packet lifecycle, state persistence, and error handling for BonusGameTableModule Timing Execution Matrix.
+- **Key Mechanisms & Design**: Handles WebSocket frame dispatch, acknowledgment confirmation, state resume, and resilient synchronization between client DataStore and Backend Gateway.
+- **Domain Capabilities**: cc_slot_module, 02_game_flow
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Timing Execution Matrix
 
 | Action | Duration | Execution Mode | Behavior |

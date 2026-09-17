@@ -7,6 +7,17 @@ tags: ["BonusGameTableModule", "bonus_game_table", "cc_slot_module", "methods", 
 
 # 📋 BonusGameTableModule Methods Index
 
+<!-- convention-summary-start -->
+### BonusGameTableModule Methods Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for BonusGameTableModule Methods Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 05_methods
+- **Scope & Code Paths**: `./initBoxes.md`, `./setBoxValues.md`, `./openBox.md`
+- **Related Docs**: [`initBoxes(): void`](./initBoxes.md), [`setBoxValues(betId: string): void`](./setBoxValues.md), [`openBox(index: number, value: any): void`](./openBox.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Declared Methods Summary Table

@@ -7,6 +7,17 @@ tags: ["PaylineFactory", "payline_factory", "cc_slot_module", "game_flow", "spin
 
 # 🔄 PaylineFactory Behavior Across Spin Loop Phases
 
+<!-- convention-summary-start -->
+### PaylineFactory Behavior Across Spin Loop Phases Summary
+
+- **Core Architecture / Purpose**: Defines network protocol, socket packet lifecycle, state persistence, and error handling for PaylineFactory Behavior Across Spin Loop Phases.
+- **Key Mechanisms & Design**: Handles WebSocket frame dispatch, acknowledgment confirmation, state resume, and resilient synchronization between client DataStore and Backend Gateway.
+- **Domain Capabilities**: cc_slot_module, 02_game_flow
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Spin Phase Operations

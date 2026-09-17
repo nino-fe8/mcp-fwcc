@@ -7,6 +7,17 @@ tags: ["BonusGameWriterModule", "bonus_game_writer", "cc_slot_module", "game_flo
 
 # 🌀 BonusGameWriterModule Script Phase Generation Breakdown
 
+<!-- convention-summary-start -->
+### BonusGameWriterModule Script Phase Generation Breakdown Summary
+
+- **Core Architecture / Purpose**: Defines network protocol, socket packet lifecycle, state persistence, and error handling for BonusGameWriterModule Script Phase Generation Breakdown.
+- **Key Mechanisms & Design**: Handles WebSocket frame dispatch, acknowledgment confirmation, state resume, and resilient synchronization between client DataStore and Backend Gateway.
+- **Domain Capabilities**: cc_slot_module, 02_game_flow
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Script Generation Flow
 
 `BonusGameWriterModule` constructs synchronous action script arrays for the three phases of Bonus Game execution:

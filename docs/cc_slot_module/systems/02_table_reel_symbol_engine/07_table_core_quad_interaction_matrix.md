@@ -7,6 +7,17 @@ tags: ["cc_slot_module", "systems", "table_engine", "table_quad", "table_module"
 
 # 🏛️ The Table Core Quad: Interaction Matrix & Data Flow
 
+<!-- convention-summary-start -->
+### The Table Core Quad: Interaction Matrix & Data Flow Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for The Table Core Quad: Interaction Matrix & Data Flow.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 02_table_reel_symbol_engine
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Executive Concept: The 4 Pillars of the Table Subsystem

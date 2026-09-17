@@ -8,6 +8,17 @@ tags: ["9666", "CompositeCascade9666", "dual_cascade", "horizontal_reel", "verti
 
 # 🌊 Red Cliff (g9666) Composite Dual Cascade Subsystem
 
+<!-- convention-summary-start -->
+### Red Cliff (g9666) Composite Dual Cascade Subsystem Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Red Cliff (g9666) Composite Dual Cascade Subsystem.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: game_implement, g9666_red_cliff
+- **Scope & Code Paths**: `./03_composite_cascade/`, `9666TableUtil.ts`
+- **Related Docs**: [00. Step-by-Step Task & Debugging Checklist](./03_composite_cascade/00_TASK_LIST_COMPOSITE_CASCADE.md), [01. Architecture & Data Flow](./03_composite_cascade/01_architecture_and_data_flow.md), [02. Vertical Cascade Mechanics & Refill](./03_composite_cascade/02_vertical_cascade_mechanics.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 📚 Detailed Documentation Sub-chapters

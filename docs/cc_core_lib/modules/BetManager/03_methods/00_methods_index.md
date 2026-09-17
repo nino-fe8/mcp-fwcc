@@ -7,6 +7,17 @@ tags: ["BetManager", "bet_manager", "cc_core_lib", "methods", "index"]
 
 # 📖 `BetManager` Methods Master Index
 
+<!-- convention-summary-start -->
+### BetManager Methods Master Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for BetManager Methods Master Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_core_lib, 03_methods
+- **Scope & Code Paths**: `./getBetData.md`, `./parseBetConfig.md`, `./parseExtraBetIndexData.md`
+- **Related Docs**: [`getBetData()`](./getBetData.md), [`parseBetConfig()`](./parseBetConfig.md), [`parseExtraBetIndexData()`](./parseExtraBetIndexData.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Declared Method Signatures

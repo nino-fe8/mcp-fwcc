@@ -7,6 +7,17 @@ tags: ["RemovedSymbolData", "removed_symbol_data", "cc_slot_mechanics", "propert
 
 # 📋 RemovedSymbolData Inspector Properties
 
+<!-- convention-summary-start -->
+### RemovedSymbolData Inspector Properties Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for RemovedSymbolData Inspector Properties.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_mechanics, 04_properties_and_state
+- **Scope & Code Paths**: `assets/cc-common/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Serialized Fields

@@ -7,6 +7,17 @@ tags: ["GameMode", "game_mode", "cc_core_lib", "methods", "index"]
 
 # 📖 `GameMode` Methods Master Index
 
+<!-- convention-summary-start -->
+### GameMode Methods Master Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for GameMode Methods Master Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_core_lib, 03_methods
+- **Scope & Code Paths**: `./play.md`, `./onEnter.md`, `./onEnable.md`
+- **Related Docs**: [`play()`](./play.md), [`onEnter()`](./onEnter.md), [`onEnable()`](./onEnable.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Declared Method Signatures

@@ -7,6 +7,17 @@ tags: ["SlotGameSettings", "slot_game_settings", "cc_slot_module", "customizatio
 
 # 🏗️ SlotGameSettings Customization & Speed Control Guide
 
+<!-- convention-summary-start -->
+### SlotGameSettings Customization & Speed Control Guide Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for SlotGameSettings Customization & Speed Control Guide.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 09_inheritance_and_customization
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Architectural Role: State Registry Singleton
 
 `SlotGameSettings` is a pure TypeScript data container instantiated in `GameInit.onLoad()` and registered to the IoC container.

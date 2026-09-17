@@ -7,6 +7,17 @@ tags: ["UIManagerModule", "ui_manager_module", "cc_slot_module", "methods", "ind
 
 # 📚 UIManagerModule Methods Catalog Index
 
+<!-- convention-summary-start -->
+### UIManagerModule Methods Catalog Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for UIManagerModule Methods Catalog Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 05_methods
+- **Scope & Code Paths**: `./onLoadExtend.md`, `./setupObserver.md`, `./updateGameModeUI.md`
+- **Related Docs**: [`onLoadExtend`](./onLoadExtend.md), [`setupObserver`](./setupObserver.md), [`updateGameModeUI`](./updateGameModeUI.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Declared Methods Index (All 26 Methods)

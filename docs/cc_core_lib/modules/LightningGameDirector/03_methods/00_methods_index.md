@@ -7,6 +7,17 @@ tags: ["LightningGameDirector", "lightning_game_director", "cc_core_lib", "metho
 
 # 📖 `LightningGameDirector` Methods Master Index
 
+<!-- convention-summary-start -->
+### LightningGameDirector Methods Master Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for LightningGameDirector Methods Master Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_core_lib, 03_methods
+- **Scope & Code Paths**: `./_sendSpinToNetwork.md`, `./_resumeLastMatrix.md`, `./_gameFinish.md`
+- **Related Docs**: [`_sendSpinToNetwork()`](./_sendSpinToNetwork.md), [`_resumeLastMatrix()`](./_resumeLastMatrix.md), [`_gameFinish()`](./_gameFinish.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Declared Method Signatures

@@ -7,6 +7,17 @@ tags: ["BaseGameDirector", "base_game_director", "cc_slot_module", "events", "sc
 
 # 📡 BaseGameDirector Scoped Module Events
 
+<!-- convention-summary-start -->
+### BaseGameDirector Scoped Module Events Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for BaseGameDirector Scoped Module Events.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 06_events
+- **Scope & Code Paths**: `assets/cc-common/cc-slot-module/`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Scoped Events Overview
 
 `BaseGameDirector` inherits from `SlotBaseModule`. Mode director subclasses emit local events onto their node bus (`this.node.emit`) to coordinate companion UI and VFX modules mounted on the same game mode node hierarchy (e.g. `SHOW_MODE_BACKGROUND`, `HIDE_MODE_BACKGROUND`).

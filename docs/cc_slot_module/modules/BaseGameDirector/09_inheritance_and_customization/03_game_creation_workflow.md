@@ -7,6 +7,17 @@ tags: ["BaseGameDirector", "base_game_director", "cc_slot_module", "customizatio
 
 # 🚀 Game Creation Workflow: Adding a Custom Game Mode Director
 
+<!-- convention-summary-start -->
+### Game Creation Workflow: Adding a Custom Game Mode Director Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Game Creation Workflow: Adding a Custom Game Mode Director.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 09_inheritance_and_customization
+- **Scope & Code Paths**: `LightningGameWriterModule.ts`, `LightningGameDirectorModule.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 Follow this 5-step checklist when introducing a new game mode (e.g. `LightningGameDirectorModule`):
 
 ---

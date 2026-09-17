@@ -7,6 +7,17 @@ tags: ["HorizontalReelModule", "horizontal_reel_module", "cc_slot_mechanics", "m
 
 # 📖 `HorizontalReelModule` Methods Master Index
 
+<!-- convention-summary-start -->
+### HorizontalReelModule Methods Master Index Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for HorizontalReelModule Methods Master Index.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_mechanics, 05_methods
+- **Scope & Code Paths**: `./isRealSymbol.md`, `./initPositionByType.md`, `./spinAction.md`
+- **Related Docs**: [`isRealSymbol()`](./isRealSymbol.md), [`initPositionByType()`](./initPositionByType.md), [`spinAction()`](./spinAction.md)
+<!-- convention-summary-end -->
+
+
 ---
 
 ## 1. Declared Method Signatures & Summary

@@ -7,6 +7,17 @@ tags: ["SlotSoundPlayerModule", "slot_sound_player", "cc_slot_module", "customiz
 
 # 📖 Production Case Study: SlotSoundPlayerModule9666 (Red Cliff Slot)
 
+<!-- convention-summary-start -->
+### Production Case Study: SlotSoundPlayerModule9666 (Red Cliff Slot) Summary
+
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Production Case Study: SlotSoundPlayerModule9666 (Red Cliff Slot).
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: cc_slot_module, 09_inheritance_and_customization
+- **Scope & Code Paths**: `SlotSoundPlayerModule9666.ts`
+- **Related Docs**: [Master Index](../INDEX.md)
+<!-- convention-summary-end -->
+
+
 ## 1. Context & Architecture Choice
 
 In **Red Cliff (`g9666L`)**, the audio engine relies on standard BGM crossfading and Howler WebAudio driver performance.

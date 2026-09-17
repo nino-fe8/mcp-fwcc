@@ -1,32 +1,34 @@
 ---
 id: "game-implement:9666:ui:trial_mode_and_ui_framework"
-title: "Red Cliff (g9666) Trial Mode & UI Framework"
+title: "Red Cliff (g9666) Trial Mode Subsystem & UI Framework"
 category: "game_implement"
 game_ids: ["9666", "g9666", "red_cliff"]
-tags: ["9666", "TrialModeLoopController9666", "TrialModeToggleButton9666", "UIManagerModule9666", "ui_framework"]
+tags: ["9666", "TrialModeLoopController9666", "TrialModeToggleButton9666", "UIManagerModule9666", "ui_framework", "trial"]
 ---
 
-# 🎮 Red Cliff (g9666) Trial Mode & UI Framework
+# 🎮 Red Cliff (g9666) Trial Mode Subsystem & UI Framework
 
----
+<!-- convention-summary-start -->
+### Red Cliff (g9666) Trial Mode Subsystem & UI Framework Summary
 
-## 1. Trial Mode Architecture & Mock Network Ingestion
+- **Core Architecture / Purpose**: Technical reference, API contract, and integration guide for Red Cliff (g9666) Trial Mode Subsystem & UI Framework.
+- **Key Mechanisms & Design**: Encapsulates core algorithms, event hooks, and performance optimizations within the slot framework runtime.
+- **Domain Capabilities**: game_implement, g9666_red_cliff
+- **Scope & Code Paths**: `./09_trial_mode_and_ui_framework/`
+- **Related Docs**: [00. Step-by-Step Task & Debugging Checklist](./09_trial_mode_and_ui_framework/00_TASK_LIST_TRIAL_MODE.md), [01. Trial Mode Architecture & Lifecycle](./09_trial_mode_and_ui_framework/01_trial_mode_architecture_and_lifecycle.md), [02. Trial Loop Controller & SDK Tutorial Bypass](./09_trial_mode_and_ui_framework/02_loop_controller_and_sdk_bypass.md)
+<!-- convention-summary-end -->
 
-Trial Mode in Red Cliff allows players to experience full Free Game feature loops and High-Win scenarios using pre-scripted mock networks:
-- **`TrialModeLoopController9666`**: Controls trial spin transitions and loops back to Normal Game upon feature completion.
-- **`TrialModeToggleButton9666`**: Toggles mock mode in debug builds.
-- **`TutorialMockNetwork9666`** & **`TutorialMockData9666`**: Injects scripted server responses for Free Spin triggers, Stack Wilds, and Big Wins.
-
-```mermaid
-graph TD
-    A[User Clicks Trial Mode] --> B[TrialModeToggleButton9666]
-    B --> C[TrialModeLoopController9666.activateTrialMode]
-    C --> D[Swap Network Handler to TutorialMockNetwork9666]
-    D --> E[Inject Mock PlaySession: Free Game 10 Spins + Multiplier Wilds]
-```
 
 ---
 
-## 2. UI Manager & Responsive Layout (`UIManagerModule9666`)
+## 📚 Detailed Documentation Sub-chapters
 
-Controls adaptive UI scaling across device aspect ratios (16:9, 18:9, 4:3) and popup dialog management (Bet History, Win Limits, Paytables).
+Comprehensive technical documentation for the Trial Mode (Chơi Thử) Subsystem in Red Cliff 9666 is organized within:
+[`09_trial_mode_and_ui_framework/`](./09_trial_mode_and_ui_framework/)
+
+1. **[00. Step-by-Step Task & Debugging Checklist](./09_trial_mode_and_ui_framework/00_TASK_LIST_TRIAL_MODE.md)**: Exhaustive verification checklist, dual-mode state validation, and diagnostic quick-fix table.
+2. **[01. Trial Mode Architecture & Lifecycle](./09_trial_mode_and_ui_framework/01_trial_mode_architecture_and_lifecycle.md)**: Dual state FSM model (`RealMode` $\leftrightarrow$ `TrialMode`), core component registry, and bootstrap initialization.
+3. **[02. Trial Loop Controller & SDK Tutorial Bypass](./09_trial_mode_and_ui_framework/02_loop_controller_and_sdk_bypass.md)**: `TrialModeLoopController9666`, overriding SDK `playTrialMode`, scheduler tick finalization, and suppressing forced tutorial modal popups.
+4. **[03. Mock Network Provider & Step Sequencer](./09_trial_mode_and_ui_framework/03_mock_network_and_data_sequencer.md)**: `TutorialMockNetwork9666`, `TutorialMockSequencer9666`, routing mock requests (`MockRequestRoute9666`), and deterministic feature loops.
+5. **[04. Trial Toggle Button & Pending Reconciliation](./09_trial_mode_and_ui_framework/04_toggle_button_and_pending_reconciliation.md)**: `TrialModeToggleButton9666`, optimistic visual switching, and asynchronous pending state reconciliation.
+6. **[05. Trial Mode Edge Cases & Gotchas](./09_trial_mode_and_ui_framework/05_edge_cases_and_gotchas.md)**: Cutscene interaction locks, promotion overlay blocking, and isolated virtual wallet balances.
